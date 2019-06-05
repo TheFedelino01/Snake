@@ -1,5 +1,6 @@
 package Snake.game.threads;
 
+import Snake.game.commands;
 import Snake.game.gameManager;
 
 import java.awt.event.ActionEvent;
@@ -10,13 +11,18 @@ import java.security.Key;
 import java.util.Scanner;
 
 import static com.sun.java.accessibility.util.AWTEventMonitor.addKeyListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import processing.core.PApplet;
 
-public class thReader extends Thread implements KeyListener{
+public class thReader extends Thread{
 
     private Character keyDown;
-
+    
     public thReader(){
         keyDown=' ';
+
+        
     }
 
     @Override
@@ -27,8 +33,8 @@ public class thReader extends Thread implements KeyListener{
             gManager = gameManager.getInstance();
 
             //TODO
-
-            keyDown = Character.toUpperCase(keyDown);//Metto in maiuscolo
+            
+            keyDown = commands.getInstance().getKeyDown();//Metto in maiuscolo
             System.out.println("Leggo carattere:"+keyDown);
 
             String ris="null";
@@ -56,26 +62,13 @@ public class thReader extends Thread implements KeyListener{
                     break;
             }
             System.out.println(ris);//Dico la mossa che ho fatto
-
+            
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(thReader.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
-
-    @Override
-    public void keyTyped(KeyEvent e) {
-
-    }
-
-    @Override
-    public void keyPressed(KeyEvent e) {
-        keyDown = e.getKeyChar();
-    }
-
-
-    @Override
-    public void keyReleased(KeyEvent e) {
-
-    }
-
-
 
 }

@@ -12,8 +12,7 @@ public class ManagerGUI {
     public ManagerGUI(int dimensioneX, int dimensioneY, PApplet tavola) {
         dimensioniSchermo = new size(dimensioneX, dimensioneY);
         this.tavola = tavola;
-
-
+        
     }
 
 

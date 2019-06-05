@@ -1,3 +1,4 @@
+import Snake.game.commands;
 import Snake.game.gameManager;
 import Snake.game.threads.thReader;
 import Snake.gui.ManagerGUI;
@@ -36,4 +37,11 @@ public class main extends PApplet {
     public void draw() {
         managerGUI.draw();
     }
+    
+    @Override
+    public void keyPressed() {
+        Character tasto = key;
+        commands.getInstance().setKeyDown(tasto);
+    }
+
 }
