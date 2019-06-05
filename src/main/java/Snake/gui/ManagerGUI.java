@@ -5,6 +5,8 @@ import processing.core.PApplet;
 
 import javax.swing.JOptionPane;
 
+import static javax.swing.SwingConstants.CENTER;
+
 public class ManagerGUI {
     private size dimensioniSchermo;
     private PApplet tavola;
@@ -25,12 +27,16 @@ public class ManagerGUI {
 
 
     public void draw(){
+
         if(gameManager.getInstance().isMorto()==false){
             disegnaVipera();
             disegnaMela();
         }else{
             visualizzaSchermataMorte();
-        }       
+        }
+        drawGrids();
+        drawPunteggio();
+
     }
 
     private void disegnaMela() {
@@ -38,8 +44,10 @@ public class ManagerGUI {
 
         int posMelaY = gameManager.getInstance().getPosMelaY();
 
-        tavola.fill(10);
-        tavola.ellipse(posMelaX, posMelaY,10 , 10);
+        int r = gameManager.getInstance().getDimensione();
+
+        tavola.fill(255,0,0);
+        tavola.ellipse(posMelaX, posMelaY,r , r);
     }
 
     private void visualizzaSchermataMorte(){
@@ -54,7 +62,46 @@ public class ManagerGUI {
         int r = gameManager.getInstance().getDimensione();
 
         tavola.fill(10);
-        tavola.ellipse(posXvipera, posYvipera,r , r);
+        tavola.ellipseMode(CENTER);
+        tavola.rect(posXvipera, posYvipera,r , r);
+    }
+
+
+    private void drawGrids() {
+        int dimVipera = gameManager.getInstance().getDimensione();
+
+
+        int cols = dimensioniSchermo.getDimensioneX() / dimVipera;
+        int rows = dimensioniSchermo.getDimensioneY() / dimVipera;
+
+
+
+        // Begin loop for columns
+        for (int i = 0; i < cols; i++) {
+            // Begin loop for rows
+            for (int j = 0; j < rows; j++) {
+
+                // Scaling up to draw a rectangle at (x,y)
+                int x = i * dimVipera;
+                int y = j * dimVipera;
+
+                tavola.fill(255,0);//Solo il contorno nero
+                tavola.stroke(0);
+
+                // For every column and row, a rectangle is drawn at an (x,y) location scaled and sized by videoScale.
+                tavola.rect(x, y, dimVipera, dimVipera);
+            }
+        }
+    }
+
+    private void drawPunteggio(){
+        int size =30;
+        int margine=25;
+
+        tavola.fill(0,255,0);
+        tavola.textSize(size);
+
+        tavola.text("Punteggio: "+gameManager.getInstance().getNumMelePrese(), margine, dimensioniSchermo.getDimensioneY()+size+margine);
     }
 
     public int getDimensioneX(){

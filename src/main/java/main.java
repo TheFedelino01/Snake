@@ -17,7 +17,7 @@ public class main extends PApplet {
     public main() {
         System.out.println("Starting application...");
         
-        ManagerGUI.getInstance().setup(1000, 1000, this);
+        ManagerGUI.getInstance().setup(800, 800, this);
         thStarts();
     }
 
@@ -32,7 +32,7 @@ public class main extends PApplet {
     }
 
     public void settings() {
-        size(ManagerGUI.getInstance().getDimensioneX(), ManagerGUI.getInstance().getDimensioneY());
+        size(ManagerGUI.getInstance().getDimensioneX(), ManagerGUI.getInstance().getDimensioneY()+100);
     }
 
 

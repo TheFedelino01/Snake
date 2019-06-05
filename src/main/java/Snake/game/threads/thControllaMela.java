@@ -24,6 +24,8 @@ public class thControllaMela extends Thread {
 
                 //Se la vipera e' sopra la mela
                 if(isViperaOverMela(xVipera,yVipera,xMela,yMela)){
+                    //Mela presa
+                    gameManager.getInstance().melaPresa();
                     gameManager.getInstance().setFindingMela(false);
                 }
             }

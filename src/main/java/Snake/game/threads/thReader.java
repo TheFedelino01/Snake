@@ -19,7 +19,7 @@ import processing.core.PApplet;
 public class thReader extends Thread{
 
     private Character keyDown;
-    private int delay=100;
+    private int delay=150;
     
     public thReader(){
         keyDown=' ';

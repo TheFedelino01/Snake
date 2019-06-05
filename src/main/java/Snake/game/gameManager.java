@@ -13,6 +13,8 @@ public class gameManager {
         return ourInstance;
     }
 
+    private int meleRaccolte=0;
+
     private gameManager(){
         viperaManager = new viperaManager();
         morto=false;
@@ -67,6 +69,7 @@ public class gameManager {
         morto=false;
         viperaManager.respawn();
         commands.getInstance().clearKeyDown();
+        meleRaccolte=0;
     }
 
     public boolean isFindingMela(){
@@ -77,6 +80,14 @@ public class gameManager {
     public void setPosMela(int posMelaX, int posMelaY) {
         actualMela.setPosX(posMelaX);
         actualMela.setPosY(posMelaY);
+    }
+
+    public void melaPresa(){
+        meleRaccolte++;
+    }
+
+    public int getNumMelePrese(){
+        return meleRaccolte;
     }
 
     public int getPosMelaX(){

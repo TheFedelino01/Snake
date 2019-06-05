@@ -20,16 +20,16 @@ public class vipera {
 
     private vipera() {
         lunghezza=1;
-        actPosX=500;
-        actPosY=500;
-        dimensione=20;
+        actPosX=50;
+        actPosY=50;
+        dimensione=50;
         findingMela=false;
     }
 
     public void incX(int quant){
         int tmp = actPosX+quant;
         
-        if(tmp>0 && tmp<ManagerGUI.getInstance().getDimensioneX()){
+        if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneX()){
             actPosX= tmp;
         }else{
             gameManager.getInstance().setMorto(true);
@@ -39,7 +39,7 @@ public class vipera {
     public void incY(int quant){
         int tmp = actPosY+quant;
         
-        if(tmp>0 && tmp<ManagerGUI.getInstance().getDimensioneY()){
+        if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneY()){
             actPosY= tmp;
         }else{
             gameManager.getInstance().setMorto(true);
@@ -59,8 +59,8 @@ public class vipera {
     public int getDimensione(){return dimensione;}
 
     void respawn() {
-        actPosX=500;
-        actPosY=500;
+        actPosX=0;
+        actPosY=0;
         findingMela=false;
     }
 
