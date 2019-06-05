@@ -1,10 +1,13 @@
 package Snake.game;
 
+import Snake.game.vipera.viperaManager;
+
 public class gameManager {
 
-    private viperaManager viperaManager;
+    private Snake.game.vipera.viperaManager viperaManager;
     private boolean morto;
-    
+    private mela actualMela;
+
     private static gameManager ourInstance = new gameManager();
     public static gameManager getInstance() {
         return ourInstance;
@@ -13,7 +16,11 @@ public class gameManager {
     private gameManager(){
         viperaManager = new viperaManager();
         morto=false;
+        actualMela=new mela();
+
     }
+
+
 
     public void setMorto(boolean v){
         morto=v;
@@ -61,8 +68,26 @@ public class gameManager {
         viperaManager.respawn();
         commands.getInstance().clearKeyDown();
     }
-    
-    
 
-    
+    public boolean isFindingMela(){
+        return viperaManager.isFindingMela();
+    }
+
+
+    public void setPosMela(int posMelaX, int posMelaY) {
+        actualMela.setPosX(posMelaX);
+        actualMela.setPosY(posMelaY);
+    }
+
+    public int getPosMelaX(){
+        return actualMela.getPosX();
+    }
+
+    public int getPosMelaY(){
+        return actualMela.getPosY();
+    }
+
+    public void setFindingMela(boolean b) {
+        viperaManager.setFindindMela(b);
+    }
 }

@@ -1,5 +1,6 @@
-package Snake.game;
+package Snake.game.vipera;
 
+import Snake.game.gameManager;
 import Snake.gui.ManagerGUI;
 
 public class vipera {
@@ -8,6 +9,8 @@ public class vipera {
 
     private int actPosX, actPosY;
     private int dimensione;
+
+    private boolean findingMela;
 
     private static vipera ourInstance = new vipera();
 
@@ -20,6 +23,7 @@ public class vipera {
         actPosX=500;
         actPosY=500;
         dimensione=20;
+        findingMela=false;
     }
 
     public void incX(int quant){
@@ -57,6 +61,14 @@ public class vipera {
     void respawn() {
         actPosX=500;
         actPosY=500;
+        findingMela=false;
     }
 
+    public boolean isFindingMela(){
+        return findingMela;
+    }
+
+    public void setFindingMela(boolean b) {
+        findingMela=b;
+    }
 }

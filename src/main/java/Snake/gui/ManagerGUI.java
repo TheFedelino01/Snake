@@ -1,10 +1,8 @@
 package Snake.gui;
 
 import Snake.game.gameManager;
-import Snake.game.viperaManager;
 import processing.core.PApplet;
 
-import java.awt.*;
 import javax.swing.JOptionPane;
 
 public class ManagerGUI {
@@ -28,23 +26,36 @@ public class ManagerGUI {
 
     public void draw(){
         if(gameManager.getInstance().isMorto()==false){
-            tavola.background(255, 255, 255);
-            int posXvipera = gameManager.getInstance().getActX();
-            int posYvipera = gameManager.getInstance().getActY();
-            int r = gameManager.getInstance().getDimensione();
-
-            tavola.fill(10);
-            tavola.ellipse(posXvipera, posYvipera,r , r);
+            disegnaVipera();
+            disegnaMela();
         }else{
             visualizzaSchermataMorte();
         }       
     }
-    
+
+    private void disegnaMela() {
+        int posMelaX = gameManager.getInstance().getPosMelaX();
+
+        int posMelaY = gameManager.getInstance().getPosMelaY();
+
+        tavola.fill(10);
+        tavola.ellipse(posMelaX, posMelaY,10 , 10);
+    }
+
     private void visualizzaSchermataMorte(){
         JOptionPane.showMessageDialog(null, "SEI MORTO!");
         gameManager.getInstance().respawn();
     }
 
+    private void disegnaVipera(){
+        tavola.background(255, 255, 255);
+        int posXvipera = gameManager.getInstance().getActX();
+        int posYvipera = gameManager.getInstance().getActY();
+        int r = gameManager.getInstance().getDimensione();
+
+        tavola.fill(10);
+        tavola.ellipse(posXvipera, posYvipera,r , r);
+    }
 
     public int getDimensioneX(){
         return dimensioniSchermo.getDimensioneX();

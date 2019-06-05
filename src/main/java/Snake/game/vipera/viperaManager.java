@@ -1,4 +1,6 @@
-package Snake.game;
+package Snake.game.vipera;
+
+import Snake.game.vipera.vipera;
 
 public class viperaManager {
 
@@ -6,6 +8,11 @@ public class viperaManager {
 
     public viperaManager(){
         dimensione = vipera.getInstance().getDimensione();
+    }
+
+
+    public boolean isFindingMela(){
+        return vipera.getInstance().isFindingMela();
     }
 
     public void spostaDx(){
@@ -34,5 +41,9 @@ public class viperaManager {
     
     public void respawn(){
         vipera.getInstance().respawn();
+    }
+
+    public void setFindindMela(boolean b) {
+        vipera.getInstance().setFindingMela(b);
     }
 }
