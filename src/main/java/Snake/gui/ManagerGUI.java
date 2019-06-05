@@ -57,13 +57,18 @@ public class ManagerGUI {
 
     private void disegnaVipera(){
         tavola.background(255, 255, 255);
-        int posXvipera = gameManager.getInstance().getActX();
-        int posYvipera = gameManager.getInstance().getActY();
         int r = gameManager.getInstance().getDimensione();
+        int posX,posY;
 
-        tavola.fill(10);
-        tavola.ellipseMode(CENTER);
-        tavola.rect(posXvipera, posYvipera,r , r);
+        //disegno ogni blocco
+        for(int i=0; i<= gameManager.getInstance().getNumMelePrese();i++){
+            posX = gameManager.getInstance().posXblocco(i);
+            posY = gameManager.getInstance().posYblocco(i);
+
+            tavola.fill(10);
+            tavola.ellipseMode(CENTER);
+            tavola.rect(posX, posY,r , r);
+        }
     }
 
 

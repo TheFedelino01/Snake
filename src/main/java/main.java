@@ -9,6 +9,9 @@ import processing.core.PApplet;
 
 public class main extends PApplet {
 
+    private static int lentezza=50;
+    private static int larghezza=1500;
+    private static int altezza=1000;
 
     public static void main (String[] args) {
         PApplet.main(new String[]{"main"});
@@ -17,12 +20,12 @@ public class main extends PApplet {
     public main() {
         System.out.println("Starting application...");
         
-        ManagerGUI.getInstance().setup(800, 800, this);
+        ManagerGUI.getInstance().setup(larghezza, altezza, this);
         thStarts();
     }
 
     private static void thStarts(){
-        thReader thReader = new thReader();
+        thReader thReader = new thReader(lentezza);
         thGenera thGenera = new thGenera();
         thControllaMela thControlla = new thControllaMela();
 
@@ -39,7 +42,7 @@ public class main extends PApplet {
 
     public void setup() {
         noStroke();
-        frameRate(100);
+        frameRate(200);
         ellipseMode(RADIUS);
     }
 

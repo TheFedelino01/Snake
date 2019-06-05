@@ -1,10 +1,10 @@
 package Snake.game.vipera;
 
+import Snake.game.Directions;
 import Snake.game.gameManager;
 import Snake.gui.ManagerGUI;
 
 public class vipera {
-    private int lunghezza;
     private boolean vivo;
 
     private int actPosX, actPosY;
@@ -12,25 +12,34 @@ public class vipera {
 
     private boolean findingMela;
 
-    private static vipera ourInstance = new vipera();
+    private blocchi blocchi;
 
+
+    private static vipera ourInstance = new vipera();
     public static vipera getInstance() {
         return ourInstance;
     }
 
     private vipera() {
-        lunghezza=1;
+        reset();
+    }
+
+    private void reset(){
         actPosX=50;
         actPosY=50;
         dimensione=50;
         findingMela=false;
+        blocchi = new blocchi(actPosX,actPosY);//Creo una nuova lista
     }
+
 
     public void incX(int quant){
         int tmp = actPosX+quant;
         
         if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneX()){
             actPosX= tmp;
+            blocchi.setPosTestaX(actPosX);
+            blocchi.posizionaIBlocchi();
         }else{
             gameManager.getInstance().setMorto(true);
             System.out.println("USCITO LATO SX o DX");
@@ -41,6 +50,8 @@ public class vipera {
         
         if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneY()){
             actPosY= tmp;
+            blocchi.setPosTestaY(actPosY);
+            blocchi.posizionaIBlocchi();
         }else{
             gameManager.getInstance().setMorto(true);
             System.out.println("USCITO LATO SOPRA o SOTTO");
@@ -59,9 +70,7 @@ public class vipera {
     public int getDimensione(){return dimensione;}
 
     void respawn() {
-        actPosX=0;
-        actPosY=0;
-        findingMela=false;
+        reset();
     }
 
     public boolean isFindingMela(){
@@ -70,5 +79,22 @@ public class vipera {
 
     public void setFindingMela(boolean b) {
         findingMela=b;
+    }
+
+    public void setDirezioneVipera(Directions dir) {
+        blocchi.setDirezioneVipera(dir);
+    }
+
+    public void addBlocco() {
+        blocchi.addBlocco();
+
+    }
+
+    public int getXblocco(int i) {
+        return blocchi.getXblocco(i);
+    }
+
+    public int getYblocco(int i) {
+        return blocchi.getYblocco(i);
     }
 }

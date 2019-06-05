@@ -19,10 +19,11 @@ import processing.core.PApplet;
 public class thReader extends Thread{
 
     private Character keyDown;
-    private int delay=150;
+    private int delay;
     
-    public thReader(){
+    public thReader(int delay){
         keyDown=' ';
+        this.delay=delay;
     }
 
     @Override
@@ -58,6 +59,7 @@ public class thReader extends Thread{
                         break;
                 }
                 //Sposto la vipera
+                gameManager.getInstance().setDirezioneVipera(direzione);
                 gameManager.getInstance().sposta(direzione);
 
             }

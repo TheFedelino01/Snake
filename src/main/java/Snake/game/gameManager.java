@@ -1,6 +1,7 @@
 package Snake.game;
 
 import Snake.game.vipera.viperaManager;
+import com.sun.javafx.scene.traversal.Direction;
 
 public class gameManager {
 
@@ -24,21 +25,21 @@ public class gameManager {
 
 
 
-    public void setMorto(boolean v){
+    public synchronized void setMorto(boolean v){
         morto=v;
     }
 
-    public int getActX(){
+    public synchronized int getActX(){
         return viperaManager.getActX();
     }
-    public int getActY(){
+    public synchronized int getActY(){
         return viperaManager.getActY();
     }
-    public int getDimensione(){
+    public synchronized int getDimensione(){
         return viperaManager.getDimensione();
     }
     
-    public void sposta(Directions direzione){
+    public synchronized void sposta(Directions direzione){
         switch(direzione){
             case SOPRA:
                 viperaManager.spostaTop();
@@ -61,44 +62,58 @@ public class gameManager {
         }
     }
 
-    public boolean isMorto() {
+    public synchronized boolean isMorto() {
         return morto;
     }
 
-    public void respawn() {
+    public synchronized void respawn() {
         morto=false;
         viperaManager.respawn();
         commands.getInstance().clearKeyDown();
         meleRaccolte=0;
     }
 
-    public boolean isFindingMela(){
+    public synchronized boolean isFindingMela(){
         return viperaManager.isFindingMela();
     }
 
 
-    public void setPosMela(int posMelaX, int posMelaY) {
+    public synchronized void setPosMela(int posMelaX, int posMelaY) {
         actualMela.setPosX(posMelaX);
         actualMela.setPosY(posMelaY);
     }
 
-    public void melaPresa(){
+    public synchronized void melaPresa(){
         meleRaccolte++;
+        viperaManager.addBlocco();
     }
 
-    public int getNumMelePrese(){
+    public synchronized int getNumMelePrese(){
         return meleRaccolte;
     }
 
-    public int getPosMelaX(){
+    public synchronized void setDirezioneVipera(Directions dir){
+        viperaManager.setDirezioneVipera(dir);
+    }
+
+    public synchronized int getPosMelaX(){
         return actualMela.getPosX();
     }
 
-    public int getPosMelaY(){
+    public synchronized int getPosMelaY(){
         return actualMela.getPosY();
     }
 
-    public void setFindingMela(boolean b) {
+    public synchronized void setFindingMela(boolean b) {
         viperaManager.setFindindMela(b);
+    }
+
+
+    public synchronized int posXblocco(int i){
+        return viperaManager.getXblocco(i);
+    }
+
+    public synchronized int posYblocco(int i){
+        return viperaManager.getYblocco(i);
     }
 }

@@ -1,5 +1,6 @@
 package Snake.game.vipera;
 
+import Snake.game.Directions;
 import Snake.game.vipera.vipera;
 
 public class viperaManager {
@@ -45,5 +46,21 @@ public class viperaManager {
 
     public void setFindindMela(boolean b) {
         vipera.getInstance().setFindingMela(b);
+    }
+
+    public void setDirezioneVipera(Directions dir) {
+        vipera.getInstance().setDirezioneVipera(dir);
+    }
+
+    public void addBlocco() {
+        vipera.getInstance().addBlocco();
+    }
+
+    public int getXblocco(int i) {
+        return vipera.getInstance().getXblocco(i);
+    }
+
+    public int getYblocco(int i) {
+        return vipera.getInstance().getYblocco(i);
     }
 }
