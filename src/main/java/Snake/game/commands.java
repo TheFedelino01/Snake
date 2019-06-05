@@ -29,4 +29,8 @@ public class commands {
     public Character getKeyDown() {
         return keyDown;
     }
+    
+    public void clearKeyDown(){
+        keyDown=' ';
+    }
 }

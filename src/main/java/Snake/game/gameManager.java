@@ -3,16 +3,21 @@ package Snake.game;
 public class gameManager {
 
     private viperaManager viperaManager;
-
+    private boolean morto;
+    
     private static gameManager ourInstance = new gameManager();
     public static gameManager getInstance() {
         return ourInstance;
     }
 
     private gameManager(){
-        viperaManager = new viperaManager(500,500);
+        viperaManager = new viperaManager();
+        morto=false;
     }
 
+    public void setMorto(boolean v){
+        morto=v;
+    }
 
     public int getActX(){
         return viperaManager.getActX();
@@ -23,20 +28,41 @@ public class gameManager {
     public int getDimensione(){
         return viperaManager.getDimensione();
     }
-
-    public void spostaDx(){
-        viperaManager.spostaDx();
+    
+    public void sposta(Directions direzione){
+        switch(direzione){
+            case SOPRA:
+                viperaManager.spostaTop();
+                break;
+                
+            case SOTTO:
+                viperaManager.spostaDown();
+                break;
+                
+            case DESTRA:
+                viperaManager.spostaDx();
+                break;
+                
+            case SINISTRA:
+                viperaManager.spostaSx();
+                break;
+                
+            default:
+                break;
+        }
     }
 
-    public void spostaSx(){
-        viperaManager.spostaSx();
+    public boolean isMorto() {
+        return morto;
     }
 
-    public void spostaTop(){
-        viperaManager.spostaTop();
+    public void respawn() {
+        morto=false;
+        viperaManager.respawn();
+        commands.getInstance().clearKeyDown();
     }
+    
+    
 
-    public void spostaDown(){
-        viperaManager.spostaDown();
-    }
+    
 }

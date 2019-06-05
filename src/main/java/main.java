@@ -1,3 +1,4 @@
+
 import Snake.game.commands;
 import Snake.game.gameManager;
 import Snake.game.threads.thReader;
@@ -6,14 +7,16 @@ import processing.core.PApplet;
 
 public class main extends PApplet {
 
-    private ManagerGUI managerGUI = new ManagerGUI(1000,1000,this);
 
     public static void main (String[] args) {
         PApplet.main(new String[]{"main"});
+    }
+    
+    public main() {
         System.out.println("Starting application...");
-
+        
+        ManagerGUI.getInstance().setup(1000, 1000, this);
         thStarts();
-
     }
 
     private static void thStarts(){
@@ -22,7 +25,7 @@ public class main extends PApplet {
     }
 
     public void settings() {
-        size(managerGUI.getDimensioneX(), managerGUI.getDimensioneY());
+        size(ManagerGUI.getInstance().getDimensioneX(), ManagerGUI.getInstance().getDimensioneY());
     }
 
 
@@ -35,7 +38,7 @@ public class main extends PApplet {
 
 
     public void draw() {
-        managerGUI.draw();
+        ManagerGUI.getInstance().draw();
     }
     
     @Override

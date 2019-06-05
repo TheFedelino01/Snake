@@ -1,13 +1,10 @@
 package Snake.game;
 
 public class viperaManager {
-    private int startPosX;
-    private int startPosY;
+
     private int dimensione;
 
-    public viperaManager(int xPos, int yPos){
-        startPosX=xPos;
-        startPosY=yPos;
+    public viperaManager(){
         dimensione = vipera.getInstance().getDimensione();
     }
 
@@ -34,4 +31,8 @@ public class viperaManager {
         return vipera.getInstance().getY();
     }
     public int getDimensione(){return vipera.getInstance().getDimensione();}
+    
+    public void respawn(){
+        vipera.getInstance().respawn();
+    }
 }

@@ -1,5 +1,6 @@
 package Snake.game.threads;
 
+import Snake.game.Directions;
 import Snake.game.commands;
 import Snake.game.gameManager;
 
@@ -18,11 +19,10 @@ import processing.core.PApplet;
 public class thReader extends Thread{
 
     private Character keyDown;
+    private int delay=100;
     
     public thReader(){
         keyDown=' ';
-
-        
     }
 
     @Override
@@ -30,44 +30,45 @@ public class thReader extends Thread{
         gameManager gManager;
 
         while(!isInterrupted()){
-            gManager = gameManager.getInstance();
 
-            //TODO
-            
-            keyDown = commands.getInstance().getKeyDown();//Metto in maiuscolo
-            System.out.println("Leggo carattere:"+keyDown);
+            //Se non p morto, lo faccio muovere
+            if(gameManager.getInstance().isMorto()==false){
+                keyDown = commands.getInstance().getKeyDown();//Metto in maiuscolo
 
-            String ris="null";
-            switch (keyDown){
+                String ris="null";
+                Directions direzione= Directions.NONE;
 
-                case 'W':
-                    ris="Sposto TOP";
-                    gManager.spostaTop();
-                    break;
-                case 'A':
-                    ris="Sposto SX";
-                    gManager.spostaSx();
-                    break;
-                case 'D':
-                    ris="Sposto DX";
-                    gManager.spostaDx();
-                    break;
-                case 'S':
-                    ris="Sposto DOWN";
-                    gManager.spostaDown();
-                    break;
+                switch (keyDown){
 
-                default:
-                    ris="null";
-                    break;
+                    case 'W':
+                        direzione=Directions.SOPRA;
+                        break;
+                    case 'A':
+                        direzione=Directions.SINISTRA;
+                        break;
+                    case 'D':
+                        direzione=Directions.DESTRA;
+                        break;
+                    case 'S':
+                        direzione=Directions.SOTTO;
+                        break;
+
+                    default:
+                        ris="null";
+                        break;
+                }
+                //Sposto la vipera
+                gameManager.getInstance().sposta(direzione);
+
             }
-            System.out.println(ris);//Dico la mossa che ho fatto
             
+            //Dorme per il delay anche se e' morto cosi non sovraccarico il sistema
             try {
-                Thread.sleep(100);
+                Thread.sleep(delay);
             } catch (InterruptedException ex) {
                 Logger.getLogger(thReader.class.getName()).log(Level.SEVERE, null, ex);
             }
+            
         }
     }
 
