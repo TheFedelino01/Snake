@@ -17,7 +17,34 @@ public class blocchi {
 
     public void setDirezioneVipera(Directions dir) {
         prendiTesta().setSguardoRivolto(dir);
+        //Se si sovrappone, faccio morire il serpente
+        if(controllaSeTestaColpisceCoda()==true){
+            gameManager.getInstance().setMorto(true);
+        }
     }
+
+    private boolean controllaSeTestaColpisceCoda(){
+        blocco testa = prendiTesta();
+        int xtesta = testa.getX();
+        int ytesta = testa.getY();
+
+        blocco checkBlocco;
+
+        for(int i=1; i< blocchi.size();i++){
+            checkBlocco = blocchi.get(i);
+            if(checkBlocco.getX()==xtesta && checkBlocco.getY()==ytesta){
+
+                //Evito che il primo blocco che spawna in corrispondenza della testa, venga
+                //considerato come collisione
+                if(testa.getHoDistaccato()==true && blocchi.size()!=2) {
+                    return true;//Dico che la testa ha colpito un pezzo della coda
+                }
+            }
+
+        }
+        return false;
+    }
+
 
     private blocco prendiTesta(){
         return blocchi.get(0);

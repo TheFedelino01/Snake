@@ -13,6 +13,7 @@ public class blocco {
     private boolean amiTesta,hoUnFiglio;
     private boolean distaccaFiglio;//Non ho ancora distaccato di 1 unita il figlio
 
+
     public blocco(){
         actPosX=-1;
         actPosY=-1;
@@ -107,6 +108,10 @@ public class blocco {
         Directions ris = tutteMosse.get(0);
         tutteMosse.remove(0);
         return ris;
+    }
+
+    public boolean getHoDistaccato(){
+        return distaccaFiglio;
     }
 
 

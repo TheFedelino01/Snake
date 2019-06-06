@@ -9,9 +9,9 @@ import processing.core.PApplet;
 
 public class main extends PApplet {
 
-    private static int lentezza=50;
-    private static int larghezza=1500;
-    private static int altezza=1000;
+    private static int lentezza=100;
+    private static int larghezza=800;
+    private static int altezza=800;
 
     public static void main (String[] args) {
         PApplet.main(new String[]{"main"});

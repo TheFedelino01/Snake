@@ -5,7 +5,6 @@ import Snake.game.gameManager;
 import Snake.gui.ManagerGUI;
 
 public class vipera {
-    private boolean vivo;
 
     private int actPosX, actPosY;
     private int dimensione;
@@ -84,6 +83,8 @@ public class vipera {
     public void setDirezioneVipera(Directions dir) {
         blocchi.setDirezioneVipera(dir);
     }
+
+
 
     public void addBlocco() {
         blocchi.addBlocco();
