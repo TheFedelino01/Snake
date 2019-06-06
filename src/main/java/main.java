@@ -5,6 +5,7 @@ import Snake.game.threads.thControllaMela;
 import Snake.game.threads.thGenera;
 import Snake.game.threads.thReader;
 import Snake.gui.ManagerGUI;
+import javafx.scene.input.KeyCode;
 import processing.core.PApplet;
 
 public class main extends PApplet {
@@ -56,7 +57,10 @@ public class main extends PApplet {
     @Override
     public void keyPressed() {
         Character tasto = key;
-        commands.getInstance().setKeyDown(tasto);
+        commands.getInstance().setKeyDown(tasto,keyCode);
+
     }
+
+
 
 }

@@ -103,4 +103,8 @@ public class vipera {
     public Color getColoreBlocco(int i) {
         return blocchi.getColoreBlocco(i);
     }
+
+    public boolean ePresenteUnBlocco(int x, int y) {
+        return blocchi.ePresenteUnBlocco(x,y);
+    }
 }

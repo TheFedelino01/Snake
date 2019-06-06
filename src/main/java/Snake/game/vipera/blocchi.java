@@ -93,4 +93,19 @@ public class blocchi {
     public Color getColoreBlocco(int i) {
         return blocchi.get(i).getColore();
     }
+
+    public boolean ePresenteUnBlocco(int x, int y) {
+        int xBlocco,yBlocco;
+        int fggg=0;
+
+        //Se trovo un blocco con x e y == a quelli passati da parametro, ritorno true
+        for(int i=0; i<blocchi.size();i++){
+            xBlocco=blocchi.get(i).getX();
+            yBlocco=blocchi.get(i).getY();
+            if(xBlocco==x && yBlocco==y){
+                return true;
+            }
+        }
+        return false;
+    }
 }

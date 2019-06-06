@@ -138,4 +138,8 @@ public class gameManager {
     public Color getColoreBlocco(int i) {
         return viperaManager.getColoreBlocco(i);
     }
+
+    public boolean ePresenteUnBlocco(int x, int y){
+        return viperaManager.ePresenteUnBlocco(x,y);
+    }
 }
