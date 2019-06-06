@@ -3,6 +3,8 @@ package Snake.game.vipera;
 import Snake.game.Directions;
 import Snake.game.vipera.vipera;
 
+import java.awt.*;
+
 public class viperaManager {
 
     private int dimensione;
@@ -52,8 +54,8 @@ public class viperaManager {
         vipera.getInstance().setDirezioneVipera(dir);
     }
 
-    public void addBlocco() {
-        vipera.getInstance().addBlocco();
+    public void addBlocco(Color coloreBlocco) {
+        vipera.getInstance().addBlocco(coloreBlocco);
     }
 
     public int getXblocco(int i) {
@@ -62,5 +64,9 @@ public class viperaManager {
 
     public int getYblocco(int i) {
         return vipera.getInstance().getYblocco(i);
+    }
+
+    public Color getColoreBlocco(int i) {
+        return vipera.getInstance().getColoreBlocco(i);
     }
 }

@@ -3,6 +3,8 @@ package Snake.game.vipera;
 import Snake.game.Directions;
 import Snake.game.gameManager;
 
+import java.awt.*;
+import java.util.Random;
 import java.util.Vector;
 
 public class blocco {
@@ -13,20 +15,26 @@ public class blocco {
     private boolean amiTesta,hoUnFiglio;
     private boolean distaccaFiglio;//Non ho ancora distaccato di 1 unita il figlio
 
+
+
+    private Color colore;
+
     public blocco(){
         actPosX=-1;
         actPosY=-1;
         amiTesta=false;
         hoUnFiglio=false;
         distaccaFiglio=false;
+        colore=null;
     }
 
-    public blocco(int startX, int startY,boolean testa){
+    public blocco(int startX, int startY,boolean testa, Color colore){
         this.actPosX=startX;
         this.actPosY=startY;
         amiTesta=testa;
         hoUnFiglio=false;
         distaccaFiglio=false;
+        this.colore = colore;
     }
 
 
@@ -108,6 +116,12 @@ public class blocco {
         tutteMosse.remove(0);
         return ris;
     }
+
+    public Color getColore(){
+        return colore;
+    }
+
+
 
 
 }

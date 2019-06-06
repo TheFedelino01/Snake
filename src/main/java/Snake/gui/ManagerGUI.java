@@ -3,7 +3,8 @@ package Snake.gui;
 import Snake.game.gameManager;
 import processing.core.PApplet;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.awt.*;
 
 import static javax.swing.SwingConstants.CENTER;
 
@@ -36,6 +37,7 @@ public class ManagerGUI {
         }
         drawGrids();
         drawPunteggio();
+        drawUtilities();
 
     }
 
@@ -46,7 +48,8 @@ public class ManagerGUI {
 
         int r = gameManager.getInstance().getDimensione();
 
-        tavola.fill(255,0,0);
+        Color coloreMela = gameManager.getInstance().getColoreMela();
+        tavola.fill(coloreMela.getRGB());
         tavola.ellipse(posMelaX, posMelaY,r , r);
     }
 
@@ -59,13 +62,15 @@ public class ManagerGUI {
         tavola.background(255, 255, 255);
         int r = gameManager.getInstance().getDimensione();
         int posX,posY;
+        Color coloreBlocco;
 
         //disegno ogni blocco
         for(int i=0; i<= gameManager.getInstance().getNumMelePrese();i++){
             posX = gameManager.getInstance().posXblocco(i);
             posY = gameManager.getInstance().posYblocco(i);
+            coloreBlocco= gameManager.getInstance().getColoreBlocco(i);
 
-            tavola.fill(10);
+            tavola.fill(coloreBlocco.getRGB());
             tavola.ellipseMode(CENTER);
             tavola.rect(posX, posY,r , r);
         }
@@ -103,10 +108,19 @@ public class ManagerGUI {
         int size =30;
         int margine=25;
 
-        tavola.fill(0,255,0);
+        tavola.fill(0);
         tavola.textSize(size);
 
         tavola.text("Punteggio: "+gameManager.getInstance().getNumMelePrese(), margine, dimensioniSchermo.getDimensioneY()+size+margine);
+    }
+
+    private void drawUtilities(){
+        //TODO AGGIUNGERE BOTTONI E SLIDERS... COME SI FA??
+        tavola.fill(10);
+        Scrollbar slider = new Scrollbar(Scrollbar.HORIZONTAL, 0, 1, 0, 100);
+        slider.setVisible(true);
+        slider.setValues(50,100,0,100);
+
     }
 
     public int getDimensioneX(){

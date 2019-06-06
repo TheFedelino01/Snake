@@ -3,6 +3,7 @@ package Snake.game.vipera;
 import Snake.game.Directions;
 import Snake.game.gameManager;
 
+import java.awt.*;
 import java.util.List;
 import java.util.Vector;
 
@@ -11,8 +12,8 @@ public class blocchi {
     private Vector<blocco> blocchi = new Vector<blocco>();
 
     public blocchi(int startX, int startY){
-        //creo la testa
-        blocchi.add(new blocco(startX,startY,true));
+        //creo la testa, la testa ha sempre il colore rosso!
+        blocchi.add(new blocco(startX,startY,true, Color.red));
     }
 
     public void setDirezioneVipera(Directions dir) {
@@ -26,7 +27,7 @@ public class blocchi {
         return blocchi.get(blocchi.size()-1);
     }
 
-    public void addBlocco(){
+    public void addBlocco(Color coloreBlocco){
         //Il blocco prende la posizione dell'ultimo blocco
         int xNuovo = dimmiXdelNuovoBlocco();
         int yNuovo = dimmiYdelNuovoBlocco();
@@ -34,7 +35,7 @@ public class blocchi {
         prendiUltimoBlocco().dicoCheHoUnFiglio();//Ora ha un figlio
 
         //aggiungo un blocco che non e' una testa
-        blocchi.add(new blocco(xNuovo,yNuovo,false));
+        blocchi.add(new blocco(xNuovo,yNuovo,false,coloreBlocco));
 
 
     }
@@ -89,5 +90,7 @@ public class blocchi {
     }
 
 
-
+    public Color getColoreBlocco(int i) {
+        return blocchi.get(i).getColore();
+    }
 }
