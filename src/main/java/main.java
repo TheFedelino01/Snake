@@ -11,8 +11,8 @@ import processing.core.PApplet;
 public class main extends PApplet {
 
     private static int lentezza=100;
-    private static int larghezza=1000;
-    private static int altezza=700;
+    private static int larghezza=1500;
+    private static int altezza=900;
     private boolean serpenteColorato=true;
 
     public static void main (String[] args) {
