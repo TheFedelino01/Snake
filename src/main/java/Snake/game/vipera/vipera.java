@@ -37,7 +37,7 @@ public class vipera {
 
     public void incX(int quant){
         int tmp = actPosX+quant;
-        
+
         if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneX()){
             actPosX= tmp;
             blocchi.setPosTestaX(actPosX);
@@ -49,7 +49,7 @@ public class vipera {
     }
     public void incY(int quant){
         int tmp = actPosY+quant;
-        
+
         if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneY()){
             actPosY= tmp;
             blocchi.setPosTestaY(actPosY);
@@ -106,5 +106,9 @@ public class vipera {
 
     public boolean ePresenteUnBlocco(int x, int y) {
         return blocchi.ePresenteUnBlocco(x,y);
+    }
+
+    public Color getColoreUltimoBlocco() {
+        return blocchi.getColoreUltimoBlocco();
     }
 }

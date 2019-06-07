@@ -60,6 +60,7 @@ public class thReader extends Thread{
                 }
                 //Sposto la vipera
                 gameManager.getInstance().setDirezioneVipera(direzione);
+
                 gameManager.getInstance().sposta(direzione);
 
             }

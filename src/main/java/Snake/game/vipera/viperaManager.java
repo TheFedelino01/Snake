@@ -73,4 +73,8 @@ public class viperaManager {
     public boolean ePresenteUnBlocco(int x, int y) {
         return vipera.getInstance().ePresenteUnBlocco(x,y);
     }
+
+    public Color getColoreUltimoBlocco() {
+        return vipera.getInstance().getColoreUltimoBlocco();
+    }
 }

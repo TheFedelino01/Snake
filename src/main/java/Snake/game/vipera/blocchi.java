@@ -46,7 +46,6 @@ public class blocchi {
         return false;
     }
 
-
     private blocco prendiTesta(){
         return blocchi.get(0);
     }
@@ -67,16 +66,21 @@ public class blocchi {
 
     }
 
-    private boolean collideConQualcheAltroBloccoX(blocco daCheck){
 
-        for(int i=0 ;i < blocchi.size();i++){
-            if(blocchi.get(i).getX()==daCheck.getX()){
+    /*public boolean CollideTestaConCoda(){
+        blocco testa = prendiTesta();
+        int xTesta = testa.getX();
+        int yTexta = testa.getY();
+
+        //CONTROLLA SE LA TESTA E' SOPRA A UN BLOCCO DELLA CODA
+        for(int i=1 ;i < blocchi.size();i++){
+            if(blocchi.get(i).getX()==xTesta && blocchi.get(i).getY()==yTexta){
                 return true;
             }
         }
 
         return false;
-    }
+    }*/
 
     private int dimmiXdelNuovoBlocco(){
         blocco ultimo = prendiUltimoBlocco();
@@ -135,4 +139,9 @@ public class blocchi {
         }
         return false;
     }
+
+    public Color getColoreUltimoBlocco(){
+        return prendiUltimoBlocco().getColore();
+    }
+
 }

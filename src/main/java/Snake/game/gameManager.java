@@ -93,11 +93,9 @@ public class gameManager {
     public synchronized void melaPresa(){
         meleRaccolte++;
         //Creo il blocco e gli faccio assumero il colore della mela presa se vuole che il serpente si colori
-        //altrimenti tutti i blocchi del serpente saranno neri
-        Color coloreBlocco = Color.black;
-        if(serpenteColorato==true){
-            coloreBlocco = actualMela.getColore();
-        }
+        //NO: altrimenti tutti i blocchi del serpente saranno neri
+
+        Color coloreBlocco = actualMela.getColore();
         viperaManager.addBlocco(coloreBlocco);
         actualMela.cambiaColore();
     }
@@ -141,5 +139,13 @@ public class gameManager {
 
     public boolean ePresenteUnBlocco(int x, int y){
         return viperaManager.ePresenteUnBlocco(x,y);
+    }
+
+    public Color getColoreUltimoBlocco(){
+        return viperaManager.getColoreUltimoBlocco();
+    }
+
+    public Boolean getSerpenteColorato(){
+        return serpenteColorato;
     }
 }

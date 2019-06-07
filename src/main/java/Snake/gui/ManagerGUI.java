@@ -68,7 +68,20 @@ public class ManagerGUI {
         for(int i=0; i<= gameManager.getInstance().getNumMelePrese();i++){
             posX = gameManager.getInstance().posXblocco(i);
             posY = gameManager.getInstance().posYblocco(i);
-            coloreBlocco= gameManager.getInstance().getColoreBlocco(i);
+
+
+            //Il serpente se deve essere colorato, si colora tutta la coda a seconda del colore dell'ultima mela catturata
+            //la testa rimane peró sempre di colore rosso
+            if(gameManager.getInstance().getSerpenteColorato()==true && i!=0){
+                coloreBlocco = gameManager.getInstance().getColoreUltimoBlocco();
+            }else{
+                //Non voglio il serpente colorato, quindi la testa la disegno di rosso mentre il corpo tutto di nero
+                if(i==0)
+                    coloreBlocco=Color.red;
+                else
+                    coloreBlocco=Color.black;
+            }
+
 
             tavola.fill(coloreBlocco.getRGB());
             tavola.ellipseMode(CENTER);
