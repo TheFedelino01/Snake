@@ -21,21 +21,21 @@ public class commands {
         keyDown=' ';
     }
     
-    public void setKeyDown(Character car){
-        if(controllaSePossibile(car)==true) {
-            this.keyDown = car;
-            keyDown = Character.toUpperCase(keyDown);//Metto in maiuscolo
-        }
-        //else il tasto che ha premuto non è corretto
-        //quindi non modifico il tasto attuale
-    }
+    public void setKeyDown(Character car, int keyCode){
+        car = Character.toUpperCase(car);
 
-    private boolean controllaSePossibile(Character c){
-        c = Character.toUpperCase(c);
-        if(c=='A' || c=='W'|| c=='S'|| c=='D'){
-            return true;
+        Character carTmp = convertToWASD(keyCode);
+        if(carTmp!=null){
+            car = carTmp;//Se e' un arrow, faccio assumere il valore altrimenti non faccio ninete
         }
-        return false;
+
+        //Deve essere una lettera
+        if (car == 'A' || car == 'W' || car == 'S' || car == 'D') {
+            //Se vuole tornare indietro, blocco la mossa
+            if(isDoingAMossaProibita(car)==false) {
+                this.keyDown = car;
+            }
+        }
     }
 
     public Character getKeyDown() {
@@ -45,4 +45,42 @@ public class commands {
     public void clearKeyDown(){
         keyDown=' ';
     }
+
+    private Character convertToWASD(int keyCode){
+        Character ris=null;
+
+        switch(keyCode){
+            case 38:
+                ris='W';
+                break;
+            case 40:
+                ris='S';
+                break;
+            case 37:
+                ris='A';
+                break;
+            case 39:
+                ris='D';
+                break;
+
+            default:
+                ris=null;
+                break;//Non e' un Arrow e non lo converto a WASD
+        }
+
+        return ris;
+    }
+
+    private boolean isDoingAMossaProibita(Character car){
+        //Inversione orizzontale
+        if((keyDown=='A' && car=='D')||(keyDown=='D' && car=='A')){
+            return true;
+        }else if((keyDown=='W' && car=='S')||(keyDown=='S' && car=='W')){//Inversione verticale
+            return true;
+        }
+
+        return false;
+
+    }
+
 }

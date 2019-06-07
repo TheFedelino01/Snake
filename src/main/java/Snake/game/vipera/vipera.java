@@ -4,7 +4,10 @@ import Snake.game.Directions;
 import Snake.game.gameManager;
 import Snake.gui.ManagerGUI;
 
+import java.awt.*;
+
 public class vipera {
+    private boolean vivo;
 
     private int actPosX, actPosY;
     private int dimensione;
@@ -84,10 +87,8 @@ public class vipera {
         blocchi.setDirezioneVipera(dir);
     }
 
-
-
-    public void addBlocco() {
-        blocchi.addBlocco();
+    public void addBlocco(Color coloreBlocco) {
+        blocchi.addBlocco(coloreBlocco);
 
     }
 
@@ -97,5 +98,13 @@ public class vipera {
 
     public int getYblocco(int i) {
         return blocchi.getYblocco(i);
+    }
+
+    public Color getColoreBlocco(int i) {
+        return blocchi.getColoreBlocco(i);
+    }
+
+    public boolean ePresenteUnBlocco(int x, int y) {
+        return blocchi.ePresenteUnBlocco(x,y);
     }
 }

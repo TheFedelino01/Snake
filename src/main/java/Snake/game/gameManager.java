@@ -1,7 +1,9 @@
 package Snake.game;
 
 import Snake.game.vipera.viperaManager;
-import com.sun.javafx.scene.traversal.Direction;
+
+import java.awt.*;
+
 
 public class gameManager {
 
@@ -16,11 +18,16 @@ public class gameManager {
 
     private int meleRaccolte=0;
 
+    private boolean serpenteColorato;
+
     private gameManager(){
         viperaManager = new viperaManager();
         morto=false;
         actualMela=new mela();
-
+        serpenteColorato=false;
+    }
+    public void setup(boolean serpenteColorato){
+        this.serpenteColorato=serpenteColorato;
     }
 
 
@@ -85,7 +92,14 @@ public class gameManager {
 
     public synchronized void melaPresa(){
         meleRaccolte++;
-        viperaManager.addBlocco();
+        //Creo il blocco e gli faccio assumero il colore della mela presa se vuole che il serpente si colori
+        //altrimenti tutti i blocchi del serpente saranno neri
+        Color coloreBlocco = Color.black;
+        if(serpenteColorato==true){
+            coloreBlocco = actualMela.getColore();
+        }
+        viperaManager.addBlocco(coloreBlocco);
+        actualMela.cambiaColore();
     }
 
     public synchronized int getNumMelePrese(){
@@ -115,5 +129,17 @@ public class gameManager {
 
     public synchronized int posYblocco(int i){
         return viperaManager.getYblocco(i);
+    }
+
+    public Color getColoreMela() {
+        return actualMela.getColore();
+    }
+
+    public Color getColoreBlocco(int i) {
+        return viperaManager.getColoreBlocco(i);
+    }
+
+    public boolean ePresenteUnBlocco(int x, int y){
+        return viperaManager.ePresenteUnBlocco(x,y);
     }
 }

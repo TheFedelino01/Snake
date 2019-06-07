@@ -5,13 +5,15 @@ import Snake.game.threads.thControllaMela;
 import Snake.game.threads.thGenera;
 import Snake.game.threads.thReader;
 import Snake.gui.ManagerGUI;
+import javafx.scene.input.KeyCode;
 import processing.core.PApplet;
 
 public class main extends PApplet {
 
     private static int lentezza=100;
-    private static int larghezza=800;
-    private static int altezza=800;
+    private static int larghezza=1000;
+    private static int altezza=700;
+    private boolean serpenteColorato=false;
 
     public static void main (String[] args) {
         PApplet.main(new String[]{"main"});
@@ -21,6 +23,7 @@ public class main extends PApplet {
         System.out.println("Starting application...");
         
         ManagerGUI.getInstance().setup(larghezza, altezza, this);
+        gameManager.getInstance().setup(serpenteColorato);
         thStarts();
     }
 
@@ -54,7 +57,10 @@ public class main extends PApplet {
     @Override
     public void keyPressed() {
         Character tasto = key;
-        commands.getInstance().setKeyDown(tasto);
+        commands.getInstance().setKeyDown(tasto,keyCode);
+
     }
+
+
 
 }
