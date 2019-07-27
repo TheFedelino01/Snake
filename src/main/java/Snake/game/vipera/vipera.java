@@ -7,7 +7,6 @@ import Snake.gui.ManagerGUI;
 import java.awt.*;
 
 public class vipera {
-    private boolean vivo;
 
     private int actPosX, actPosY;
     private int dimensione;

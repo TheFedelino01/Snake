@@ -28,7 +28,6 @@ public class thReader extends Thread{
 
     @Override
     public void run(){
-        gameManager gManager;
 
         while(!isInterrupted()){
 
