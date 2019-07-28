@@ -1,20 +1,12 @@
 package Snake.game.threads;
 
-import Snake.game.Directions;
-import Snake.game.commands;
-import Snake.game.gameManager;
+import Snake.game.utility.Directions;
+import Snake.game.utility.commands;
+import Snake.game.gioco;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.security.Key;
-import java.util.Scanner;
-
-import static com.sun.java.accessibility.util.AWTEventMonitor.addKeyListener;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import processing.core.PApplet;
+
 
 public class thReader extends Thread{
 
@@ -32,7 +24,7 @@ public class thReader extends Thread{
         while(!isInterrupted()){
 
             //Se non p morto, lo faccio muovere
-            if(gameManager.getInstance().isMorto()==false){
+            if(gioco.getInstance().isMorto()==false){
                 keyDown = commands.getInstance().getKeyDown();//Metto in maiuscolo
 
                 String ris="null";
@@ -58,9 +50,9 @@ public class thReader extends Thread{
                         break;
                 }
                 //Sposto la vipera
-                gameManager.getInstance().setDirezioneVipera(direzione);
+                gioco.getInstance().setDirezioneVipera(direzione);
 
-                gameManager.getInstance().sposta(direzione);
+                gioco.getInstance().sposta(direzione);
 
             }
             

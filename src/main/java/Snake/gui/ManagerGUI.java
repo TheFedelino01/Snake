@@ -1,6 +1,6 @@
 package Snake.gui;
 
-import Snake.game.gameManager;
+import Snake.game.gioco;
 import processing.core.PApplet;
 
 import javax.swing.*;
@@ -21,21 +21,14 @@ public class ManagerGUI {
     /** Attributo relativo al PApplet per il disegno grafico*/
     private PApplet tavola;
 
-    /** Istanza privata per singleton X*/
-    private static ManagerGUI ourInstance = new ManagerGUI();
-    /** Istanza pubblica utilizzata dalle altre classi per singleton X*/
-    public static ManagerGUI getInstance() {
-        return ourInstance;
-    }
-
     /**
      @brief Costruttore vuoto della classe
 
      Imposta gli attributi della classe a valore standard
      */
-    private ManagerGUI(){
-        dimensioniSchermo=null;
-        tavola=null;
+    public ManagerGUI(int dimensioneX, int dimensioneY, PApplet tavola){
+        dimensioniSchermo = new size(dimensioneX, dimensioneY);
+        this.tavola = tavola;
     }
 
     /**
@@ -46,8 +39,7 @@ public class ManagerGUI {
      @param tavola oggetto riferito al disegno grafico
      */
     public void setup(int dimensioneX, int dimensioneY, PApplet tavola) {
-        dimensioniSchermo = new size(dimensioneX, dimensioneY);
-        this.tavola = tavola;
+
         
     }
 
@@ -58,7 +50,7 @@ public class ManagerGUI {
      */
     public void draw(){
 
-        if(gameManager.getInstance().isMorto()==false){
+        if(gioco.getInstance().isMorto()==false){
             disegnaVipera();
             disegnaMela();
         }else{
@@ -74,13 +66,13 @@ public class ManagerGUI {
      @brief Il metodo genera la posizione della mela all'interno eello schermo, di seguito disegna l'ellisse colorato
      */
     private void disegnaMela() {
-        int posMelaX = gameManager.getInstance().getPosMelaX();
+        int posMelaX = gioco.getInstance().getPosMelaX();
 
-        int posMelaY = gameManager.getInstance().getPosMelaY();
+        int posMelaY = gioco.getInstance().getPosMelaY();
 
-        int r = gameManager.getInstance().getDimensione();
+        int r = gioco.getInstance().getDimensione();
 
-        Color coloreMela = gameManager.getInstance().getColoreMela();
+        Color coloreMela = gioco.getInstance().getColoreMela();
         tavola.fill(coloreMela.getRGB());
         tavola.ellipse(posMelaX, posMelaY,r , r);
     }
@@ -90,7 +82,7 @@ public class ManagerGUI {
      */
     private void visualizzaSchermataMorte(){
         JOptionPane.showMessageDialog(null, "SEI MORTO!");
-        gameManager.getInstance().respawn();
+        gioco.getInstance().respawn();
     }
 
     /**
@@ -101,20 +93,20 @@ public class ManagerGUI {
      */
     private void disegnaVipera(){
         tavola.background(255, 255, 255);
-        int r = gameManager.getInstance().getDimensione();
+        int r = gioco.getInstance().getDimensione();
         int posX,posY;
         Color coloreBlocco;
 
         //disegno ogni blocco
-        for(int i=0; i<= gameManager.getInstance().getNumMelePrese();i++){
-            posX = gameManager.getInstance().posXblocco(i);
-            posY = gameManager.getInstance().posYblocco(i);
+        for(int i=0; i<= gioco.getInstance().getNumMelePrese();i++){
+            posX = gioco.getInstance().posXblocco(i);
+            posY = gioco.getInstance().posYblocco(i);
 
 
             //Il serpente se deve essere colorato, si colora tutta la coda a seconda del colore dell'ultima mela catturata
             //la testa rimane peró sempre di colore rosso
-            if(gameManager.getInstance().getSerpenteColorato()==true && i!=0){
-                coloreBlocco = gameManager.getInstance().getColoreUltimoBlocco();
+            if(gioco.getInstance().getSerpenteColorato()==true && i!=0){
+                coloreBlocco = gioco.getInstance().getColoreUltimoBlocco();
             }else{
                 //Non voglio il serpente colorato, quindi la testa la disegno di rosso mentre il corpo tutto di nero
                 if(i==0)
@@ -136,7 +128,7 @@ public class ManagerGUI {
      Per disegnare le righe e le colonne vengono disegnate piu' quadrati attaccati l'uno all'altro
      */
     private void drawGrids() {
-        int dimVipera = gameManager.getInstance().getDimensione();
+        int dimVipera = gioco.getInstance().getDimensione();
 
 
         int cols = dimensioniSchermo.getDimensioneX() / dimVipera;
@@ -172,7 +164,7 @@ public class ManagerGUI {
         tavola.fill(0);
         tavola.textSize(size);
 
-        tavola.text("Punteggio: "+gameManager.getInstance().getNumMelePrese(), margine, dimensioniSchermo.getDimensioneY()+size+margine);
+        tavola.text("Punteggio: "+gioco.getInstance().getNumMelePrese(), margine, dimensioniSchermo.getDimensioneY()+size+margine);
     }
 
     /**

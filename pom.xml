@@ -32,6 +32,15 @@
             <artifactId>core</artifactId>
             <version>3.3.7</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.smartlogic/Semaphore-Java-APIs -->
+        <dependency>
+            <groupId>com.smartlogic</groupId>
+            <artifactId>Semaphore-Java-APIs</artifactId>
+            <version>Semaphore-4.0-44</version>
+            <type>pom</type>
+        </dependency>
+
     </dependencies>
 
 

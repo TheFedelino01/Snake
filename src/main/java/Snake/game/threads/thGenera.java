@@ -1,7 +1,6 @@
 package Snake.game.threads;
 
-import Snake.game.gameManager;
-import Snake.gui.ManagerGUI;
+import Snake.game.gioco;
 
 import java.util.Random;
 
@@ -15,10 +14,10 @@ public class thGenera extends Thread {
     @Override
     public void run(){
         while(!isInterrupted()){
-            if(gameManager.getInstance().isFindingMela()==false){
+            if(gioco.getInstance().isFindingMela()==false){
                 //Ha preso la mela e quindi ora la rigenero
                 generaPosizione();
-                gameManager.getInstance().setFindingMela(true);
+                gioco.getInstance().setFindingMela(true);
             }
 
             //else sta ancora cercando la mela
@@ -32,13 +31,13 @@ public class thGenera extends Thread {
 
 
     private void generaPosizione(){
-        int xMax = ManagerGUI.getInstance().getDimensioneX();
-        int yMax = ManagerGUI.getInstance().getDimensioneY();
+        int xMax = gioco.getInstance().getDimensioneX();
+        int yMax = gioco.getInstance().getDimensioneY();
 
         //Utilizzati per controlli spawn
-        int dimVipera = gameManager.getInstance().getDimensione();
-        int dimSchermoX = ManagerGUI.getInstance().getDimensioneX();
-        int dimSchermoY = ManagerGUI.getInstance().getDimensioneY();
+        int dimVipera = gioco.getInstance().getDimensione();
+        int dimSchermoX = gioco.getInstance().getDimensioneX();
+        int dimSchermoY = gioco.getInstance().getDimensioneY();
 
         int posMelaX,posMelaY;
         int checkRespawn=0;
@@ -67,12 +66,12 @@ public class thGenera extends Thread {
             //Se non riesco a spawnare la mela per 1000 tentativi, il gioco é finito
             if(checkRespawn==1000){System.out.println(">>>>>>>>GIOCO FINITO!"); return;}
 
-        }while(gameManager.getInstance().ePresenteUnBlocco(posMelaX,posMelaY)==true);//Se ho spawnato la mela in corrispondenza di un blocco, lo rispawno
+        }while(gioco.getInstance().ePresenteUnBlocco(posMelaX,posMelaY)==true);//Se ho spawnato la mela in corrispondenza di un blocco, lo rispawno
 
 
 
         System.out.println("Genero mela: "+"X:"+posMelaX+" Y:"+posMelaY);
-        gameManager.getInstance().setPosMela(posMelaX, posMelaY);
+        gioco.getInstance().setPosMela(posMelaX, posMelaY);
     }
 
 
