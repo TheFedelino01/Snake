@@ -1,6 +1,6 @@
 package Snake.game.threads;
 
-import Snake.game.gioco;
+import Snake.game.gameManager;
 
 public class thControllaMela extends Thread {
 
@@ -15,18 +15,18 @@ public class thControllaMela extends Thread {
             int xMela, yMela;
 
             //Se cerca la mela, controllo se l'ha colliso
-            if(gioco.getInstance().isFindingMela()==true){
-                xVipera = gioco.getInstance().getActX();
-                yVipera = gioco.getInstance().getActY();
+            if(gameManager.getInstance().isFindingMela()==true){
+                xVipera = gameManager.getInstance().getActX();
+                yVipera = gameManager.getInstance().getActY();
 
-                xMela = gioco.getInstance().getPosMelaX();
-                yMela = gioco.getInstance().getPosMelaY();
+                xMela = gameManager.getInstance().getPosMelaX();
+                yMela = gameManager.getInstance().getPosMelaY();
 
                 //Se la vipera e' sopra la mela
                 if(isViperaOverMela(xVipera,yVipera,xMela,yMela)){
                     //Mela presa
-                    gioco.getInstance().melaPresa();
-                    gioco.getInstance().setFindingMela(false);
+                    gameManager.getInstance().melaPresa();
+                    gameManager.getInstance().setFindingMela(false);
                 }
             }
         }

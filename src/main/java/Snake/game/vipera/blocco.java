@@ -1,9 +1,10 @@
 package Snake.game.vipera;
 
-import Snake.game.utility.Directions;
-import Snake.game.gioco;
+import Snake.game.Directions;
+import Snake.game.gameManager;
 
 import java.awt.*;
+import java.util.Random;
 import java.util.Vector;
 
 public class blocco {
@@ -76,7 +77,7 @@ public class blocco {
     }
 
     public void segui(Directions doveVado){
-        int dimVipera = gioco.getInstance().getDimensione();
+        int dimVipera = gameManager.getInstance().getDimensione();
 
         switch(doveVado){
             case DESTRA:

@@ -1,4 +1,4 @@
-package Snake.game.vipera;
+package Snake.game;
 
 import java.awt.*;
 import java.util.Random;
