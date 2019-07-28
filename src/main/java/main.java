@@ -1,9 +1,11 @@
 
-import Snake.game.utility.commands;
-import Snake.game.gioco;
+import Snake.game.commands;
+import Snake.game.gameManager;
 import Snake.game.threads.thControllaMela;
 import Snake.game.threads.thGenera;
 import Snake.game.threads.thReader;
+import Snake.gui.ManagerGUI;
+import javafx.scene.input.KeyCode;
 import processing.core.PApplet;
 /**
  @author  Saccani Federico, federico.saccani01@gmail.com
@@ -36,8 +38,9 @@ public class main extends PApplet {
      */
     public main() {
         System.out.println("Starting application...");
-        gioco.getInstance().setup(larghezza, altezza, this,serpenteColorato);
-
+        
+        ManagerGUI.getInstance().setup(larghezza, altezza, this);
+        gameManager.getInstance().setup(serpenteColorato);
         thStarts();
     }
 
@@ -61,7 +64,7 @@ public class main extends PApplet {
      @brief Il metodo imposta la dimensione della finestra di gioco
      */
     public void settings() {
-        size(gioco.getInstance().getDimensioneX(), gioco.getInstance().getDimensioneY()+100);
+        size(ManagerGUI.getInstance().getDimensioneX(), ManagerGUI.getInstance().getDimensioneY()+100);
     }
 
 
@@ -70,7 +73,7 @@ public class main extends PApplet {
      */
     public void setup() {
         noStroke();
-        frameRate(1000);
+        frameRate(200);
         ellipseMode(RADIUS);
     }
 
@@ -78,7 +81,7 @@ public class main extends PApplet {
      @brief Il metodo permette di disegnare tutti gli elementi del gioco
      */
     public void draw() {
-        gioco.getInstance().draw();
+        ManagerGUI.getInstance().draw();
     }
 
     /**

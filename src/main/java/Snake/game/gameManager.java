@@ -1,38 +1,46 @@
-package Snake.game.utility;
+package Snake.game;
 
-import Snake.game.vipera.mela;
-import Snake.game.vipera.vipera;
+import Snake.game.vipera.viperaManager;
 
 import java.awt.*;
 
 
 public class gameManager {
 
-    private vipera viperaManager;
+    private Snake.game.vipera.viperaManager viperaManager;
     private boolean morto;
     private mela actualMela;
 
+    private static gameManager ourInstance = new gameManager();
+    public static gameManager getInstance() {
+        return ourInstance;
+    }
 
     private int meleRaccolte=0;
 
     private boolean serpenteColorato;
 
-    public gameManager(boolean serpenteColorato){
-        viperaManager = new vipera();
+    private gameManager(){
+        viperaManager = new viperaManager();
         morto=false;
         actualMela=new mela();
+        serpenteColorato=false;
+    }
+    public void setup(boolean serpenteColorato){
         this.serpenteColorato=serpenteColorato;
     }
+
+
 
     public synchronized void setMorto(boolean v){
         morto=v;
     }
 
     public synchronized int getActX(){
-        return viperaManager.getX();
+        return viperaManager.getActX();
     }
     public synchronized int getActY(){
-        return viperaManager.getY();
+        return viperaManager.getActY();
     }
     public synchronized int getDimensione(){
         return viperaManager.getDimensione();
@@ -109,7 +117,7 @@ public class gameManager {
     }
 
     public synchronized void setFindingMela(boolean b) {
-        viperaManager.setFindingMela(b);
+        viperaManager.setFindindMela(b);
     }
 
 

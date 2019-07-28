@@ -1,7 +1,9 @@
 package Snake.game.vipera;
 
-import Snake.game.utility.Directions;
-import Snake.game.gioco;
+import Snake.game.Directions;
+import Snake.game.gameManager;
+import Snake.gui.ManagerGUI;
+
 import java.awt.*;
 
 public class vipera {
@@ -14,7 +16,12 @@ public class vipera {
     private blocchi blocchi;
 
 
-    public vipera() {
+    private static vipera ourInstance = new vipera();
+    public static vipera getInstance() {
+        return ourInstance;
+    }
+
+    private vipera() {
         reset();
     }
 
@@ -30,24 +37,24 @@ public class vipera {
     public void incX(int quant){
         int tmp = actPosX+quant;
 
-        if(tmp>=0 && tmp<gioco.getInstance().getDimensioneX()){
+        if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneX()){
             actPosX= tmp;
             blocchi.setPosTestaX(actPosX);
             blocchi.posizionaIBlocchi();
         }else{
-            gioco.getInstance().setMorto(true);
+            gameManager.getInstance().setMorto(true);
             System.out.println("USCITO LATO SX o DX");
         }
     }
     public void incY(int quant){
         int tmp = actPosY+quant;
 
-        if(tmp>=0 && tmp<gioco.getInstance().getDimensioneY()){
+        if(tmp>=0 && tmp<ManagerGUI.getInstance().getDimensioneY()){
             actPosY= tmp;
             blocchi.setPosTestaY(actPosY);
             blocchi.posizionaIBlocchi();
         }else{
-            gioco.getInstance().setMorto(true);
+            gameManager.getInstance().setMorto(true);
             System.out.println("USCITO LATO SOPRA o SOTTO");
         }
     }
@@ -63,7 +70,7 @@ public class vipera {
 
     public int getDimensione(){return dimensione;}
 
-    public void respawn() {
+    void respawn() {
         reset();
     }
 
@@ -82,23 +89,8 @@ public class vipera {
     public void addBlocco(Color coloreBlocco) {
         blocchi.addBlocco(coloreBlocco);
 
-
-    }
-    public void spostaDx(){
-        incX(dimensione);
     }
 
-    public void spostaSx(){
-        incX(-dimensione);
-    }
-
-    public void spostaTop(){
-        incY(-dimensione);
-    }
-
-    public void spostaDown(){
-        incY(dimensione);
-    }
     public int getXblocco(int i) {
         return blocchi.getXblocco(i);
     }

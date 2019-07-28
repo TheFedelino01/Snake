@@ -1,11 +1,11 @@
 package Snake.game.vipera;
 
-import Snake.game.utility.Directions;
+import Snake.game.Directions;
+import Snake.game.gameManager;
 
 import java.awt.*;
+import java.util.List;
 import java.util.Vector;
-import Snake.game.gioco;
-
 
 public class blocchi {
 
@@ -20,7 +20,7 @@ public class blocchi {
         prendiTesta().setSguardoRivolto(dir);
         //Se si sovrappone, faccio morire il serpente
         if(controllaSeTestaColpisceCoda()==true){
-            gioco.getInstance().setMorto(true);
+            gameManager.getInstance().setMorto(true);
         }
     }
 
