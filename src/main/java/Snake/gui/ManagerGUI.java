@@ -7,26 +7,55 @@ import javax.swing.*;
 import java.awt.*;
 
 import static javax.swing.SwingConstants.CENTER;
+/**
+ @author  Saccani Federico, federico.saccani01@gmail.com
+ @version 1.0
+ */
 
+/**
+ Classe che gestisce il rendering video
+ */
 public class ManagerGUI {
+    /** Attributo che rappresenta la dimensione della finestra di giocoX*/
     private size dimensioniSchermo;
+    /** Attributo relativo al PApplet per il disegno grafico*/
     private PApplet tavola;
 
+    /** Istanza privata per singleton X*/
     private static ManagerGUI ourInstance = new ManagerGUI();
+    /** Istanza pubblica utilizzata dalle altre classi per singleton X*/
     public static ManagerGUI getInstance() {
         return ourInstance;
     }
 
+    /**
+     @brief Costruttore vuoto della classe
+
+     Imposta gli attributi della classe a valore standard
+     */
     private ManagerGUI(){
+        dimensioniSchermo=null;
+        tavola=null;
     }
-    
+
+    /**
+     @brief Il metodo quando richiamato permette di impostare gli attributi della classe in base ai parametri passati
+
+     @param dimensioneX dimensione X dello schermo
+     @param dimensioneY dimensione Y dello schermo
+     @param tavola oggetto riferito al disegno grafico
+     */
     public void setup(int dimensioneX, int dimensioneY, PApplet tavola) {
         dimensioniSchermo = new size(dimensioneX, dimensioneY);
         this.tavola = tavola;
         
     }
 
+    /**
+     @brief Il metodo permette di disegnare tutti gli oggetti grafici del gioco
 
+     Il metodo richiama i metodi di draw relativi alle classi Vipera e Mela; inoltre disegna le griglie, il punteggio e l'utilities
+     */
     public void draw(){
 
         if(gameManager.getInstance().isMorto()==false){
@@ -41,6 +70,9 @@ public class ManagerGUI {
 
     }
 
+    /**
+     @brief Il metodo genera la posizione della mela all'interno eello schermo, di seguito disegna l'ellisse colorato
+     */
     private void disegnaMela() {
         int posMelaX = gameManager.getInstance().getPosMelaX();
 
@@ -53,11 +85,20 @@ public class ManagerGUI {
         tavola.ellipse(posMelaX, posMelaY,r , r);
     }
 
+    /**
+     @brief Il metodo mostra il messaggio di restart
+     */
     private void visualizzaSchermataMorte(){
         JOptionPane.showMessageDialog(null, "SEI MORTO!");
         gameManager.getInstance().respawn();
     }
 
+    /**
+     @brief Il metodo disegna ogni blocco che compone la vipera
+
+     Se si vuole il serpente colorato, la testa rimane di colore rosso mentre il corpo prende il colore dell'ultima mela catturata.
+     Se invece il serpente non deve essere colorato, la testa sara' sempre rossa mentre il corpo tutto nero.
+     */
     private void disegnaVipera(){
         tavola.background(255, 255, 255);
         int r = gameManager.getInstance().getDimensione();
@@ -89,7 +130,11 @@ public class ManagerGUI {
         }
     }
 
+    /**
+     @brief Il metodo disegna, a seconda della dimensione del serpente, le griglie per le righe e per le colonne
 
+     Per disegnare le righe e le colonne vengono disegnate piu' quadrati attaccati l'uno all'altro
+     */
     private void drawGrids() {
         int dimVipera = gameManager.getInstance().getDimensione();
 
@@ -117,6 +162,9 @@ public class ManagerGUI {
         }
     }
 
+    /**
+     @brief Il metodo disegna il punteggio della partita su schermo
+     */
     private void drawPunteggio(){
         int size =30;
         int margine=25;
@@ -127,6 +175,9 @@ public class ManagerGUI {
         tavola.text("Punteggio: "+gameManager.getInstance().getNumMelePrese(), margine, dimensioniSchermo.getDimensioneY()+size+margine);
     }
 
+    /**
+     @brief Il metodo disegna le utilities su schermo
+     */
     private void drawUtilities(){
         //TODO AGGIUNGERE BOTTONI E SLIDERS... COME SI FA??
         tavola.fill(10);
@@ -136,9 +187,20 @@ public class ManagerGUI {
 
     }
 
+    /**
+     @brief Il metodo restituisce la dimensione X dello schermo
+
+     @return dimensione X dello schermo
+     */
     public int getDimensioneX(){
         return dimensioniSchermo.getDimensioneX();
     }
+
+    /**
+     @brief Il metodo restituisce la dimensione Y dello schermo
+
+     @return dimensione Y dello schermo
+     */
     public int getDimensioneY(){
         return dimensioniSchermo.getDimensioneY();
     }

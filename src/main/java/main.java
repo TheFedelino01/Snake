@@ -24,7 +24,7 @@ public class main extends PApplet {
     /** Altezza dello schermo*/
     private static int altezza=1500;
     /** Attributo che permette se true di far assumere al serpente colori differenti a seconda del colore dell'ultima mela presa*/
-    private boolean serpenteColorato=true;
+    private boolean serpenteColorato=false;
 
     /**
      @brief Il metodo inizializza il PApplet
