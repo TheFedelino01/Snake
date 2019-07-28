@@ -17,7 +17,7 @@ public class gioco {
     public static gioco getInstance() {
         return ourInstance;
     }
-    //txt
+
     private gioco(){
 
     }

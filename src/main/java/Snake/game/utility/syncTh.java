@@ -16,7 +16,7 @@ public class syncTh {
 
     public void aspettoChePrende(){
         try {
-             prendo.acquire();
+            prendo.acquire();
         }catch(InterruptedException e){System.out.println(e.toString());}
     }
 

@@ -21,7 +21,7 @@ public class thControllaMela extends Thread {
 
                 xMela = gioco.getInstance().getPosMelaX();
                 yMela = gioco.getInstance().getPosMelaY();
-//txt
+
                 //Se la vipera e' sopra la mela
                 if(isViperaOverMela(xVipera,yVipera,xMela,yMela)){
                     //Mela presa

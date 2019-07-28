@@ -1,11 +1,11 @@
 package Snake.game.vipera;
 
-import Snake.game.Directions;
-import Snake.game.gameManager;
+import Snake.game.utility.Directions;
 
 import java.awt.*;
-import java.util.List;
 import java.util.Vector;
+import Snake.game.gioco;
+
 
 public class blocchi {
 
@@ -20,7 +20,7 @@ public class blocchi {
         prendiTesta().setSguardoRivolto(dir);
         //Se si sovrappone, faccio morire il serpente
         if(controllaSeTestaColpisceCoda()==true){
-            gameManager.getInstance().setMorto(true);
+            gioco.getInstance().setMorto(true);
         }
     }
 
@@ -57,7 +57,7 @@ public class blocchi {
         //Il blocco prende la posizione dell'ultimo blocco
         int xNuovo = dimmiXdelNuovoBlocco();
         int yNuovo = dimmiYdelNuovoBlocco();
-//txt
+
         prendiUltimoBlocco().dicoCheHoUnFiglio();//Ora ha un figlio
 
         //aggiungo un blocco che non e' una testa

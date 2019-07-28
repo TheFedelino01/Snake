@@ -129,7 +129,7 @@ public class ManagerGUI {
      */
     private void drawGrids() {
         int dimVipera = gioco.getInstance().getDimensione();
-//txt
+
 
         int cols = dimensioniSchermo.getDimensioneX() / dimVipera;
         int rows = dimensioniSchermo.getDimensioneY() / dimVipera;

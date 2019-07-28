@@ -1,11 +1,9 @@
 
-import Snake.game.commands;
-import Snake.game.gameManager;
+import Snake.game.utility.commands;
+import Snake.game.gioco;
 import Snake.game.threads.thControllaMela;
 import Snake.game.threads.thGenera;
 import Snake.game.threads.thReader;
-import Snake.gui.ManagerGUI;
-import javafx.scene.input.KeyCode;
 import processing.core.PApplet;
 /**
  @author  Saccani Federico, federico.saccani01@gmail.com
@@ -32,15 +30,14 @@ public class main extends PApplet {
     public static void main (String[] args) {
         PApplet.main(new String[]{"main"});
     }
-//txt
+
     /**
      @brief Il metodo imposta le classi Manager a seconda dei valori degli attributi, di seguito avvia tutti i threads
      */
     public main() {
         System.out.println("Starting application...");
-        
-        ManagerGUI.getInstance().setup(larghezza, altezza, this);
-        gameManager.getInstance().setup(serpenteColorato);
+        gioco.getInstance().setup(larghezza, altezza, this,serpenteColorato);
+
         thStarts();
     }
 
@@ -54,17 +51,16 @@ public class main extends PApplet {
         thGenera thGenera = new thGenera();
         thControllaMela thControlla = new thControllaMela();
 
-        thControlla.start();
         thReader.start();
         thGenera.start();
-
+        thControlla.start();
     }
 
     /**
      @brief Il metodo imposta la dimensione della finestra di gioco
      */
     public void settings() {
-        size(ManagerGUI.getInstance().getDimensioneX(), ManagerGUI.getInstance().getDimensioneY()+100);
+        size(gioco.getInstance().getDimensioneX(), gioco.getInstance().getDimensioneY()+100);
     }
 
 
@@ -73,7 +69,7 @@ public class main extends PApplet {
      */
     public void setup() {
         noStroke();
-        frameRate(200);
+        frameRate(1000);
         ellipseMode(RADIUS);
     }
 
@@ -81,7 +77,7 @@ public class main extends PApplet {
      @brief Il metodo permette di disegnare tutti gli elementi del gioco
      */
     public void draw() {
-        ManagerGUI.getInstance().draw();
+        gioco.getInstance().draw();
     }
 
     /**

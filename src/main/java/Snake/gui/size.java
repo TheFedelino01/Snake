@@ -25,7 +25,6 @@ public class size {
         dimensioneX = x;
         dimensioneY = y;
     }
-    //txt
     /**
      @brief Costruttore vuoto della classe
 

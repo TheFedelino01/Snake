@@ -84,7 +84,7 @@ public class vipera {
 
 
     }
-     public void spostaDx(){
+    public void spostaDx(){
         incX(dimensione);
     }
 
