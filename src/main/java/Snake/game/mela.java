@@ -30,7 +30,7 @@ public class mela {
         return posMelaY;
     }
 
-
+    //txt
     public void generateColor(){
         Random rn = new Random();
 

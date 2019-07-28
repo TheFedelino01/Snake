@@ -21,7 +21,7 @@ public class thGenera extends Thread {
                 gameManager.getInstance().setFindingMela(true);
             }
 
-            //else sta ancora cercando la mela
+             //else sta ancora cercando la mela
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {

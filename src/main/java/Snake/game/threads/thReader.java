@@ -44,7 +44,7 @@ public class thReader extends Thread{
                         direzione=Directions.SOPRA;
                         break;
                     case 'A':
-                        direzione=Directions.SINISTRA;
+                         direzione=Directions.SINISTRA;
                         break;
                     case 'D':
                         direzione=Directions.DESTRA;

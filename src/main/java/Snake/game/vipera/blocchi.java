@@ -57,7 +57,7 @@ public class blocchi {
         //Il blocco prende la posizione dell'ultimo blocco
         int xNuovo = dimmiXdelNuovoBlocco();
         int yNuovo = dimmiYdelNuovoBlocco();
-
+//txt
         prendiUltimoBlocco().dicoCheHoUnFiglio();//Ora ha un figlio
 
         //aggiungo un blocco che non e' una testa

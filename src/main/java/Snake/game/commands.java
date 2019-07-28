@@ -20,7 +20,7 @@ public class commands {
     private commands(){
         keyDown=' ';
     }
-    
+
     public void setKeyDown(Character car, int keyCode){
         car = Character.toUpperCase(car);
 

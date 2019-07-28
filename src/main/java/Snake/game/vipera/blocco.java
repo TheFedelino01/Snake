@@ -47,7 +47,7 @@ public class blocco {
                 //Mi muovo ma non faccio muovere il figlio
                 tutteMosse.add(Directions.NONE);
                 tutteMosse.add(dir);
-                //Dico che l'ho "distaccato"
+                 //Dico che l'ho "distaccato"
                 distaccaFiglio=true;
             }else{
                 //L'ho giá distaccato e quindi gli dico che pos ero prima

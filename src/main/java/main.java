@@ -32,7 +32,7 @@ public class main extends PApplet {
     public static void main (String[] args) {
         PApplet.main(new String[]{"main"});
     }
-
+//txt
     /**
      @brief Il metodo imposta le classi Manager a seconda dei valori degli attributi, di seguito avvia tutti i threads
      */

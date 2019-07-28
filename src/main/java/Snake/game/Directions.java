@@ -11,6 +11,6 @@ package Snake.game;
  */
 public enum Directions {
     SOPRA, SOTTO, DESTRA, SINISTRA, NONE;
-
+//txt
 
 }
