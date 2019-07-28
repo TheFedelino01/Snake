@@ -51,9 +51,10 @@ public class main extends PApplet {
         thGenera thGenera = new thGenera();
         thControllaMela thControlla = new thControllaMela();
 
+        thControlla.start();
         thReader.start();
         thGenera.start();
-        thControlla.start();
+
     }
 
     /**

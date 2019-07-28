@@ -15,7 +15,8 @@ public class thControllaMela extends Thread {
             int xMela, yMela;
 
             //Se cerca la mela, controllo se l'ha colliso
-            if(gioco.getInstance().isFindingMela()==true){
+             //if(gioco.getInstance().isFindingMela()==true){
+
                 xVipera = gioco.getInstance().getActX();
                 yVipera = gioco.getInstance().getActY();
 
@@ -25,11 +26,18 @@ public class thControllaMela extends Thread {
                 //Se la vipera e' sopra la mela
                 if(isViperaOverMela(xVipera,yVipera,xMela,yMela)){
                     //Mela presa
+                    gioco.getInstance().aspettoCheGenera();
                     gioco.getInstance().melaPresa();
-                    gioco.getInstance().setFindingMela(false);
+
+                    gioco.getInstance().dicoCheHoPreso();
+                    //gioco.getInstance().aspettoCheGenera();
+
+
+                    //gioco.getInstance().setFindingMela(false);
                 }
             }
-        }
+
+        //}
     }
 
     private boolean isViperaOverMela(int xV,int yV,int xM,int yM){

@@ -28,6 +28,16 @@ public class gioco {
         managerGui = new ManagerGUI(dimensioneX,dimensioneY,tavola);
     }
 
+    public void aspettoChePrende(){
+        System.out.println("ASPETTO CHE PRENDE");
+        syncTh.aspettoChePrende();
+    }
+
+    public void dicoCheHoPreso(){
+        System.out.println("DICO CHE HO PRESO");
+        syncTh.dicoCheHoPreso();
+    }
+
 
     public int getDimensioneX(){
         return managerGui.getDimensioneX();
@@ -61,6 +71,7 @@ public class gioco {
 
     public void respawn(){
         gameManager.respawn();
+        syncTh.restart();
     }
 
     public int getNumMelePrese(){
@@ -97,13 +108,6 @@ public class gioco {
     public void setPosMela(int x,int y){
         gameManager.setPosMela(x,y);
     }
-    public boolean isFindingMela() {
-        return gameManager.isFindingMela();
-    }
-    public void setFindingMela(boolean v){
-        gameManager.setFindingMela(v);
-    }
-
     public void melaPresa(){
         gameManager.melaPresa();
     }
@@ -112,5 +116,15 @@ public class gioco {
     }
     public int getActY(){
         return gameManager.getActY();
+    }
+
+    public void aspettoCheGenera() {
+        System.out.println("ASPETTO CHE GENERA");
+        syncTh.aspettoCheGenera();
+    }
+
+    public void dicoCheHoGenerato(){
+        System.out.println("HO GENERATO");
+        syncTh.dicoCheHoGenerato();
     }
 }

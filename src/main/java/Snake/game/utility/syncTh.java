@@ -6,31 +6,47 @@ import java.util.concurrent.Semaphore;
 
 public class syncTh {
     private Semaphore prendo;
-    private Semaphore genera;
-
+    private Semaphore genero;
 
     public syncTh(){
-        prendo = new Semaphore(1);
-        genera = new Semaphore(0);
+        restart();
     }
 
     public void aspettoChePrende(){
         try {
+
             prendo.acquire();
+
+            msg();
         }catch(InterruptedException e){System.out.println(e.toString());}
     }
 
     public void dicoCheHoPreso(){
+
         prendo.release();
+        msg();
     }
 
     public void aspettoCheGenera(){
-        try{
-            genera.acquire();
+        try {
+
+            genero.acquire();
+            msg();
         }catch(InterruptedException e){System.out.println(e.toString());}
     }
 
     public void dicoCheHoGenerato(){
-        genera.release();
+
+        genero.release();
+        msg();
+    }
+
+    public void msg(){
+        System.out.println("PRENDO: "+prendo.toString()+"\n GENERO: "+genero.toString());
+    }
+
+    public void restart() {
+        prendo = new Semaphore(1);
+        genero = new Semaphore(0);
     }
 }
