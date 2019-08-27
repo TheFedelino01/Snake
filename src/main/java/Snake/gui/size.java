@@ -3,7 +3,6 @@ package Snake.gui;
  @author  Saccani Federico, federico.saccani01@gmail.com
  @version 1.0
  */
-
 /**
  Classe che gestisce le dimensioni della finestra di gioco
  */

@@ -18,9 +18,9 @@ public class main extends PApplet {
     /** Attributo che indentifica la lentezza di movimento del serpente in millisecondi */
     private static int lentezza=100;
     /** Larghezza dello schermo */
-    private static int larghezza=2000;
+    private static int larghezza=1500;
     /** Altezza dello schermo*/
-    private static int altezza=1500;
+    private static int altezza=1000;
     /** Attributo che permette se true di far assumere al serpente colori differenti a seconda del colore dell'ultima mela presa*/
     private boolean serpenteColorato=false;
 
