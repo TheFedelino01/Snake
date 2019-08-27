@@ -13,10 +13,10 @@ import java.awt.*;
  @version 1.0
  */
 /**
- Classe che funge da dati condivisi
+ Classe che funge da dati condivisi, e' la classe principale l'unica utilizzata per interagire con le altre varie classi
  */
 public class gioco {
-    private syncTh syncTh;
+   // private syncTh syncTh;
     /** Attributo che permette di gestire il gioco*/
     private gameManager gameManager;
     /** Attributo che permette di gestire la grafica*/
@@ -49,7 +49,7 @@ public class gioco {
      @param colorato attributo riferito al colore del serpente
      */
     public void setup(int dimensioneX, int dimensioneY, PApplet tavola, boolean colorato){
-        syncTh = new syncTh();
+        //syncTh = new syncTh();
         gameManager = new gameManager(colorato);
         managerGui = new ManagerGUI(dimensioneX,dimensioneY,tavola);
     }
