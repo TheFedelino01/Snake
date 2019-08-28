@@ -14,6 +14,7 @@ import java.awt.*;
  */
 /**
  Classe che funge da dati condivisi, e' la classe principale l'unica utilizzata per interagire con le altre varie classi
+ Essendo la classe principale, e' l'unica ad utilizzare un singleton
  */
 public class gioco {
    // private syncTh syncTh;

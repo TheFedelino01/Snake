@@ -37,25 +37,25 @@ public class gameManager {
     public synchronized int getDimensione(){
         return viperaManager.getDimensione();
     }
-    
+
     public synchronized void sposta(Directions direzione){
         switch(direzione){
             case SOPRA:
                 viperaManager.spostaTop();
                 break;
-                
+
             case SOTTO:
                 viperaManager.spostaDown();
                 break;
-                
+
             case DESTRA:
                 viperaManager.spostaDx();
                 break;
-                
+
             case SINISTRA:
                 viperaManager.spostaSx();
                 break;
-                
+
             default:
                 break;
         }
@@ -123,10 +123,6 @@ public class gameManager {
 
     public Color getColoreMela() {
         return actualMela.getColore();
-    }
-
-    public Color getColoreBlocco(int i) {
-        return viperaManager.getColoreBlocco(i);
     }
 
     public boolean ePresenteUnBlocco(int x, int y){
