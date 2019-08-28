@@ -28,7 +28,7 @@ public class vipera {
     /**
      @brief Costruttore senza parametri della classe
 
-     Quando chiamato richiama il metodo per impostare gli attributi della classe a valori di default
+     Quando chiamato, richiama il metodo per impostare gli attributi della classe a valori di default
      */
     public vipera() {
         reset();
