@@ -3,14 +3,27 @@ package Snake.game.threads;
 import Snake.game.gioco;
 
 import java.util.Random;
-
+/**
+ @author  Saccani Federico, federico.saccani01@gmail.com
+ @version 1.0
+ */
+/**
+ La classe corrisponde al thread incaricato nel generare la mela quando viene catturata
+ */
 public class thGenera extends Thread {
 
-
+    /**
+     @brief Costruttore senza parametri della classe
+     */
     public thGenera(){
 
     }
 
+    /**
+     @brief Metodo run del thread
+
+     Se il serpente ha catturato la mela, il thread genera la posizione e dice alla vipera di cercarla
+     */
     @Override
     public void run(){
         while(!isInterrupted()){
@@ -29,7 +42,9 @@ public class thGenera extends Thread {
         }
     }
 
-
+    /**
+     @brief Metodo genera la posizione della mela evitando che venga spawnata in corrispondenza di un blocco che compone la vipera
+     */
     private void generaPosizione(){
         int xMax = gioco.getInstance().getDimensioneX();
         int yMax = gioco.getInstance().getDimensioneY();
