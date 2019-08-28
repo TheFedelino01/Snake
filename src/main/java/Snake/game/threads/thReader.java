@@ -6,18 +6,34 @@ import Snake.game.gioco;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-
+/**
+ @author  Saccani Federico, federico.saccani01@gmail.com
+ @version 1.0
+ */
+/**
+ La classe corrisponde al thread incaricato nel far muovere il serpente a seconda dell'ultimo input premuto dall'utente
+ */
 public class thReader extends Thread{
-
+    /** Attributo che rappresenta l'ultimo input premuto*/
     private Character keyDown;
+    /** Attributo che rappresenta la pausa del thread*/
     private int delay;
-    
+
+    /**
+     @brief Costruttore della classe con parametro
+
+     @param delay pausa del thread
+     */
     public thReader(int delay){
         keyDown=' ';
         this.delay=delay;
     }
 
+    /**
+     @brief Metodo run del thread
+
+     Se il serpente e' vivo, viene spostato in base all'ultimo input premuto dall'utente
+     */
     @Override
     public void run(){
 
@@ -27,7 +43,6 @@ public class thReader extends Thread{
             if(gioco.getInstance().isMorto()==false){
                 keyDown = commands.getInstance().getKeyDown();//Metto in maiuscolo
 
-                String ris="null";
                 Directions direzione= Directions.NONE;
 
                 switch (keyDown){
@@ -46,7 +61,6 @@ public class thReader extends Thread{
                         break;
 
                     default:
-                        ris="null";
                         break;
                 }
                 //Sposto la vipera

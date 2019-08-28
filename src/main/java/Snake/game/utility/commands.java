@@ -15,7 +15,6 @@ package Snake.game.utility;
 public class commands {
     /** Attributo che rappresenta l'ultimo comando inviato*/
     private Character keyDown;
-
     /** Attributo che rappresenta l'instance privata per singleton*/
     private static commands ourInstance = new commands();
     /** Attributo che rappresenta l'instance pubblica per singleton*/
