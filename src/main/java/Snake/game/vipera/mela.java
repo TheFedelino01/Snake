@@ -82,7 +82,7 @@ public class mela {
     }
 
     /**
-     @brief Genera un colore random 
+     @brief Genera un colore random
      */
     public void cambiaColore() {
         generateColor();

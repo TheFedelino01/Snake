@@ -16,7 +16,7 @@ public class vipera {
     private int actPosX;
     /** Attributo che rappresenta la posizione Y della vipera*/
     private int actPosY;
-    /** Attributo che rappresenta la grandezza della vipera (numero di mele prese)*/
+    /** Attributo che rappresenta la grandezza del singolo blocco che compone la vipera*/
     private int dimensione;
 
     /** Attributo che dice se la vipera sta cercando la mela*/
