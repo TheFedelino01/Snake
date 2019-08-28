@@ -13,7 +13,7 @@ public class blocchi {
 
     public blocchi(int startX, int startY){
         //creo la testa, la testa ha sempre il colore rosso!
-        blocchi.add(new blocco(startX,startY,true, Color.red));
+        blocchi.add(new blocco(startX,startY, Color.red));
     }
 
     public void setDirezioneVipera(Directions dir) {
@@ -61,7 +61,7 @@ public class blocchi {
         prendiUltimoBlocco().dicoCheHoUnFiglio();//Ora ha un figlio
 
         //aggiungo un blocco che non e' una testa
-        blocchi.add(new blocco(xNuovo,yNuovo,false,coloreBlocco));
+        blocchi.add(new blocco(xNuovo,yNuovo,coloreBlocco));
 
 
     }

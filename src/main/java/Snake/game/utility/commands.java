@@ -6,21 +6,37 @@
 package Snake.game.utility;
 
 /**
- *
- * @author Federico Saccani
+ @author  Saccani Federico, federico.saccani01@gmail.com
+ @version 1.0
+ */
+/**
+ La classe gestisce i comandi inviati da tastiera
  */
 public class commands {
+    /** Attributo che rappresenta l'ultimo comando inviato*/
     private Character keyDown;
-    
+
+    /** Attributo che rappresenta l'instance privata per singleton*/
     private static commands ourInstance = new commands();
+    /** Attributo che rappresenta l'instance pubblica per singleton*/
     public static commands getInstance() {
         return ourInstance;
     }
 
+    /**
+     @brief Costruttore privato senza parametri della classe
+     */
     private commands(){
         keyDown=' ';
     }
-    
+
+    /**
+     @brief Il metodo permette di impostare l'attributo keyDown in base ai parametri passati
+
+     Il metodo converte l'input delle frecce della tastiera nei rispettivi comandi WASD
+     @param car carattere premuto su tastiera
+     @param keyCode codice del carattere premuto su tastiera
+     */
     public void setKeyDown(Character car, int keyCode){
         car = Character.toUpperCase(car);
 
@@ -38,14 +54,25 @@ public class commands {
         }
     }
 
+    /**
+     @brief Ritorna l'ultimo comando inviato (keyDown)
+     */
     public Character getKeyDown() {
         return keyDown;
     }
-    
+
+    /**
+     @brief Resetta l'attributo keyDown
+     */
     public void clearKeyDown(){
         keyDown=' ';
     }
 
+    /**
+     @brief Il metodo converte il parametro passato nella sequenza di tasti WASD
+
+     @param keyCode codice del tasto riferito alle frecce della tastiera che deve essere trasformato in WASD
+     */
     private Character convertToWASD(int keyCode){
         Character ris=null;
 
@@ -71,6 +98,12 @@ public class commands {
         return ris;
     }
 
+    /**
+     @brief Metodo che ritorna true quando vogliamo tornare indietro sullo stesso asse
+
+     Evita che vengano eseguiti comandi di cambio direzione sullo stesso asse.
+     Esempio: mi sto muovendo a DX, non posso dire di muovermi a SX perche' altrimenti andrei a sovrappormi con la testa sulla coda
+     */
     private boolean isDoingAMossaProibita(Character car){
         //Inversione orizzontale
         if((keyDown=='A' && car=='D')||(keyDown=='D' && car=='A')){
