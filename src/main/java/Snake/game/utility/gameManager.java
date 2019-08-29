@@ -43,25 +43,25 @@ public class gameManager {
 
      @param v stato
      */
-    public synchronized void setMorto(boolean v){
+    public void setMorto(boolean v){
         morto=v;
     }
     /**
      @brief Ritorna la posizione X della vipera
      */
-    public synchronized int getActX(){
+    public int getActX(){
         return viperaManager.getX();
     }
     /**
      @brief Ritorna la posizione X della vipera
      */
-    public synchronized int getActY(){
+    public int getActY(){
         return viperaManager.getY();
     }
     /**
      @brief Ritorna la dimensione della vipera
      */
-    public synchronized int getDimensione(){
+    public int getDimensione(){
         return viperaManager.getDimensione();
     }
 
@@ -70,7 +70,7 @@ public class gameManager {
 
      @param direzione direzione della vipera
      */
-    public synchronized void sposta(Directions direzione){
+    public void sposta(Directions direzione){
         switch(direzione){
             case SOPRA:
                 viperaManager.spostaTop();
@@ -96,14 +96,14 @@ public class gameManager {
     /**
      @brief Ritorna l'attributo morto della classe
      */
-    public synchronized boolean isMorto() {
+    public boolean isMorto() {
         return morto;
     }
 
     /**
      @brief Permette di restartare il gioco
      */
-    public synchronized void respawn() {
+    public void respawn() {
         morto=false;
         viperaManager.respawn();
         commands.getInstance().clearKeyDown();
@@ -113,7 +113,7 @@ public class gameManager {
     /**
      @brief Dice se la vipera sta cercando la mela
      */
-    public synchronized boolean isFindingMela(){
+    public boolean isFindingMela(){
         return viperaManager.isFindingMela();
     }
 
@@ -123,7 +123,7 @@ public class gameManager {
      @param posMelaX posizione X
      @param posMelaY posizione Y
      */
-    public synchronized void setPosMela(int posMelaX, int posMelaY) {
+    public void setPosMela(int posMelaX, int posMelaY) {
         actualMela.setPosX(posMelaX);
         actualMela.setPosY(posMelaY);
     }
@@ -131,7 +131,7 @@ public class gameManager {
     /**
      @brief Quando richiamato dice che la mela e' stata catturata quindi viene aggiunto un blocco alla vipera
      */
-    public synchronized void melaPresa(){
+    public void melaPresa(){
         meleRaccolte++;
         //Creo il blocco e gli faccio assumero il colore della mela presa se vuole che il serpente si colori
         //NO: altrimenti tutti i blocchi del serpente saranno neri
@@ -144,7 +144,7 @@ public class gameManager {
     /**
      @brief Ritorna il numero di mele raccolte dalla vipera
      */
-    public synchronized int getNumMelePrese(){
+    public int getNumMelePrese(){
         return meleRaccolte;
     }
 
@@ -153,20 +153,20 @@ public class gameManager {
 
      @param dir direzione vipera
      */
-    public synchronized void setDirezioneVipera(Directions dir){
+    public void setDirezioneVipera(Directions dir){
         viperaManager.setDirezioneVipera(dir);
     }
 
     /**
      @brief Ritorna la posizione X della mela
      */
-    public synchronized int getPosMelaX(){
+    public int getPosMelaX(){
         return actualMela.getPosX();
     }
     /**
      @brief Ritorna la posizione Y della mela
      */
-    public synchronized int getPosMelaY(){
+    public int getPosMelaY(){
         return actualMela.getPosY();
     }
 
@@ -175,7 +175,7 @@ public class gameManager {
 
      @param b booleana
      */
-    public synchronized void setFindingMela(boolean b) {
+    public void setFindingMela(boolean b) {
         viperaManager.setFindingMela(b);
     }
 
@@ -184,7 +184,7 @@ public class gameManager {
 
      @param i identificativo del blocco
      */
-    public synchronized int posXblocco(int i){
+    public int posXblocco(int i){
         return viperaManager.getXblocco(i);
     }
     /**
@@ -192,7 +192,7 @@ public class gameManager {
 
      @param i identificativo del blocco
      */
-    public synchronized int posYblocco(int i){
+    public int posYblocco(int i){
         return viperaManager.getYblocco(i);
     }
 

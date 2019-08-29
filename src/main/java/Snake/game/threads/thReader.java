@@ -39,7 +39,7 @@ public class thReader extends Thread{
 
         while(!isInterrupted()){
 
-            //Se non p morto, lo faccio muovere
+            //Se non e' morto, lo faccio muovere
             if(gioco.getInstance().isMorto()==false){
                 keyDown = commands.getInstance().getKeyDown();//Metto in maiuscolo
 

@@ -17,7 +17,8 @@ import java.awt.*;
  Essendo la classe principale, e' l'unica ad utilizzare un singleton
  */
 public class gioco {
-   // private syncTh syncTh;
+    /** Attributo che permette la sincronizzazione dei threads*/
+    private syncTh syncTh = new syncTh();
     /** Attributo che permette di gestire il gioco*/
     private gameManager gameManager;
     /** Attributo che permette di gestire la grafica*/
@@ -49,7 +50,7 @@ public class gioco {
      @param tavola oggetto per disegnare
      @param colorato attributo riferito al colore del serpente
      */
-    public void setup(int dimensioneX, int dimensioneY, PApplet tavola, boolean colorato){
+    public synchronized void setup(int dimensioneX, int dimensioneY, PApplet tavola, boolean colorato){
         //syncTh = new syncTh();
         gameManager = new gameManager(colorato);
         managerGui = new ManagerGUI(dimensioneX,dimensioneY,tavola);
@@ -59,66 +60,66 @@ public class gioco {
     /**
      @brief Il metodo permette di restituire la dimensione X dello schermo
      */
-    public int getDimensioneX(){
+    public synchronized int getDimensioneX(){
         return managerGui.getDimensioneX();
     }
     /**
      @brief Il metodo permette di restituire la dimensione Y dello schermo
      */
-    public int getDimensioneY(){
+    public synchronized int getDimensioneY(){
         return managerGui.getDimensioneY();
     }
 
     /**
      @brief Il metodo disegna tutta la schermata GUI su schermo
      */
-    public void draw(){
+    public synchronized void draw(){
         managerGui.draw();
     }
 
     /**
      @brief Il metodo dice se il serpente e' morto oppure no
      */
-    public boolean isMorto(){
+    public synchronized boolean isMorto(){
         return gameManager.isMorto();
     }
     /**
      @brief Il metodo restituisce la dimensione X della mela
      */
-    public int getPosMelaX(){
+    public synchronized int getPosMelaX(){
         return gameManager.getPosMelaX();
     }
     /**
      @brief Il metodo restituisce la dimensione Y della mela
      */
-    public int getPosMelaY(){
+    public synchronized int getPosMelaY(){
         return gameManager.getPosMelaY();
     }
 
     /**
      @brief Il metodo restituisce la dimensione del serpente cioe' da quanti blocchi e' composto
      */
-    public int getDimensione(){
+    public synchronized int getDimensione(){
         return gameManager.getDimensione();
     }
     /**
      @brief Il metodo restituisce il colore della mela attualmente generata
      */
-    public Color getColoreMela(){
+    public synchronized Color getColoreMela(){
         return gameManager.getColoreMela();
     }
 
     /**
      @brief Il metodo fa respawnare il serpente
      */
-    public void respawn(){
+    public synchronized void respawn(){
         gameManager.respawn();
     }
 
     /**
      @brief Il metodo restituisce il numero di mele prese
      */
-    public int getNumMelePrese(){
+    public synchronized int getNumMelePrese(){
         return gameManager.getNumMelePrese();
     }
 
@@ -127,7 +128,7 @@ public class gioco {
 
      @param i identificativo del blocco di cui si vuole ottenere informazioni
      */
-    public int posXblocco(int i){
+    public synchronized int posXblocco(int i){
         return gameManager.posXblocco(i);
     }
     /**
@@ -135,21 +136,21 @@ public class gioco {
 
      @param i identificativo del blocco di cui si vuole ottenere informazioni
      */
-    public int posYblocco(int i){
+    public synchronized int posYblocco(int i){
         return gameManager.posYblocco(i);
     }
 
     /**
      @brief Il metodo dice se il serpente e' colorato oppure no
      */
-    public boolean getSerpenteColorato(){
+    public synchronized boolean getSerpenteColorato(){
         return gameManager.getSerpenteColorato();
     }
 
     /**
      @brief Il metodo restituisce il numero di mele prese
      */
-    public Color getColoreUltimoBlocco(){
+    public synchronized Color getColoreUltimoBlocco(){
         return gameManager.getColoreUltimoBlocco();
     }
     /**
@@ -157,7 +158,7 @@ public class gioco {
 
      @param val true significa vivo, false significa morto
      */
-    public void setMorto(boolean val){
+    public synchronized void setMorto(boolean val){
         gameManager.setMorto(val);
     }
     /**
@@ -165,7 +166,7 @@ public class gioco {
 
      @param c la direzione del serpente
      */
-    public void setDirezioneVipera(Directions c){
+    public synchronized void setDirezioneVipera(Directions c){
         gameManager.setDirezioneVipera(c);
     }
     /**
@@ -173,7 +174,7 @@ public class gioco {
 
      @param c la direzione del serpente
      */
-    public void sposta(Directions c){
+    public synchronized void sposta(Directions c){
         gameManager.sposta(c);
     }
 
@@ -183,7 +184,7 @@ public class gioco {
      @param x posizione X
      @param y posizione Y
      */
-    public boolean ePresenteUnBlocco(int x, int y){
+    public synchronized boolean ePresenteUnBlocco(int x, int y){
         return gameManager.ePresenteUnBlocco(x,y);
     }
 
@@ -193,13 +194,13 @@ public class gioco {
      @param x posizione X della mela
      @param y posizione Y della mela
      */
-    public void setPosMela(int x,int y){
+    public synchronized void setPosMela(int x,int y){
         gameManager.setPosMela(x,y);
     }
     /**
      @brief Il metodo dice se il serpente sta cercando la mela
      */
-    public boolean isFindingMela() {
+    public synchronized boolean isFindingMela() {
         return gameManager.isFindingMela();
     }
     /**
@@ -207,28 +208,53 @@ public class gioco {
 
      @param v true sta cercando la mela, false non deve cercare la mela
      */
-    public void setFindingMela(boolean v){
+    public synchronized void setFindingMela(boolean v){
         gameManager.setFindingMela(v);
     }
 
     /**
      @brief Il metodo dice al serpente che la mela e' stata presa
      */
-    public void melaPresa(){
+    public synchronized void melaPresa(){
         gameManager.melaPresa();
     }
 
     /**
      @brief Il metodo restituisce la posizione X della testa del serpente
      */
-    public int getActX(){
+    public synchronized int getActX(){
         return gameManager.getActX();
     }
 
     /**
      @brief Il metodo restituisce la posizione Y della testa del serpente
      */
-    public int getActY(){
+    public synchronized int getActY(){
         return gameManager.getActY();
+    }
+
+    /**
+     @brief Il metodo permette di segnalare che la mela e' stata presa
+     */
+    public void dicoMelaPresa(){
+        syncTh.dicoCheHoPreso();
+    }
+    /**
+     @brief Il metodo permette di segnalare che la mela e' stata generata
+     */
+    public void dicoMelaGenerata(){
+        syncTh.dicoCheHoGenerato();
+    }
+    /**
+     @brief Il metodo permette di aspettare che la mela venga generata
+     */
+    public void aspettoCheMelaGeneri(){
+        syncTh.aspettoCheGenera();
+    }
+    /**
+     @brief Il metodo permette di aspettare che la mela venga presa
+     */
+    public void aspettoChePrendeMela(){
+        syncTh.aspettoChePrende();
     }
 }

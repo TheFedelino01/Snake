@@ -27,11 +27,14 @@ public class thGenera extends Thread {
     @Override
     public void run(){
         while(!isInterrupted()){
-            if(gioco.getInstance().isFindingMela()==false){
+            gioco.getInstance().aspettoChePrendeMela();
+
+           // if(gioco.getInstance().isFindingMela()==false){
                 //Ha preso la mela e quindi ora la rigenero
                 generaPosizione();
-                gioco.getInstance().setFindingMela(true);
-            }
+                //gioco.getInstance().setFindingMela(true);
+           // }
+            gioco.getInstance().dicoMelaGenerata();
 
             //else sta ancora cercando la mela
             try {
