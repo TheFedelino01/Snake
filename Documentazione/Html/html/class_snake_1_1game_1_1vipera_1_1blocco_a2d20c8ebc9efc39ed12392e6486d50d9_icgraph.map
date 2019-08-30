@@ -1,0 +1,17 @@
+<map id="setSguardoRivolto" name="setSguardoRivolto">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a6007259ace9d33bd56b9a6193e86df39" title="Il metodo imposta la direzione della testa della vipera a seconda del parametro passato. " alt="" coords="180,35,379,76"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#acabc02ee9509cd1e196033348dd76a6f" title="Il metodo permette di far muovere il blocco a seconda della direzione passata come parametro..." alt="" coords="253,102,306,129"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera a seconda della direzione passata come parametro. " alt="" coords="449,15,640,56"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera in base al parametro passato. " alt="" coords="711,5,949,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#ac6bacbb78b013d51f31d65501e08522e" title="Il metodo imposta la direzione del serpente in base al parametro passato. " alt="" coords="1315,21,1522,63"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="1817,66,2037,93"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a2fbeb7ff9ae1fc1f5c5b1a885900034c" title="Il metodo dice ad ogni blocco (ad eccezione della testa) di seguire il blocco davanti. " alt="" coords="427,97,663,139"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ab776bb3430d4d6d0a27bb94ae74ee07c" title="Sposta la vipera sull&#39;asse X in base alla quantita passata come parametro. " alt="" coords="731,105,929,131"/>
+<area shape="rect" id="node14" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a51a16845a66091ec0697d9ccf8ba4e8d" title="Sposta la vipera sull&#39;asse Y in base alla quantita passata come parametro. " alt="" coords="731,159,929,186"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a2bb91b033817cdbd85ff3c137b3d32db" title="Sposta di un blocco a DX la vipera. " alt="" coords="1005,58,1233,85"/>
+<area shape="rect" id="node13" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a1f636041d5b342db6f92850f6d19da55" title="Sposta di un blocco a SX la vipera. " alt="" coords="1005,109,1233,135"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a9837912437f9fefee6140800ce8d6d76" title="Sposta la vipera a seconda della direzione passata come parametro. " alt="" coords="1289,109,1548,135"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1gioco.html#ad62cb3f928d2518fde54d64970bb850d" title="Il metodo sposta il serpente in base alla direzione passata come parametro. " alt="" coords="1596,94,1769,121"/>
+<area shape="rect" id="node15" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a43993392ddd2cba04e0df6312742f235" title="Sposta di un blocco SOPRA la vipera. " alt="" coords="1003,159,1236,186"/>
+<area shape="rect" id="node16" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a00853f3bb0a1c94d5a67c763d29acd84" title="Sposta di un blocco SOTTO la vipera. " alt="" coords="997,210,1241,237"/>
+</map>

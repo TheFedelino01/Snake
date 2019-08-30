@@ -1,0 +1,400 @@
+\hypertarget{class_snake_1_1gui_1_1_manager_g_u_i}{}\section{Manager\+G\+UI Class Reference}
+\label{class_snake_1_1gui_1_1_manager_g_u_i}\index{Manager\+G\+UI@{Manager\+G\+UI}}
+
+
+Collaboration diagram for Manager\+G\+UI\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{class_snake_1_1gui_1_1_manager_g_u_i__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a2006dad197b32f07d7b3e790cac126ff}{Manager\+G\+UI}} (int dimensioneX, int dimensioneY, P\+Applet \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a75f316b1f7fa183ba86929af39a01720}{tavola}})
+\begin{DoxyCompactList}\small\item\em Costruttore vuoto della classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a3d79a4983a721d8a1a7317431c3f2951}{setup}} (int dimensioneX, int dimensioneY, P\+Applet \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a75f316b1f7fa183ba86929af39a01720}{tavola}})
+\begin{DoxyCompactList}\small\item\em Il metodo quando richiamato permette di impostare gli attributi della classe in base ai parametri passati. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a56c5cf8a568cff737ff95520cbe6b405}{draw}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di disegnare tutti gli oggetti grafici del gioco. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a9e8362afc9e8ce68cca6528eb57869a2}{get\+DimensioneX}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la dimensione X dello schermo. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a2bb8f24fa464bafa5b480a95b8b738a8}{get\+DimensioneY}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la dimensione Y dello schermo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a438db0a39d5c05d1dc557b2927726ef7}{disegna\+Mela}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo genera la posizione della mela all\textquotesingle{}interno eello schermo, di seguito disegna l\textquotesingle{}ellisse colorato. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a8e244c775b546a6e7d89884af1495892}{visualizza\+Schermata\+Morte}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo mostra il messaggio di restart. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a0e0d67c4f526a64346a8b90e7c9d673d}{disegna\+Vipera}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo disegna ogni blocco che compone la vipera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a61024a21b8516cb0751fcecaf18c001d}{draw\+Grids}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo disegna, a seconda della dimensione del serpente, le griglie per le righe e per le colonne. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_ab1a7af3f7073e8975696c4806e9194ef}{draw\+Punteggio}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo disegna il punteggio della partita su schermo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_ab4847130cdcf549a9cb479df18417787}{draw\+Utilities}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo disegna le utilities su schermo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1gui_1_1size}{size}} \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_afb06bc6415a42c22b3a6d0d140a4885f}{dimensioni\+Schermo}}
+\item 
+P\+Applet \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i_a75f316b1f7fa183ba86929af39a01720}{tavola}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+Classe che gestisce il rendering video 
+\end{DoxyVersion}
+
+
+Definition at line 18 of file Manager\+G\+U\+I.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a2006dad197b32f07d7b3e790cac126ff}\label{class_snake_1_1gui_1_1_manager_g_u_i_a2006dad197b32f07d7b3e790cac126ff}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!Manager\+G\+UI@{Manager\+G\+UI}}
+\index{Manager\+G\+UI@{Manager\+G\+UI}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{Manager\+G\+U\+I()}{ManagerGUI()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i}{Manager\+G\+UI}} (\begin{DoxyParamCaption}\item[{int}]{dimensioneX,  }\item[{int}]{dimensioneY,  }\item[{P\+Applet}]{tavola }\end{DoxyParamCaption})}
+
+
+
+Costruttore vuoto della classe. 
+
+Imposta gli attributi della classe a valore standard 
+
+Definition at line 29 of file Manager\+G\+U\+I.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a438db0a39d5c05d1dc557b2927726ef7}\label{class_snake_1_1gui_1_1_manager_g_u_i_a438db0a39d5c05d1dc557b2927726ef7}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!disegna\+Mela@{disegna\+Mela}}
+\index{disegna\+Mela@{disegna\+Mela}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{disegna\+Mela()}{disegnaMela()}}
+{\footnotesize\ttfamily void disegna\+Mela (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo genera la posizione della mela all\textquotesingle{}interno eello schermo, di seguito disegna l\textquotesingle{}ellisse colorato. 
+
+
+
+Definition at line 68 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a438db0a39d5c05d1dc557b2927726ef7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a438db0a39d5c05d1dc557b2927726ef7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a0e0d67c4f526a64346a8b90e7c9d673d}\label{class_snake_1_1gui_1_1_manager_g_u_i_a0e0d67c4f526a64346a8b90e7c9d673d}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!disegna\+Vipera@{disegna\+Vipera}}
+\index{disegna\+Vipera@{disegna\+Vipera}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{disegna\+Vipera()}{disegnaVipera()}}
+{\footnotesize\ttfamily void disegna\+Vipera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo disegna ogni blocco che compone la vipera. 
+
+Se si vuole il serpente colorato, la testa rimane di colore rosso mentre il corpo prende il colore dell\textquotesingle{}ultima mela catturata. Se invece il serpente non deve essere colorato, la testa sara\textquotesingle{} sempre rossa mentre il corpo tutto nero. 
+
+Definition at line 94 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a0e0d67c4f526a64346a8b90e7c9d673d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a0e0d67c4f526a64346a8b90e7c9d673d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a56c5cf8a568cff737ff95520cbe6b405}\label{class_snake_1_1gui_1_1_manager_g_u_i_a56c5cf8a568cff737ff95520cbe6b405}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!draw@{draw}}
+\index{draw@{draw}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di disegnare tutti gli oggetti grafici del gioco. 
+
+Il metodo richiama i metodi di draw relativi alle classi Vipera e Mela; inoltre disegna le griglie, il punteggio e l\textquotesingle{}utilities 
+
+Definition at line 51 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a56c5cf8a568cff737ff95520cbe6b405_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a56c5cf8a568cff737ff95520cbe6b405_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a61024a21b8516cb0751fcecaf18c001d}\label{class_snake_1_1gui_1_1_manager_g_u_i_a61024a21b8516cb0751fcecaf18c001d}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!draw\+Grids@{draw\+Grids}}
+\index{draw\+Grids@{draw\+Grids}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{draw\+Grids()}{drawGrids()}}
+{\footnotesize\ttfamily void draw\+Grids (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo disegna, a seconda della dimensione del serpente, le griglie per le righe e per le colonne. 
+
+Per disegnare le righe e le colonne vengono disegnate piu\textquotesingle{} quadrati attaccati l\textquotesingle{}uno all\textquotesingle{}altro 
+
+Definition at line 130 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a61024a21b8516cb0751fcecaf18c001d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a61024a21b8516cb0751fcecaf18c001d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_ab1a7af3f7073e8975696c4806e9194ef}\label{class_snake_1_1gui_1_1_manager_g_u_i_ab1a7af3f7073e8975696c4806e9194ef}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!draw\+Punteggio@{draw\+Punteggio}}
+\index{draw\+Punteggio@{draw\+Punteggio}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{draw\+Punteggio()}{drawPunteggio()}}
+{\footnotesize\ttfamily void draw\+Punteggio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo disegna il punteggio della partita su schermo. 
+
+
+
+Definition at line 160 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_ab1a7af3f7073e8975696c4806e9194ef_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_ab1a7af3f7073e8975696c4806e9194ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_ab4847130cdcf549a9cb479df18417787}\label{class_snake_1_1gui_1_1_manager_g_u_i_ab4847130cdcf549a9cb479df18417787}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!draw\+Utilities@{draw\+Utilities}}
+\index{draw\+Utilities@{draw\+Utilities}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{draw\+Utilities()}{drawUtilities()}}
+{\footnotesize\ttfamily void draw\+Utilities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo disegna le utilities su schermo. 
+
+
+
+Definition at line 173 of file Manager\+G\+U\+I.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_ab4847130cdcf549a9cb479df18417787_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a9e8362afc9e8ce68cca6528eb57869a2}\label{class_snake_1_1gui_1_1_manager_g_u_i_a9e8362afc9e8ce68cca6528eb57869a2}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!get\+DimensioneX@{get\+DimensioneX}}
+\index{get\+DimensioneX@{get\+DimensioneX}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{get\+Dimensione\+X()}{getDimensioneX()}}
+{\footnotesize\ttfamily int get\+DimensioneX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la dimensione X dello schermo. 
+
+\begin{DoxyReturn}{Returns}
+dimensione X dello schermo 
+\end{DoxyReturn}
+
+
+Definition at line 187 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a9e8362afc9e8ce68cca6528eb57869a2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a9e8362afc9e8ce68cca6528eb57869a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a2bb8f24fa464bafa5b480a95b8b738a8}\label{class_snake_1_1gui_1_1_manager_g_u_i_a2bb8f24fa464bafa5b480a95b8b738a8}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!get\+DimensioneY@{get\+DimensioneY}}
+\index{get\+DimensioneY@{get\+DimensioneY}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{get\+Dimensione\+Y()}{getDimensioneY()}}
+{\footnotesize\ttfamily int get\+DimensioneY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la dimensione Y dello schermo. 
+
+\begin{DoxyReturn}{Returns}
+dimensione Y dello schermo 
+\end{DoxyReturn}
+
+
+Definition at line 196 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a2bb8f24fa464bafa5b480a95b8b738a8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a2bb8f24fa464bafa5b480a95b8b738a8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a3d79a4983a721d8a1a7317431c3f2951}\label{class_snake_1_1gui_1_1_manager_g_u_i_a3d79a4983a721d8a1a7317431c3f2951}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!setup@{setup}}
+\index{setup@{setup}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void setup (\begin{DoxyParamCaption}\item[{int}]{dimensioneX,  }\item[{int}]{dimensioneY,  }\item[{P\+Applet}]{tavola }\end{DoxyParamCaption})}
+
+
+
+Il metodo quando richiamato permette di impostare gli attributi della classe in base ai parametri passati. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dimensioneX} & dimensione X dello schermo \\
+\hline
+{\em dimensioneY} & dimensione Y dello schermo \\
+\hline
+{\em tavola} & oggetto riferito al disegno grafico \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 41 of file Manager\+G\+U\+I.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a8e244c775b546a6e7d89884af1495892}\label{class_snake_1_1gui_1_1_manager_g_u_i_a8e244c775b546a6e7d89884af1495892}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!visualizza\+Schermata\+Morte@{visualizza\+Schermata\+Morte}}
+\index{visualizza\+Schermata\+Morte@{visualizza\+Schermata\+Morte}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{visualizza\+Schermata\+Morte()}{visualizzaSchermataMorte()}}
+{\footnotesize\ttfamily void visualizza\+Schermata\+Morte (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo mostra il messaggio di restart. 
+
+
+
+Definition at line 83 of file Manager\+G\+U\+I.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a8e244c775b546a6e7d89884af1495892_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1gui_1_1_manager_g_u_i_a8e244c775b546a6e7d89884af1495892_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_afb06bc6415a42c22b3a6d0d140a4885f}\label{class_snake_1_1gui_1_1_manager_g_u_i_afb06bc6415a42c22b3a6d0d140a4885f}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!dimensioni\+Schermo@{dimensioni\+Schermo}}
+\index{dimensioni\+Schermo@{dimensioni\+Schermo}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{dimensioni\+Schermo}{dimensioniSchermo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1gui_1_1size}{size}} dimensioni\+Schermo\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta la dimensione della finestra di giocoX 
+
+Definition at line 20 of file Manager\+G\+U\+I.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1gui_1_1_manager_g_u_i_a75f316b1f7fa183ba86929af39a01720}\label{class_snake_1_1gui_1_1_manager_g_u_i_a75f316b1f7fa183ba86929af39a01720}} 
+\index{Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}!tavola@{tavola}}
+\index{tavola@{tavola}!Snake\+::gui\+::\+Manager\+G\+UI@{Snake\+::gui\+::\+Manager\+G\+UI}}
+\subsubsection{\texorpdfstring{tavola}{tavola}}
+{\footnotesize\ttfamily P\+Applet tavola\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo relativo al P\+Applet per il disegno grafico 
+
+Definition at line 22 of file Manager\+G\+U\+I.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/gui/\mbox{\hyperlink{_manager_g_u_i_8java}{Manager\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

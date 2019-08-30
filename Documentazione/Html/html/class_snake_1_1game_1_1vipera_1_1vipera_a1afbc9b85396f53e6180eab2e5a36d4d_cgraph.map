@@ -1,0 +1,5 @@
+<map id="getColoreUltimoBlocco" name="getColoreUltimoBlocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a1afbc9b85396f53e6180eab2e5a36d4d" title="Il metodo ritorna il colore dell&#39;ultimo blocco che compone la vipera. " alt="" coords="208,39,407,80"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a31739bbc3222c3434ef9b45756523574" title="Il metodo ritorna l&#39;ultimo blocco che compone la vipera. " alt="" coords="455,5,671,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#ae3f520a7be49ba6d662a1504fbe4acf3" title="Il metodo ritorna il colore del blocco. " alt="" coords="465,71,661,112"/>
+</map>

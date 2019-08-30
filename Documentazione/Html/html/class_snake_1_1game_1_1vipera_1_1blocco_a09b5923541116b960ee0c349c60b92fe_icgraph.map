@@ -1,0 +1,8 @@
+<map id="getHoDistaccato" name="getHoDistaccato">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a1437df7b6446c67e0385922e99343857" title="Il metodo controlla se la testa della vipera colpisce un blocco della sua coda. " alt="" coords="172,5,403,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a6007259ace9d33bd56b9a6193e86df39" title="Il metodo imposta la direzione della testa della vipera a seconda del parametro passato. " alt="" coords="451,5,649,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera a seconda della direzione passata come parametro. " alt="" coords="697,5,888,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera in base al parametro passato. " alt="" coords="936,5,1175,47"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1gioco.html#ac6bacbb78b013d51f31d65501e08522e" title="Il metodo imposta la direzione del serpente in base al parametro passato. " alt="" coords="1223,5,1429,47"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="1477,13,1697,39"/>
+</map>

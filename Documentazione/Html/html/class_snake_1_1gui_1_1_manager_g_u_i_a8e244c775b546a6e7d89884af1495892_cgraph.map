@@ -1,0 +1,9 @@
+<map id="visualizzaSchermataMorte" name="visualizzaSchermataMorte">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="228,13,429,40"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#acfb7d9e73cb8326f2ebf9e9cbfde836a" title="Il metodo fa respawnare il serpente. " alt="" coords="237,64,420,91"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac578ca44493fe34e6cb1b2093cf79341" title="Permette di restartare il gioco. " alt="" coords="477,64,745,91"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ac578ca44493fe34e6cb1b2093cf79341" title="Respawna la vipera reimpostando gli attributi. " alt="" coords="798,5,1019,32"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1utility_1_1commands.html#a388ff71d8b8e9c6f6a68839aa5575acc" title="Snake.game.utility.commands.get\lInstance" alt="" coords="799,57,1019,98"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1utility_1_1commands.html#a8b2e8ab4e21c2a33e48e38fb8567fb19" title="Resetta l&#39;attributo keyDown. " alt="" coords="793,122,1024,163"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ad20897c5c8bd47f5d4005989bead0e55" title="Quando chiamato imposta gli attributi della classe a valori di default. " alt="" coords="1072,5,1275,32"/>
+</map>

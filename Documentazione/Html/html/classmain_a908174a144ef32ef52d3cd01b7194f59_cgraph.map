@@ -1,0 +1,6 @@
+<map id="keyPressed" name="keyPressed">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1commands.html#a388ff71d8b8e9c6f6a68839aa5575acc" title="Snake.game.utility.commands.get\lInstance" alt="" coords="144,5,364,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1utility_1_1commands.html#a116fb077976b2f81b0fc36845423fadb" title="Il metodo permette di impostare l&#39;attributo keyDown in base ai parametri passati. ..." alt="" coords="144,71,364,112"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1commands.html#a66de6f4fd0fc79b7d17dc3196aa5fe7e" title="Il metodo converte il parametro passato nella sequenza di tasti WASD. " alt="" coords="412,37,655,79"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1utility_1_1commands.html#a5852b0c61e12c9a0dff32d89faf56a0f" title="Metodo che ritorna true quando vogliamo tornare indietro sullo stesso asse. " alt="" coords="427,103,639,144"/>
+</map>

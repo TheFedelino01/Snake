@@ -1,0 +1,9 @@
+<map id="settings" name="settings">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="135,5,337,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#ad74e7d47d7a1a055b993ccebbc684c08" title="Il metodo permette di restituire la dimensione X dello schermo. " alt="" coords="123,56,349,83"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1gioco.html#abd35efad25c3e2eb4a53c1a7e2b11d71" title="Il metodo permette di restituire la dimensione Y dello schermo. " alt="" coords="121,111,351,137"/>
+<area shape="rect" id="node4" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a9e8362afc9e8ce68cca6528eb57869a2" title="Il metodo restituisce la dimensione X dello schermo. " alt="" coords="399,45,577,86"/>
+<area shape="rect" id="node5" href="$class_snake_1_1gui_1_1size.html#a9e8362afc9e8ce68cca6528eb57869a2" title="Restituisce valore dell&#39;attributo dimensioneX. " alt="" coords="626,52,831,79"/>
+<area shape="rect" id="node7" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Il metodo restituisce la dimensione Y dello schermo. " alt="" coords="399,110,577,151"/>
+<area shape="rect" id="node8" href="$class_snake_1_1gui_1_1size.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Restituisce valore dell&#39;attributo dimensioneY. " alt="" coords="625,117,832,144"/>
+</map>

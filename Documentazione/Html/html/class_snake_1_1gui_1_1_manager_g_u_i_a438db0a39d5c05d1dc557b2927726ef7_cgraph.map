@@ -1,0 +1,15 @@
+<map id="disegnaMela" name="disegnaMela">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="157,5,359,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#a64c70d61c15e0cb706c686ddfa016f4e" title="Il metodo restituisce la dimensione X della mela. " alt="" coords="153,56,363,83"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1gioco.html#a705cd114e2c4c31eb74a4107e9a3e1ae" title="Il metodo restituisce la dimensione Y della mela. " alt="" coords="152,107,364,133"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1gioco.html#af0072e81eee8ca6f1aadbda23fa837c7" title="Il metodo restituisce la dimensione del serpente cioe&#39; da quanti blocchi e&#39; composto. " alt="" coords="148,164,368,191"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1gioco.html#a054f84dfe4bbfc78f789a4dc4203794b" title="Il metodo restituisce il colore della mela attualmente generata. " alt="" coords="149,221,367,248"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#aae6590f1c2572c796a9ea154e3b16b27" title="Ritorna la posizione X della mela. " alt="" coords="416,30,655,71"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a59a95eee3790a91a574ac018208b6044" title="Ritorna la posizione della mela in base all&#39;asse X. " alt="" coords="704,37,920,64"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac23b89dc8711992dc3124c04888a1365" title="Ritorna la posizione Y della mela. " alt="" coords="416,95,655,137"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a3388b2d66cc794258707674f20766a7f" title="Ritorna la posizione della mela in base all&#39;asse Y. " alt="" coords="703,103,921,129"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Ritorna la dimensione della vipera. " alt="" coords="416,161,655,202"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Restituisce la dimensione della vipera. " alt="" coords="717,161,907,202"/>
+<area shape="rect" id="node13" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a15fad4646c986312b476543b2f7e547a" title="Ritorna il colore della mela. " alt="" coords="416,226,655,267"/>
+<area shape="rect" id="node14" href="$class_snake_1_1game_1_1vipera_1_1mela.html#ae3f520a7be49ba6d662a1504fbe4acf3" title="Ritorna il colore attuale della mela. " alt="" coords="719,226,905,267"/>
+</map>

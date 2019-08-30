@@ -1,0 +1,4 @@
+<map id="getActX" name="getActX">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ae853a40673c27fff3315c5213c749814" title="Ritorna la posizione X della vipera. " alt="" coords="120,5,385,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ae13f88e922e1339355456062ad9fa359" title="Restituisce il valore dell&#39;attributo actPosX. " alt="" coords="433,5,632,32"/>
+</map>

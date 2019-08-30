@@ -1,0 +1,182 @@
+\hypertarget{class_snake_1_1game_1_1utility_1_1sync_th}{}\section{sync\+Th Class Reference}
+\label{class_snake_1_1game_1_1utility_1_1sync_th}\index{sync\+Th@{sync\+Th}}
+
+
+Collaboration diagram for sync\+Th\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_snake_1_1game_1_1utility_1_1sync_th__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th_abef3d4e3630108b2352b7741358a40e6}{sync\+Th}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore senza parametri della classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th_a8e454b3430022fcccd7ecf338441c1bf}{aspetto\+Che\+Prende}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di aspettare che la mela venga presa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th_a56a1409c7c23a1238719bd1dd4430fc7}{dico\+Che\+Ho\+Preso}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di segnalare che la mela e\textquotesingle{} stata presa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th_a1fb318d4f1722f999b5af474befc8b67}{aspetto\+Che\+Genera}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di aspettare che la mela venga generata. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th_a952f218c604508fb98a470f6a648a956}{dico\+Che\+Ho\+Generato}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di segnalare che la mela e\textquotesingle{} stata generata. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Semaphore \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th_a89d3d89697eb53a38c5b5693c5fb47b4}{prendo}}
+\item 
+Semaphore \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th_a7a33fca357e48a689ce6c1924185b710}{genera}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+Classe che premette la sincronizzazione tra i vari threads 
+\end{DoxyVersion}
+
+
+Definition at line 13 of file sync\+Th.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1sync_th_abef3d4e3630108b2352b7741358a40e6}\label{class_snake_1_1game_1_1utility_1_1sync_th_abef3d4e3630108b2352b7741358a40e6}} 
+\index{Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}!sync\+Th@{sync\+Th}}
+\index{sync\+Th@{sync\+Th}!Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}}
+\subsubsection{\texorpdfstring{sync\+Th()}{syncTh()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th}{sync\+Th}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Costruttore senza parametri della classe. 
+
+Inizializza i semafori della classe 
+
+Definition at line 24 of file sync\+Th.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1sync_th_a1fb318d4f1722f999b5af474befc8b67}\label{class_snake_1_1game_1_1utility_1_1sync_th_a1fb318d4f1722f999b5af474befc8b67}} 
+\index{Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}!aspetto\+Che\+Genera@{aspetto\+Che\+Genera}}
+\index{aspetto\+Che\+Genera@{aspetto\+Che\+Genera}!Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}}
+\subsubsection{\texorpdfstring{aspetto\+Che\+Genera()}{aspettoCheGenera()}}
+{\footnotesize\ttfamily void aspetto\+Che\+Genera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di aspettare che la mela venga generata. 
+
+
+
+Definition at line 49 of file sync\+Th.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1sync_th_a1fb318d4f1722f999b5af474befc8b67_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1sync_th_a8e454b3430022fcccd7ecf338441c1bf}\label{class_snake_1_1game_1_1utility_1_1sync_th_a8e454b3430022fcccd7ecf338441c1bf}} 
+\index{Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}!aspetto\+Che\+Prende@{aspetto\+Che\+Prende}}
+\index{aspetto\+Che\+Prende@{aspetto\+Che\+Prende}!Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}}
+\subsubsection{\texorpdfstring{aspetto\+Che\+Prende()}{aspettoChePrende()}}
+{\footnotesize\ttfamily void aspetto\+Che\+Prende (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di aspettare che la mela venga presa. 
+
+
+
+Definition at line 32 of file sync\+Th.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1sync_th_a8e454b3430022fcccd7ecf338441c1bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1sync_th_a952f218c604508fb98a470f6a648a956}\label{class_snake_1_1game_1_1utility_1_1sync_th_a952f218c604508fb98a470f6a648a956}} 
+\index{Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}!dico\+Che\+Ho\+Generato@{dico\+Che\+Ho\+Generato}}
+\index{dico\+Che\+Ho\+Generato@{dico\+Che\+Ho\+Generato}!Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}}
+\subsubsection{\texorpdfstring{dico\+Che\+Ho\+Generato()}{dicoCheHoGenerato()}}
+{\footnotesize\ttfamily void dico\+Che\+Ho\+Generato (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di segnalare che la mela e\textquotesingle{} stata generata. 
+
+
+
+Definition at line 59 of file sync\+Th.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1sync_th_a952f218c604508fb98a470f6a648a956_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1sync_th_a56a1409c7c23a1238719bd1dd4430fc7}\label{class_snake_1_1game_1_1utility_1_1sync_th_a56a1409c7c23a1238719bd1dd4430fc7}} 
+\index{Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}!dico\+Che\+Ho\+Preso@{dico\+Che\+Ho\+Preso}}
+\index{dico\+Che\+Ho\+Preso@{dico\+Che\+Ho\+Preso}!Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}}
+\subsubsection{\texorpdfstring{dico\+Che\+Ho\+Preso()}{dicoCheHoPreso()}}
+{\footnotesize\ttfamily void dico\+Che\+Ho\+Preso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di segnalare che la mela e\textquotesingle{} stata presa. 
+
+
+
+Definition at line 42 of file sync\+Th.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1sync_th_a56a1409c7c23a1238719bd1dd4430fc7_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1sync_th_a7a33fca357e48a689ce6c1924185b710}\label{class_snake_1_1game_1_1utility_1_1sync_th_a7a33fca357e48a689ce6c1924185b710}} 
+\index{Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}!genera@{genera}}
+\index{genera@{genera}!Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}}
+\subsubsection{\texorpdfstring{genera}{genera}}
+{\footnotesize\ttfamily Semaphore genera\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta il semaforo per generare la mela 
+
+Definition at line 17 of file sync\+Th.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1sync_th_a89d3d89697eb53a38c5b5693c5fb47b4}\label{class_snake_1_1game_1_1utility_1_1sync_th_a89d3d89697eb53a38c5b5693c5fb47b4}} 
+\index{Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}!prendo@{prendo}}
+\index{prendo@{prendo}!Snake\+::game\+::utility\+::sync\+Th@{Snake\+::game\+::utility\+::sync\+Th}}
+\subsubsection{\texorpdfstring{prendo}{prendo}}
+{\footnotesize\ttfamily Semaphore prendo\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta il semaforo per prendere la mela 
+
+Definition at line 15 of file sync\+Th.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/game/utility/\mbox{\hyperlink{sync_th_8java}{sync\+Th.\+java}}\end{DoxyCompactItemize}

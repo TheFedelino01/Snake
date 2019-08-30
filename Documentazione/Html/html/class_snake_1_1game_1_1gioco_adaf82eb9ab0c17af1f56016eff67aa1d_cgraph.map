@@ -1,0 +1,5 @@
+<map id="posXblocco" name="posXblocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a88318c562485640585510cbd35e76b07" title="Ritorna la posizione X del blocco identificato da parametro. " alt="" coords="141,5,383,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ac25c5b310cb26c05d5ea69485d1e155f" title="Restituisce la posizione X del blocco in base all&#39;identificativo passato come parametro. " alt="" coords="431,5,621,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#ac25c5b310cb26c05d5ea69485d1e155f" title="Il metodo ritorna la posizione X del blocco indicato come parametro. " alt="" coords="669,5,868,47"/>
+</map>

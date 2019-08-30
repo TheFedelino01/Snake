@@ -1,0 +1,5 @@
+<map id="spostaDx" name="spostaDx">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a9837912437f9fefee6140800ce8d6d76" title="Sposta la vipera a seconda della direzione passata come parametro. " alt="" coords="131,5,389,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#ad62cb3f928d2518fde54d64970bb850d" title="Il metodo sposta il serpente in base alla direzione passata come parametro. " alt="" coords="437,5,611,32"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="659,5,879,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="getColore" name="getColore">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a3f6240b54a13e397255c9b3f7354cf45" title="Quando richiamato dice che la mela e&#39; stata catturata quindi viene aggiunto un blocco alla vipera..." alt="" coords="131,5,379,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a15fad4646c986312b476543b2f7e547a" title="Ritorna il colore della mela. " alt="" coords="135,71,374,112"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#ab565cb1ea4ead20f825d28b7e78ec5c8" title="Il metodo dice al serpente che la mela e&#39; stata presa. " alt="" coords="437,13,633,39"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="705,5,913,47"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1gioco.html#a054f84dfe4bbfc78f789a4dc4203794b" title="Il metodo restituisce il colore della mela attualmente generata. " alt="" coords="427,78,644,105"/>
+<area shape="rect" id="node7" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a438db0a39d5c05d1dc557b2927726ef7" title="Il metodo genera la posizione della mela all&#39;interno eello schermo, di seguito disegna l&#39;ellisse colo..." alt="" coords="692,78,925,105"/>
+<area shape="rect" id="node8" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="973,78,1160,105"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="1208,78,1369,105"/>
+<area shape="rect" id="node10" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1417,78,1499,105"/>
+</map>

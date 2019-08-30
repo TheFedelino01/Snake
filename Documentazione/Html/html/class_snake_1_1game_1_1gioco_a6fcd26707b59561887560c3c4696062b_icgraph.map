@@ -1,0 +1,4 @@
+<map id="setPosMela" name="setPosMela">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a3d74cc6ca0a52476e34eefbf570fa492" title="Metodo genera la posizione della mela evitando che venga spawnata in corrispondenza di un blocco che ..." alt="" coords="144,5,387,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="435,13,656,39"/>
+</map>

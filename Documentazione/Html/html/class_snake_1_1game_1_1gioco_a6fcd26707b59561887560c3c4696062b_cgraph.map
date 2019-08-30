@@ -1,0 +1,5 @@
+<map id="setPosMela" name="setPosMela">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a38aa4a80eb7f9db1e033f67dc1c220b0" title="Imposta la posizione della mela a seconda dei parametri passati. " alt="" coords="144,23,383,65"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1mela.html#aa5a2e0c6f2b05d50ca35ca417d298363" title="Metodo che imposta la posizione X della mela in base al parametro passato. " alt="" coords="432,5,648,32"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1mela.html#abb7df6a3b7f27271ff796f1b39d5b800" title="Metodo che imposta la posizione Y della mela in base al parametro passato. " alt="" coords="431,56,649,83"/>
+</map>

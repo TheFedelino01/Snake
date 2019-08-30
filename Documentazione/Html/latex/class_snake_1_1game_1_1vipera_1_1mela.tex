@@ -1,0 +1,304 @@
+\hypertarget{class_snake_1_1game_1_1vipera_1_1mela}{}\section{mela Class Reference}
+\label{class_snake_1_1game_1_1vipera_1_1mela}\index{mela@{mela}}
+
+
+Collaboration diagram for mela\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{class_snake_1_1game_1_1vipera_1_1mela__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_ac294a8928f164db9f4c965b86409b4df}{mela}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore senza parametri della classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_abb7df6a3b7f27271ff796f1b39d5b800}{set\+PosY}} (int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_ac5c78730de1bfb90e34ab5381ea70878}{pos\+MelaY}})
+\begin{DoxyCompactList}\small\item\em Metodo che imposta la posizione Y della mela in base al parametro passato. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_aa5a2e0c6f2b05d50ca35ca417d298363}{set\+PosX}} (int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_a18097b5636ab8e5eaf99d18ffa609a06}{pos\+MelaX}})
+\begin{DoxyCompactList}\small\item\em Metodo che imposta la posizione X della mela in base al parametro passato. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_a59a95eee3790a91a574ac018208b6044}{get\+PosX}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione della mela in base all\textquotesingle{}asse X. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_a3388b2d66cc794258707674f20766a7f}{get\+PosY}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione della mela in base all\textquotesingle{}asse Y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_a4f720f425b921900de19e238bcd0457a}{generate\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo sceglie in modo random un colore per la mela. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_ae3f520a7be49ba6d662a1504fbe4acf3}{get\+Colore}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il colore attuale della mela. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_a728ec55c7b71728d444fd811341f704c}{cambia\+Colore}} ()
+\begin{DoxyCompactList}\small\item\em Genera un colore random. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_a18097b5636ab8e5eaf99d18ffa609a06}{pos\+MelaX}}
+\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_ac5c78730de1bfb90e34ab5381ea70878}{pos\+MelaY}}
+\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_a2af643ee90f15c4b4028c2dedf6a9da5}{colori}} \mbox{[}$\,$\mbox{]} = \{Color.\+red, Color.\+green, Color.\+B\+L\+UE, Color.\+cyan, Color.\+magenta, Color.\+yellow, Color.\+pink\}
+\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela_ada0bf0be39e4ad9d58f6e7c48f14c64a}{colore}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+La classe rappresenta una mela 
+\end{DoxyVersion}
+
+
+Definition at line 12 of file mela.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_ac294a8928f164db9f4c965b86409b4df}\label{class_snake_1_1game_1_1vipera_1_1mela_ac294a8928f164db9f4c965b86409b4df}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!mela@{mela}}
+\index{mela@{mela}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{mela()}{mela()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela}{mela}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Costruttore senza parametri della classe. 
+
+Quando chiamato, richiama il metodo per la scelta del colore in modo Random 
+
+Definition at line 29 of file mela.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_snake_1_1game_1_1vipera_1_1mela_ac294a8928f164db9f4c965b86409b4df_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_a728ec55c7b71728d444fd811341f704c}\label{class_snake_1_1game_1_1vipera_1_1mela_a728ec55c7b71728d444fd811341f704c}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!cambia\+Colore@{cambia\+Colore}}
+\index{cambia\+Colore@{cambia\+Colore}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{cambia\+Colore()}{cambiaColore()}}
+{\footnotesize\ttfamily void cambia\+Colore (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Genera un colore random. 
+
+
+
+Definition at line 87 of file mela.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{class_snake_1_1game_1_1vipera_1_1mela_a728ec55c7b71728d444fd811341f704c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1mela_a728ec55c7b71728d444fd811341f704c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_a4f720f425b921900de19e238bcd0457a}\label{class_snake_1_1game_1_1vipera_1_1mela_a4f720f425b921900de19e238bcd0457a}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!generate\+Color@{generate\+Color}}
+\index{generate\+Color@{generate\+Color}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{generate\+Color()}{generateColor()}}
+{\footnotesize\ttfamily void generate\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo sceglie in modo random un colore per la mela. 
+
+Viene generato un numero casuale a seconda dell\textquotesingle{}attributo vettore colori, successivamente viene impostato l\textquotesingle{}attributo colore 
+
+Definition at line 69 of file mela.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1mela_a4f720f425b921900de19e238bcd0457a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_ae3f520a7be49ba6d662a1504fbe4acf3}\label{class_snake_1_1game_1_1vipera_1_1mela_ae3f520a7be49ba6d662a1504fbe4acf3}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!get\+Colore@{get\+Colore}}
+\index{get\+Colore@{get\+Colore}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{get\+Colore()}{getColore()}}
+{\footnotesize\ttfamily Color get\+Colore (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il colore attuale della mela. 
+
+
+
+Definition at line 80 of file mela.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1mela_ae3f520a7be49ba6d662a1504fbe4acf3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_a59a95eee3790a91a574ac018208b6044}\label{class_snake_1_1game_1_1vipera_1_1mela_a59a95eee3790a91a574ac018208b6044}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!get\+PosX@{get\+PosX}}
+\index{get\+PosX@{get\+PosX}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{get\+Pos\+X()}{getPosX()}}
+{\footnotesize\ttfamily int get\+PosX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione della mela in base all\textquotesingle{}asse X. 
+
+
+
+Definition at line 53 of file mela.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1mela_a59a95eee3790a91a574ac018208b6044_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_a3388b2d66cc794258707674f20766a7f}\label{class_snake_1_1game_1_1vipera_1_1mela_a3388b2d66cc794258707674f20766a7f}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!get\+PosY@{get\+PosY}}
+\index{get\+PosY@{get\+PosY}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{get\+Pos\+Y()}{getPosY()}}
+{\footnotesize\ttfamily int get\+PosY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione della mela in base all\textquotesingle{}asse Y. 
+
+
+
+Definition at line 59 of file mela.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1mela_a3388b2d66cc794258707674f20766a7f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_aa5a2e0c6f2b05d50ca35ca417d298363}\label{class_snake_1_1game_1_1vipera_1_1mela_aa5a2e0c6f2b05d50ca35ca417d298363}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!set\+PosX@{set\+PosX}}
+\index{set\+PosX@{set\+PosX}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{set\+Pos\+X()}{setPosX()}}
+{\footnotesize\ttfamily void set\+PosX (\begin{DoxyParamCaption}\item[{int}]{pos\+MelaX }\end{DoxyParamCaption})}
+
+
+
+Metodo che imposta la posizione X della mela in base al parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+MelaX} & posizione che dovra\textquotesingle{} assumere la mela sull\textquotesingle{}asse X \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 46 of file mela.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1mela_aa5a2e0c6f2b05d50ca35ca417d298363_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_abb7df6a3b7f27271ff796f1b39d5b800}\label{class_snake_1_1game_1_1vipera_1_1mela_abb7df6a3b7f27271ff796f1b39d5b800}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!set\+PosY@{set\+PosY}}
+\index{set\+PosY@{set\+PosY}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{set\+Pos\+Y()}{setPosY()}}
+{\footnotesize\ttfamily void set\+PosY (\begin{DoxyParamCaption}\item[{int}]{pos\+MelaY }\end{DoxyParamCaption})}
+
+
+
+Metodo che imposta la posizione Y della mela in base al parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+MelaY} & posizione che dovra\textquotesingle{} assumere la mela sull\textquotesingle{}asse Y \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file mela.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1mela_abb7df6a3b7f27271ff796f1b39d5b800_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_ada0bf0be39e4ad9d58f6e7c48f14c64a}\label{class_snake_1_1game_1_1vipera_1_1mela_ada0bf0be39e4ad9d58f6e7c48f14c64a}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!colore@{colore}}
+\index{colore@{colore}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{colore}{colore}}
+{\footnotesize\ttfamily Color colore\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta il colore attuale della mela 
+
+Definition at line 22 of file mela.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_a2af643ee90f15c4b4028c2dedf6a9da5}\label{class_snake_1_1game_1_1vipera_1_1mela_a2af643ee90f15c4b4028c2dedf6a9da5}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!colori@{colori}}
+\index{colori@{colori}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{colori}{colori}}
+{\footnotesize\ttfamily Color colori\mbox{[}$\,$\mbox{]} = \{Color.\+red, Color.\+green, Color.\+B\+L\+UE, Color.\+cyan, Color.\+magenta, Color.\+yellow, Color.\+pink\}\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta i possibili colori che la mela puo\textquotesingle{} assumere 
+
+Definition at line 19 of file mela.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_a18097b5636ab8e5eaf99d18ffa609a06}\label{class_snake_1_1game_1_1vipera_1_1mela_a18097b5636ab8e5eaf99d18ffa609a06}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!pos\+MelaX@{pos\+MelaX}}
+\index{pos\+MelaX@{pos\+MelaX}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{pos\+MelaX}{posMelaX}}
+{\footnotesize\ttfamily int pos\+MelaX\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta la posizione X della mela 
+
+Definition at line 14 of file mela.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1mela_ac5c78730de1bfb90e34ab5381ea70878}\label{class_snake_1_1game_1_1vipera_1_1mela_ac5c78730de1bfb90e34ab5381ea70878}} 
+\index{Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}!pos\+MelaY@{pos\+MelaY}}
+\index{pos\+MelaY@{pos\+MelaY}!Snake\+::game\+::vipera\+::mela@{Snake\+::game\+::vipera\+::mela}}
+\subsubsection{\texorpdfstring{pos\+MelaY}{posMelaY}}
+{\footnotesize\ttfamily int pos\+MelaY\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta la posizione Y della mela 
+
+Definition at line 16 of file mela.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/game/vipera/\mbox{\hyperlink{mela_8java}{mela.\+java}}\end{DoxyCompactItemize}

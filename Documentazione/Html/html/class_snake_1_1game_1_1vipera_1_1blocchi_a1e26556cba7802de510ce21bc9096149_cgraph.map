@@ -1,0 +1,4 @@
+<map id="setPosTestaX" name="setPosTestaX">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a0479241855807563d1a7ed14bb5210cd" title="Il metodo ritorna il blocco che corrisponde alla testa della vipera. " alt="" coords="213,5,302,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#ab5a3acb0391238ee37a5da898bffd5f1" title="Imposta la posizione X del blocco a seconda del parametro. " alt="" coords="156,56,359,83"/>
+</map>

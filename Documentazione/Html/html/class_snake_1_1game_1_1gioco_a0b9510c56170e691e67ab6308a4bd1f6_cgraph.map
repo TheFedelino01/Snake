@@ -1,0 +1,5 @@
+<map id="ePresenteUnBlocco" name="ePresenteUnBlocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac24833a417b3bd7c60e29ed5b7edc29f" title="Dice se e&#39; presente un blocco nella posizione X e Y dello schermo. " alt="" coords="191,5,417,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ac24833a417b3bd7c60e29ed5b7edc29f" title="Dice se e&#39; presente un blocco nella posizione X e Y dello schermo. " alt="" coords="465,5,645,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#ac24833a417b3bd7c60e29ed5b7edc29f" title="Il metodo ritorna true se nella posizione X e Y passata come parametro e&#39; presente un blocco della vi..." alt="" coords="693,5,881,47"/>
+</map>

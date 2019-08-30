@@ -1,0 +1,20 @@
+<map id="generaPosizione" name="generaPosizione">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="186,5,387,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#ad74e7d47d7a1a055b993ccebbc684c08" title="Il metodo permette di restituire la dimensione X dello schermo. " alt="" coords="173,56,400,83"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1gioco.html#abd35efad25c3e2eb4a53c1a7e2b11d71" title="Il metodo permette di restituire la dimensione Y dello schermo. " alt="" coords="172,107,401,133"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1gioco.html#af0072e81eee8ca6f1aadbda23fa837c7" title="Il metodo restituisce la dimensione del serpente cioe&#39; da quanti blocchi e&#39; composto. " alt="" coords="177,157,397,184"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1gioco.html#a0b9510c56170e691e67ab6308a4bd1f6" title="Il metodo restituisce true se nella posizione X e Y, passata come parametro, e&#39; presente un blocco..." alt="" coords="190,213,383,254"/>
+<area shape="rect" id="node16" href="$class_snake_1_1game_1_1gioco.html#a6fcd26707b59561887560c3c4696062b" title="Il metodo imposta la posizione della mela a seconda dei parametri passati. " alt="" coords="185,281,388,308"/>
+<area shape="rect" id="node4" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a9e8362afc9e8ce68cca6528eb57869a2" title="Il metodo restituisce la dimensione X dello schermo. " alt="" coords="479,19,658,61"/>
+<area shape="rect" id="node5" href="$class_snake_1_1gui_1_1size.html#a9e8362afc9e8ce68cca6528eb57869a2" title="Restituisce valore dell&#39;attributo dimensioneX. " alt="" coords="743,27,948,53"/>
+<area shape="rect" id="node7" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Il metodo restituisce la dimensione Y dello schermo. " alt="" coords="479,85,658,126"/>
+<area shape="rect" id="node8" href="$class_snake_1_1gui_1_1size.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Restituisce valore dell&#39;attributo dimensioneY. " alt="" coords="742,92,949,119"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Ritorna la dimensione della vipera. " alt="" coords="449,150,688,191"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Restituisce la dimensione della vipera. " alt="" coords="750,150,941,191"/>
+<area shape="rect" id="node13" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac24833a417b3bd7c60e29ed5b7edc29f" title="Dice se e&#39; presente un blocco nella posizione X e Y dello schermo. " alt="" coords="455,215,682,257"/>
+<area shape="rect" id="node14" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ac24833a417b3bd7c60e29ed5b7edc29f" title="Dice se e&#39; presente un blocco nella posizione X e Y dello schermo. " alt="" coords="755,215,935,257"/>
+<area shape="rect" id="node15" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#ac24833a417b3bd7c60e29ed5b7edc29f" title="Il metodo ritorna true se nella posizione X e Y passata come parametro e&#39; presente un blocco della vi..." alt="" coords="1003,215,1191,257"/>
+<area shape="rect" id="node17" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a38aa4a80eb7f9db1e033f67dc1c220b0" title="Imposta la posizione della mela a seconda dei parametri passati. " alt="" coords="449,281,688,322"/>
+<area shape="rect" id="node18" href="$class_snake_1_1game_1_1vipera_1_1mela.html#aa5a2e0c6f2b05d50ca35ca417d298363" title="Metodo che imposta la posizione X della mela in base al parametro passato. " alt="" coords="737,284,953,311"/>
+<area shape="rect" id="node19" href="$class_snake_1_1game_1_1vipera_1_1mela.html#abb7df6a3b7f27271ff796f1b39d5b800" title="Metodo che imposta la posizione Y della mela in base al parametro passato. " alt="" coords="736,335,955,361"/>
+</map>

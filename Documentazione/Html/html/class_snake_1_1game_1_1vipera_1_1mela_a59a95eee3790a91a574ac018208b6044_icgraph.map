@@ -1,0 +1,9 @@
+<map id="getPosX" name="getPosX">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#aae6590f1c2572c796a9ea154e3b16b27" title="Ritorna la posizione X della mela. " alt="" coords="124,35,363,76"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#a64c70d61c15e0cb706c686ddfa016f4e" title="Il metodo restituisce la dimensione X della mela. " alt="" coords="411,42,621,69"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="682,5,890,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a438db0a39d5c05d1dc557b2927726ef7" title="Il metodo genera la posizione della mela all&#39;interno eello schermo, di seguito disegna l&#39;ellisse colo..." alt="" coords="669,71,903,98"/>
+<area shape="rect" id="node6" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="951,71,1137,98"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="1185,71,1347,98"/>
+<area shape="rect" id="node8" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1395,71,1476,98"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="run" name="run">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="99,5,300,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#a6eb3176cbeae2780913116900dd2d141" title="Il metodo permette di aspettare che la mela venga generata. " alt="" coords="111,57,288,98"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#a0176af97fc1e2e7714a82049ab9a7069" title="Il metodo restituisce la posizione X della testa del serpente. " alt="" coords="110,123,289,149"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1gioco.html#aedb81d58024c710a010bfa1c48f329f0" title="Il metodo restituisce la posizione Y della testa del serpente. " alt="" coords="109,173,290,200"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1gioco.html#a64c70d61c15e0cb706c686ddfa016f4e" title="Il metodo restituisce la dimensione X della mela. " alt="" coords="94,224,305,251"/>
+<area shape="rect" id="node14" href="$class_snake_1_1game_1_1gioco.html#a705cd114e2c4c31eb74a4107e9a3e1ae" title="Il metodo restituisce la dimensione Y della mela. " alt="" coords="93,275,305,301"/>
+<area shape="rect" id="node17" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a8b1e3878460295cc10e070af8d1f1297" title="Il metodo controlla se le due X e le due Y passate come parametro sono uguali. " alt="" coords="138,325,261,352"/>
+<area shape="rect" id="node18" href="$class_snake_1_1game_1_1gioco.html#ab565cb1ea4ead20f825d28b7e78ec5c8" title="Il metodo dice al serpente che la mela e&#39; stata presa. " alt="" coords="101,376,297,403"/>
+<area shape="rect" id="node31" href="$class_snake_1_1game_1_1gioco.html#a5309846aa7b0465c29959c51b0182ced" title="Il metodo permette di segnalare che la mela e&#39; stata presa. " alt="" coords="106,430,293,471"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1sync_th.html#a1fb318d4f1722f999b5af474befc8b67" title="Il metodo permette di aspettare che la mela venga generata. " alt="" coords="375,53,598,94"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ae853a40673c27fff3315c5213c749814" title="Ritorna la posizione X della vipera. " alt="" coords="354,119,619,145"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ae13f88e922e1339355456062ad9fa359" title="Restituisce il valore dell&#39;attributo actPosX. " alt="" coords="678,119,877,145"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ae336e912feaec4a5e82fca472bde7f8f" title="Ritorna la posizione X della vipera. " alt="" coords="353,169,620,196"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#aab81944f0a14bba932c0931899951937" title="Restituisce il valore dell&#39;attributo actPosY. " alt="" coords="677,169,877,196"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#aae6590f1c2572c796a9ea154e3b16b27" title="Ritorna la posizione X della mela. " alt="" coords="367,221,606,262"/>
+<area shape="rect" id="node13" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a59a95eee3790a91a574ac018208b6044" title="Ritorna la posizione della mela in base all&#39;asse X. " alt="" coords="669,228,885,255"/>
+<area shape="rect" id="node15" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac23b89dc8711992dc3124c04888a1365" title="Ritorna la posizione Y della mela. " alt="" coords="367,286,606,327"/>
+<area shape="rect" id="node16" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a3388b2d66cc794258707674f20766a7f" title="Ritorna la posizione della mela in base all&#39;asse Y. " alt="" coords="668,285,887,312"/>
+<area shape="rect" id="node19" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a3f6240b54a13e397255c9b3f7354cf45" title="Quando richiamato dice che la mela e&#39; stata catturata quindi viene aggiunto un blocco alla vipera..." alt="" coords="363,369,611,410"/>
+<area shape="rect" id="node20" href="$class_snake_1_1game_1_1vipera_1_1mela.html#ae3f520a7be49ba6d662a1504fbe4acf3" title="Ritorna il colore attuale della mela. " alt="" coords="684,402,871,443"/>
+<area shape="rect" id="node21" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#aca08d818f8eb2849ca337ea2c64f344d" title="Aggiunge un blocco in coda alla vipera. " alt="" coords="680,467,875,509"/>
+<area shape="rect" id="node29" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a728ec55c7b71728d444fd811341f704c" title="Genera un colore random. " alt="" coords="672,337,883,378"/>
+<area shape="rect" id="node22" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#aca08d818f8eb2849ca337ea2c64f344d" title="Il metodo aggiunge un blocco in coda alla vipera. " alt="" coords="943,467,1145,509"/>
+<area shape="rect" id="node23" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#afda852123016bddf1840fdb19241ffa3" title="Il metodo ritorna la posizione X dell&#39;blocco che compone la vipera. " alt="" coords="1201,379,1417,421"/>
+<area shape="rect" id="node24" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a31739bbc3222c3434ef9b45756523574" title="Il metodo ritorna l&#39;ultimo blocco che compone la vipera. " alt="" coords="1465,438,1681,479"/>
+<area shape="rect" id="node26" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a78a0129c937328d9bd0dafc68d007aef" title="Il metodo ritorna la posizione Y dell&#39;blocco che compone la vipera. " alt="" coords="1201,497,1417,538"/>
+<area shape="rect" id="node28" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a7380314c5c58350a175d844e7121d329" title="Il metodo quando richiamato permette di far sapere al blocco attuale che e&#39; stato generato un blocco ..." alt="" coords="1208,562,1411,603"/>
+<area shape="rect" id="node25" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#ae13f88e922e1339355456062ad9fa359" title="Ritorna la posizione X del blocco. " alt="" coords="1472,387,1675,413"/>
+<area shape="rect" id="node27" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#aab81944f0a14bba932c0931899951937" title="Ritorna la posizione Y del blocco. " alt="" coords="1471,504,1676,531"/>
+<area shape="rect" id="node30" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a4f720f425b921900de19e238bcd0457a" title="Il metodo sceglie in modo random un colore per la mela. " alt="" coords="935,337,1153,378"/>
+<area shape="rect" id="node32" href="$class_snake_1_1game_1_1utility_1_1sync_th.html#a56a1409c7c23a1238719bd1dd4430fc7" title="Il metodo permette di segnalare che la mela e&#39; stata presa. " alt="" coords="385,434,589,475"/>
+</map>

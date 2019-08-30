@@ -1,0 +1,255 @@
+\hypertarget{class_snake_1_1game_1_1utility_1_1commands}{}\section{commands Class Reference}
+\label{class_snake_1_1game_1_1utility_1_1commands}\index{commands@{commands}}
+
+
+Collaboration diagram for commands\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_snake_1_1game_1_1utility_1_1commands__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_a116fb077976b2f81b0fc36845423fadb}{set\+Key\+Down}} (Character car, int key\+Code)
+\begin{DoxyCompactList}\small\item\em Il metodo permette di impostare l\textquotesingle{}attributo key\+Down in base ai parametri passati. \end{DoxyCompactList}\item 
+Character \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_aca1e2aeb7fb5a02cf6127edc96edc7f6}{get\+Key\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna l\textquotesingle{}ultimo comando inviato (key\+Down) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_a8b2e8ab4e21c2a33e48e38fb8567fb19}{clear\+Key\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Resetta l\textquotesingle{}attributo key\+Down. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands}{commands}} \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_a388ff71d8b8e9c6f6a68839aa5575acc}{get\+Instance}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_af0afefa0d79d09344a638cf6c532aa39}{commands}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore privato senza parametri della classe. \end{DoxyCompactList}\item 
+Character \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_a66de6f4fd0fc79b7d17dc3196aa5fe7e}{convert\+To\+W\+A\+SD}} (int key\+Code)
+\begin{DoxyCompactList}\small\item\em Il metodo converte il parametro passato nella sequenza di tasti W\+A\+SD. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_a5852b0c61e12c9a0dff32d89faf56a0f}{is\+Doing\+A\+Mossa\+Proibita}} (Character car)
+\begin{DoxyCompactList}\small\item\em Metodo che ritorna true quando vogliamo tornare indietro sullo stesso asse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Character \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_a09bac1b4079089c0f6a6eff874a820b8}{key\+Down}}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands}{commands}} \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands_aa7a70ebde8ae359567827667a6ce1901}{our\+Instance}} = new \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands}{commands}}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+La classe gestisce i comandi inviati da tastiera 
+\end{DoxyVersion}
+
+
+Definition at line 15 of file commands.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_af0afefa0d79d09344a638cf6c532aa39}\label{class_snake_1_1game_1_1utility_1_1commands_af0afefa0d79d09344a638cf6c532aa39}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!commands@{commands}}
+\index{commands@{commands}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{commands()}{commands()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands}{commands}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Costruttore privato senza parametri della classe. 
+
+
+
+Definition at line 28 of file commands.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_a8b2e8ab4e21c2a33e48e38fb8567fb19}\label{class_snake_1_1game_1_1utility_1_1commands_a8b2e8ab4e21c2a33e48e38fb8567fb19}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!clear\+Key\+Down@{clear\+Key\+Down}}
+\index{clear\+Key\+Down@{clear\+Key\+Down}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{clear\+Key\+Down()}{clearKeyDown()}}
+{\footnotesize\ttfamily void clear\+Key\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resetta l\textquotesingle{}attributo key\+Down. 
+
+
+
+Definition at line 66 of file commands.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1commands_a8b2e8ab4e21c2a33e48e38fb8567fb19_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_a66de6f4fd0fc79b7d17dc3196aa5fe7e}\label{class_snake_1_1game_1_1utility_1_1commands_a66de6f4fd0fc79b7d17dc3196aa5fe7e}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!convert\+To\+W\+A\+SD@{convert\+To\+W\+A\+SD}}
+\index{convert\+To\+W\+A\+SD@{convert\+To\+W\+A\+SD}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{convert\+To\+W\+A\+S\+D()}{convertToWASD()}}
+{\footnotesize\ttfamily Character convert\+To\+W\+A\+SD (\begin{DoxyParamCaption}\item[{int}]{key\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo converte il parametro passato nella sequenza di tasti W\+A\+SD. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+Code} & codice del tasto riferito alle frecce della tastiera che deve essere trasformato in W\+A\+SD \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 75 of file commands.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1commands_a66de6f4fd0fc79b7d17dc3196aa5fe7e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_a388ff71d8b8e9c6f6a68839aa5575acc}\label{class_snake_1_1game_1_1utility_1_1commands_a388ff71d8b8e9c6f6a68839aa5575acc}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!get\+Instance@{get\+Instance}}
+\index{get\+Instance@{get\+Instance}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{get\+Instance()}{getInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands}{commands}} get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Attributo che rappresenta l\textquotesingle{}instance pubblica per singleton 
+
+Definition at line 21 of file commands.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1commands_a388ff71d8b8e9c6f6a68839aa5575acc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_aca1e2aeb7fb5a02cf6127edc96edc7f6}\label{class_snake_1_1game_1_1utility_1_1commands_aca1e2aeb7fb5a02cf6127edc96edc7f6}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!get\+Key\+Down@{get\+Key\+Down}}
+\index{get\+Key\+Down@{get\+Key\+Down}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{get\+Key\+Down()}{getKeyDown()}}
+{\footnotesize\ttfamily Character get\+Key\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna l\textquotesingle{}ultimo comando inviato (key\+Down) 
+
+
+
+Definition at line 59 of file commands.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1commands_aca1e2aeb7fb5a02cf6127edc96edc7f6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_a5852b0c61e12c9a0dff32d89faf56a0f}\label{class_snake_1_1game_1_1utility_1_1commands_a5852b0c61e12c9a0dff32d89faf56a0f}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!is\+Doing\+A\+Mossa\+Proibita@{is\+Doing\+A\+Mossa\+Proibita}}
+\index{is\+Doing\+A\+Mossa\+Proibita@{is\+Doing\+A\+Mossa\+Proibita}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{is\+Doing\+A\+Mossa\+Proibita()}{isDoingAMossaProibita()}}
+{\footnotesize\ttfamily boolean is\+Doing\+A\+Mossa\+Proibita (\begin{DoxyParamCaption}\item[{Character}]{car }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Metodo che ritorna true quando vogliamo tornare indietro sullo stesso asse. 
+
+Evita che vengano eseguiti comandi di cambio direzione sullo stesso asse. Esempio\+: mi sto muovendo a DX, non posso dire di muovermi a SX perche\textquotesingle{} altrimenti andrei a sovrappormi con la testa sulla coda 
+
+Definition at line 106 of file commands.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1commands_a5852b0c61e12c9a0dff32d89faf56a0f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_a116fb077976b2f81b0fc36845423fadb}\label{class_snake_1_1game_1_1utility_1_1commands_a116fb077976b2f81b0fc36845423fadb}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!set\+Key\+Down@{set\+Key\+Down}}
+\index{set\+Key\+Down@{set\+Key\+Down}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{set\+Key\+Down()}{setKeyDown()}}
+{\footnotesize\ttfamily void set\+Key\+Down (\begin{DoxyParamCaption}\item[{Character}]{car,  }\item[{int}]{key\+Code }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di impostare l\textquotesingle{}attributo key\+Down in base ai parametri passati. 
+
+Il metodo converte l\textquotesingle{}input delle frecce della tastiera nei rispettivi comandi W\+A\+SD 
+\begin{DoxyParams}{Parameters}
+{\em car} & carattere premuto su tastiera \\
+\hline
+{\em key\+Code} & codice del carattere premuto su tastiera \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 39 of file commands.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{class_snake_1_1game_1_1utility_1_1commands_a116fb077976b2f81b0fc36845423fadb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_snake_1_1game_1_1utility_1_1commands_a116fb077976b2f81b0fc36845423fadb_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_a09bac1b4079089c0f6a6eff874a820b8}\label{class_snake_1_1game_1_1utility_1_1commands_a09bac1b4079089c0f6a6eff874a820b8}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!key\+Down@{key\+Down}}
+\index{key\+Down@{key\+Down}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{key\+Down}{keyDown}}
+{\footnotesize\ttfamily Character key\+Down\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta l\textquotesingle{}ultimo comando inviato 
+
+Definition at line 17 of file commands.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1commands_aa7a70ebde8ae359567827667a6ce1901}\label{class_snake_1_1game_1_1utility_1_1commands_aa7a70ebde8ae359567827667a6ce1901}} 
+\index{Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}!our\+Instance@{our\+Instance}}
+\index{our\+Instance@{our\+Instance}!Snake\+::game\+::utility\+::commands@{Snake\+::game\+::utility\+::commands}}
+\subsubsection{\texorpdfstring{our\+Instance}{ourInstance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands}{commands}} our\+Instance = new \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1commands}{commands}}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Attributo che rappresenta l\textquotesingle{}instance privata per singleton 
+
+Definition at line 19 of file commands.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/game/utility/\mbox{\hyperlink{commands_8java}{commands.\+java}}\end{DoxyCompactItemize}

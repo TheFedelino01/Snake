@@ -1,0 +1,3 @@
+<map id="vipera" name="vipera">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html" title="{blocchi\n||+ blocchi()\l+ setDirezioneVipera()\l+ addBlocco()\l+ setPosTestaX()\l+ setPosTestaY()\l+ posizionaIBlocchi()\l+ getXblocco()\l+ getYblocco()\l+ getColoreBlocco()\l+ ePresenteUnBlocco()\l+ getColoreUltimoBlocco()\l&#45; controllaSeTestaColpisceCoda()\l&#45; prendiTesta()\l&#45; prendiUltimoBlocco()\l&#45; dimmiXdelNuovoBlocco()\l&#45; dimmiYdelNuovoBlocco()\l}" alt="" coords="16,300,231,597"/>
+</map>

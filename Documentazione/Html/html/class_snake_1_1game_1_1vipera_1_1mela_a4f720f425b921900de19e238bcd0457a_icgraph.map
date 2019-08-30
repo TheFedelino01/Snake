@@ -1,0 +1,7 @@
+<map id="generateColor" name="generateColor">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1mela.html#ac294a8928f164db9f4c965b86409b4df" title="Costruttore senza parametri della classe. " alt="" coords="181,5,232,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a728ec55c7b71728d444fd811341f704c" title="Genera un colore random. " alt="" coords="156,56,257,83"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a3f6240b54a13e397255c9b3f7354cf45" title="Quando richiamato dice che la mela e&#39; stata catturata quindi viene aggiunto un blocco alla vipera..." alt="" coords="305,49,553,90"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#ab565cb1ea4ead20f825d28b7e78ec5c8" title="Il metodo dice al serpente che la mela e&#39; stata presa. " alt="" coords="601,56,797,83"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="845,49,1053,90"/>
+</map>

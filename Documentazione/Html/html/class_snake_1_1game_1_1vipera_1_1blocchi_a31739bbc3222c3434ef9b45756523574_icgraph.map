@@ -1,0 +1,17 @@
+<map id="prendiUltimoBlocco" name="prendiUltimoBlocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#aca08d818f8eb2849ca337ea2c64f344d" title="Il metodo aggiunge un blocco in coda alla vipera. " alt="" coords="449,26,531,53"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#afda852123016bddf1840fdb19241ffa3" title="Il metodo ritorna la posizione X dell&#39;blocco che compone la vipera. " alt="" coords="189,26,345,53"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a78a0129c937328d9bd0dafc68d007aef" title="Il metodo ritorna la posizione Y dell&#39;blocco che compone la vipera. " alt="" coords="188,77,347,103"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a1afbc9b85396f53e6180eab2e5a36d4d" title="Il metodo ritorna il colore dell&#39;ultimo blocco che compone la vipera. " alt="" coords="190,127,345,154"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#aca08d818f8eb2849ca337ea2c64f344d" title="Aggiunge un blocco in coda alla vipera. " alt="" coords="655,19,850,60"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a3f6240b54a13e397255c9b3f7354cf45" title="Quando richiamato dice che la mela e&#39; stata catturata quindi viene aggiunto un blocco alla vipera..." alt="" coords="920,19,1168,60"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#ab565cb1ea4ead20f825d28b7e78ec5c8" title="Il metodo dice al serpente che la mela e&#39; stata presa. " alt="" coords="1221,26,1417,53"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="1469,19,1677,60"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a1afbc9b85396f53e6180eab2e5a36d4d" title="Restituisce il colore dell&#39;ultimo blocco in coda alla vipera. " alt="" coords="395,120,585,161"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a1afbc9b85396f53e6180eab2e5a36d4d" title="Restituisce il colore dell&#39;ultimo blocco in coda alla vipera. " alt="" coords="633,120,872,161"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1gioco.html#aa28f45b4849720b24778146d20f7be0b" title="Il metodo restituisce il numero di mele prese. " alt="" coords="949,120,1139,161"/>
+<area shape="rect" id="node13" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a0e0d67c4f526a64346a8b90e7c9d673d" title="Il metodo disegna ogni blocco che compone la vipera. " alt="" coords="1216,120,1421,161"/>
+<area shape="rect" id="node14" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="1480,127,1667,154"/>
+<area shape="rect" id="node15" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="1725,127,1887,154"/>
+<area shape="rect" id="node16" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1935,127,2016,154"/>
+</map>

@@ -1,0 +1,1106 @@
+\hypertarget{class_snake_1_1game_1_1gioco}{}\section{gioco Class Reference}
+\label{class_snake_1_1game_1_1gioco}\index{gioco@{gioco}}
+
+
+Collaboration diagram for gioco\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_snake_1_1game_1_1gioco__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a3b1654da86fa1fa7edeeb31ef7b6c7c8}{setup}} (int dimensioneX, int dimensioneY, P\+Applet tavola, boolean colorato)
+\begin{DoxyCompactList}\small\item\em Metodo che permette di impostare alcuni parametri per il gioco. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_ad74e7d47d7a1a055b993ccebbc684c08}{get\+DimensioneX}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di restituire la dimensione X dello schermo. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_abd35efad25c3e2eb4a53c1a7e2b11d71}{get\+DimensioneY}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di restituire la dimensione Y dello schermo. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a4262ff48c6fe3e20a0e3c9295158e375}{draw}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo disegna tutta la schermata G\+UI su schermo. \end{DoxyCompactList}\item 
+synchronized boolean \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a4bfdf00a78db51587515ac33ff8b6640}{is\+Morto}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo dice se il serpente e\textquotesingle{} morto oppure no. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a64c70d61c15e0cb706c686ddfa016f4e}{get\+Pos\+MelaX}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la dimensione X della mela. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a705cd114e2c4c31eb74a4107e9a3e1ae}{get\+Pos\+MelaY}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la dimensione Y della mela. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_af0072e81eee8ca6f1aadbda23fa837c7}{get\+Dimensione}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la dimensione del serpente cioe\textquotesingle{} da quanti blocchi e\textquotesingle{} composto. \end{DoxyCompactList}\item 
+synchronized Color \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a054f84dfe4bbfc78f789a4dc4203794b}{get\+Colore\+Mela}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce il colore della mela attualmente generata. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_acfb7d9e73cb8326f2ebf9e9cbfde836a}{respawn}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo fa respawnare il serpente. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_ab5f0b7048deda3c739c67b65166283cc}{get\+Num\+Mele\+Prese}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce il numero di mele prese. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_adaf82eb9ab0c17af1f56016eff67aa1d}{pos\+Xblocco}} (int i)
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la posizione X del blocco in base al parametro. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a6ced36b3bedd58f6363c964edb3b9b8d}{pos\+Yblocco}} (int i)
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la posizione Y del blocco in base al parametro. \end{DoxyCompactList}\item 
+synchronized boolean \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a8285102d15107685676f4ba0b6029d87}{get\+Serpente\+Colorato}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo dice se il serpente e\textquotesingle{} colorato oppure no. \end{DoxyCompactList}\item 
+synchronized Color \mbox{\hyperlink{class_snake_1_1game_1_1gioco_aa28f45b4849720b24778146d20f7be0b}{get\+Colore\+Ultimo\+Blocco}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce il numero di mele prese. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a118b98e3108dd550bb66d06db01eac41}{set\+Morto}} (boolean val)
+\begin{DoxyCompactList}\small\item\em Il metodo imposta lo stato di vita del serpente in base al parametro passato. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_ac6bacbb78b013d51f31d65501e08522e}{set\+Direzione\+Vipera}} (\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} c)
+\begin{DoxyCompactList}\small\item\em Il metodo imposta la direzione del serpente in base al parametro passato. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_ad62cb3f928d2518fde54d64970bb850d}{sposta}} (\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} c)
+\begin{DoxyCompactList}\small\item\em Il metodo sposta il serpente in base alla direzione passata come parametro. \end{DoxyCompactList}\item 
+synchronized boolean \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a0b9510c56170e691e67ab6308a4bd1f6}{e\+Presente\+Un\+Blocco}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce true se nella posizione X e Y, passata come parametro, e\textquotesingle{} presente un blocco. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a6fcd26707b59561887560c3c4696062b}{set\+Pos\+Mela}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Il metodo imposta la posizione della mela a seconda dei parametri passati. \end{DoxyCompactList}\item 
+synchronized boolean \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a627e7ff59c6e578230c0e1d99791cb57}{is\+Finding\+Mela}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo dice se il serpente sta cercando la mela. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a4b25cde2a913ca9774e4db70bd5a584d}{set\+Finding\+Mela}} (boolean v)
+\begin{DoxyCompactList}\small\item\em Il metodo a seconda del parametro passato, dice al serpente se deve oppure no cercare la mela. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_ab565cb1ea4ead20f825d28b7e78ec5c8}{mela\+Presa}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo dice al serpente che la mela e\textquotesingle{} stata presa. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a0176af97fc1e2e7714a82049ab9a7069}{get\+ActX}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la posizione X della testa del serpente. \end{DoxyCompactList}\item 
+synchronized int \mbox{\hyperlink{class_snake_1_1game_1_1gioco_aedb81d58024c710a010bfa1c48f329f0}{get\+ActY}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo restituisce la posizione Y della testa del serpente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a5309846aa7b0465c29959c51b0182ced}{dico\+Mela\+Presa}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di segnalare che la mela e\textquotesingle{} stata presa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a0de00fa3994a64cc918edd5944ac2569}{dico\+Mela\+Generata}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di segnalare che la mela e\textquotesingle{} stata generata. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a6eb3176cbeae2780913116900dd2d141}{aspetto\+Che\+Mela\+Generi}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di aspettare che la mela venga generata. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1gioco_afe08c48d1322583ee9398d56ac218afa}{aspetto\+Che\+Prende\+Mela}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo permette di aspettare che la mela venga presa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_snake_1_1game_1_1gioco}{gioco}} \mbox{\hyperlink{class_snake_1_1game_1_1gioco_aeab124c2ec716095907dd38891f8163d}{get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Instance pubblica per singleton. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1gioco_aaa8e0aba7a5f3cd7781bd0461d415f9e}{gioco}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore vuoto della classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th}{sync\+Th}} \mbox{\hyperlink{class_snake_1_1game_1_1gioco_ad1fc0de73f9b73491818970993ce6ea7}{sync\+Th}} = new \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th}{sync\+Th}}()
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager}{game\+Manager}} \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a719dbe54fbba578b11711a4b21e5b07c}{game\+Manager}}
+\item 
+\mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i}{Manager\+G\+UI}} \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a2d4e303de68f727259c79a2d5f09f85d}{manager\+Gui}}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_snake_1_1game_1_1gioco}{gioco}} \mbox{\hyperlink{class_snake_1_1game_1_1gioco_a1bd69ae0618ecbc11419d8d59446cf91}{our\+Instance}} = new \mbox{\hyperlink{class_snake_1_1game_1_1gioco}{gioco}}()
+\begin{DoxyCompactList}\small\item\em Instance privata per singleton. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+Classe che funge da dati condivisi, e\textquotesingle{} la classe principale l\textquotesingle{}unica utilizzata per interagire con le altre varie classi Essendo la classe principale, e\textquotesingle{} l\textquotesingle{}unica ad utilizzare un singleton 
+\end{DoxyVersion}
+
+
+Definition at line 19 of file gioco.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_aaa8e0aba7a5f3cd7781bd0461d415f9e}\label{class_snake_1_1game_1_1gioco_aaa8e0aba7a5f3cd7781bd0461d415f9e}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!gioco@{gioco}}
+\index{gioco@{gioco}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{gioco()}{gioco()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1gioco}{gioco}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Costruttore vuoto della classe. 
+
+
+
+Definition at line 41 of file gioco.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a6eb3176cbeae2780913116900dd2d141}\label{class_snake_1_1game_1_1gioco_a6eb3176cbeae2780913116900dd2d141}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!aspetto\+Che\+Mela\+Generi@{aspetto\+Che\+Mela\+Generi}}
+\index{aspetto\+Che\+Mela\+Generi@{aspetto\+Che\+Mela\+Generi}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{aspetto\+Che\+Mela\+Generi()}{aspettoCheMelaGeneri()}}
+{\footnotesize\ttfamily void aspetto\+Che\+Mela\+Generi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di aspettare che la mela venga generata. 
+
+
+
+Definition at line 251 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a6eb3176cbeae2780913116900dd2d141_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a6eb3176cbeae2780913116900dd2d141_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_afe08c48d1322583ee9398d56ac218afa}\label{class_snake_1_1game_1_1gioco_afe08c48d1322583ee9398d56ac218afa}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!aspetto\+Che\+Prende\+Mela@{aspetto\+Che\+Prende\+Mela}}
+\index{aspetto\+Che\+Prende\+Mela@{aspetto\+Che\+Prende\+Mela}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{aspetto\+Che\+Prende\+Mela()}{aspettoChePrendeMela()}}
+{\footnotesize\ttfamily void aspetto\+Che\+Prende\+Mela (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di aspettare che la mela venga presa. 
+
+
+
+Definition at line 257 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_afe08c48d1322583ee9398d56ac218afa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_afe08c48d1322583ee9398d56ac218afa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a0de00fa3994a64cc918edd5944ac2569}\label{class_snake_1_1game_1_1gioco_a0de00fa3994a64cc918edd5944ac2569}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!dico\+Mela\+Generata@{dico\+Mela\+Generata}}
+\index{dico\+Mela\+Generata@{dico\+Mela\+Generata}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{dico\+Mela\+Generata()}{dicoMelaGenerata()}}
+{\footnotesize\ttfamily void dico\+Mela\+Generata (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di segnalare che la mela e\textquotesingle{} stata generata. 
+
+
+
+Definition at line 245 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a0de00fa3994a64cc918edd5944ac2569_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a0de00fa3994a64cc918edd5944ac2569_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a5309846aa7b0465c29959c51b0182ced}\label{class_snake_1_1game_1_1gioco_a5309846aa7b0465c29959c51b0182ced}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!dico\+Mela\+Presa@{dico\+Mela\+Presa}}
+\index{dico\+Mela\+Presa@{dico\+Mela\+Presa}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{dico\+Mela\+Presa()}{dicoMelaPresa()}}
+{\footnotesize\ttfamily void dico\+Mela\+Presa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di segnalare che la mela e\textquotesingle{} stata presa. 
+
+
+
+Definition at line 239 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a5309846aa7b0465c29959c51b0182ced_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a5309846aa7b0465c29959c51b0182ced_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a4262ff48c6fe3e20a0e3c9295158e375}\label{class_snake_1_1game_1_1gioco_a4262ff48c6fe3e20a0e3c9295158e375}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!draw@{draw}}
+\index{draw@{draw}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily synchronized void draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo disegna tutta la schermata G\+UI su schermo. 
+
+
+
+Definition at line 76 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a4262ff48c6fe3e20a0e3c9295158e375_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_snake_1_1game_1_1gioco_a4262ff48c6fe3e20a0e3c9295158e375_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a0b9510c56170e691e67ab6308a4bd1f6}\label{class_snake_1_1game_1_1gioco_a0b9510c56170e691e67ab6308a4bd1f6}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!e\+Presente\+Un\+Blocco@{e\+Presente\+Un\+Blocco}}
+\index{e\+Presente\+Un\+Blocco@{e\+Presente\+Un\+Blocco}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{e\+Presente\+Un\+Blocco()}{ePresenteUnBlocco()}}
+{\footnotesize\ttfamily synchronized boolean e\+Presente\+Un\+Blocco (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce true se nella posizione X e Y, passata come parametro, e\textquotesingle{} presente un blocco. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & posizione X \\
+\hline
+{\em y} & posizione Y \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 187 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a0b9510c56170e691e67ab6308a4bd1f6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a0b9510c56170e691e67ab6308a4bd1f6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a0176af97fc1e2e7714a82049ab9a7069}\label{class_snake_1_1game_1_1gioco_a0176af97fc1e2e7714a82049ab9a7069}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+ActX@{get\+ActX}}
+\index{get\+ActX@{get\+ActX}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Act\+X()}{getActX()}}
+{\footnotesize\ttfamily synchronized int get\+ActX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la posizione X della testa del serpente. 
+
+
+
+Definition at line 225 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a0176af97fc1e2e7714a82049ab9a7069_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_snake_1_1game_1_1gioco_a0176af97fc1e2e7714a82049ab9a7069_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_aedb81d58024c710a010bfa1c48f329f0}\label{class_snake_1_1game_1_1gioco_aedb81d58024c710a010bfa1c48f329f0}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+ActY@{get\+ActY}}
+\index{get\+ActY@{get\+ActY}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Act\+Y()}{getActY()}}
+{\footnotesize\ttfamily synchronized int get\+ActY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la posizione Y della testa del serpente. 
+
+
+
+Definition at line 232 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_aedb81d58024c710a010bfa1c48f329f0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_snake_1_1game_1_1gioco_aedb81d58024c710a010bfa1c48f329f0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a054f84dfe4bbfc78f789a4dc4203794b}\label{class_snake_1_1game_1_1gioco_a054f84dfe4bbfc78f789a4dc4203794b}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Colore\+Mela@{get\+Colore\+Mela}}
+\index{get\+Colore\+Mela@{get\+Colore\+Mela}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Colore\+Mela()}{getColoreMela()}}
+{\footnotesize\ttfamily synchronized Color get\+Colore\+Mela (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce il colore della mela attualmente generata. 
+
+
+
+Definition at line 108 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a054f84dfe4bbfc78f789a4dc4203794b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a054f84dfe4bbfc78f789a4dc4203794b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_aa28f45b4849720b24778146d20f7be0b}\label{class_snake_1_1game_1_1gioco_aa28f45b4849720b24778146d20f7be0b}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Colore\+Ultimo\+Blocco@{get\+Colore\+Ultimo\+Blocco}}
+\index{get\+Colore\+Ultimo\+Blocco@{get\+Colore\+Ultimo\+Blocco}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Colore\+Ultimo\+Blocco()}{getColoreUltimoBlocco()}}
+{\footnotesize\ttfamily synchronized Color get\+Colore\+Ultimo\+Blocco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce il numero di mele prese. 
+
+
+
+Definition at line 153 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_aa28f45b4849720b24778146d20f7be0b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_aa28f45b4849720b24778146d20f7be0b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_af0072e81eee8ca6f1aadbda23fa837c7}\label{class_snake_1_1game_1_1gioco_af0072e81eee8ca6f1aadbda23fa837c7}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Dimensione@{get\+Dimensione}}
+\index{get\+Dimensione@{get\+Dimensione}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Dimensione()}{getDimensione()}}
+{\footnotesize\ttfamily synchronized int get\+Dimensione (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la dimensione del serpente cioe\textquotesingle{} da quanti blocchi e\textquotesingle{} composto. 
+
+
+
+Definition at line 102 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_af0072e81eee8ca6f1aadbda23fa837c7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_af0072e81eee8ca6f1aadbda23fa837c7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_ad74e7d47d7a1a055b993ccebbc684c08}\label{class_snake_1_1game_1_1gioco_ad74e7d47d7a1a055b993ccebbc684c08}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+DimensioneX@{get\+DimensioneX}}
+\index{get\+DimensioneX@{get\+DimensioneX}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Dimensione\+X()}{getDimensioneX()}}
+{\footnotesize\ttfamily synchronized int get\+DimensioneX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di restituire la dimensione X dello schermo. 
+
+
+
+Definition at line 63 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ad74e7d47d7a1a055b993ccebbc684c08_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ad74e7d47d7a1a055b993ccebbc684c08_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_abd35efad25c3e2eb4a53c1a7e2b11d71}\label{class_snake_1_1game_1_1gioco_abd35efad25c3e2eb4a53c1a7e2b11d71}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+DimensioneY@{get\+DimensioneY}}
+\index{get\+DimensioneY@{get\+DimensioneY}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Dimensione\+Y()}{getDimensioneY()}}
+{\footnotesize\ttfamily synchronized int get\+DimensioneY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di restituire la dimensione Y dello schermo. 
+
+
+
+Definition at line 69 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_abd35efad25c3e2eb4a53c1a7e2b11d71_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_abd35efad25c3e2eb4a53c1a7e2b11d71_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_aeab124c2ec716095907dd38891f8163d}\label{class_snake_1_1game_1_1gioco_aeab124c2ec716095907dd38891f8163d}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Instance@{get\+Instance}}
+\index{get\+Instance@{get\+Instance}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Instance()}{getInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_snake_1_1game_1_1gioco}{gioco}} get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Instance pubblica per singleton. 
+
+
+
+Definition at line 34 of file gioco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_aeab124c2ec716095907dd38891f8163d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_ab5f0b7048deda3c739c67b65166283cc}\label{class_snake_1_1game_1_1gioco_ab5f0b7048deda3c739c67b65166283cc}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Num\+Mele\+Prese@{get\+Num\+Mele\+Prese}}
+\index{get\+Num\+Mele\+Prese@{get\+Num\+Mele\+Prese}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Num\+Mele\+Prese()}{getNumMelePrese()}}
+{\footnotesize\ttfamily synchronized int get\+Num\+Mele\+Prese (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce il numero di mele prese. 
+
+
+
+Definition at line 122 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ab5f0b7048deda3c739c67b65166283cc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ab5f0b7048deda3c739c67b65166283cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a64c70d61c15e0cb706c686ddfa016f4e}\label{class_snake_1_1game_1_1gioco_a64c70d61c15e0cb706c686ddfa016f4e}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Pos\+MelaX@{get\+Pos\+MelaX}}
+\index{get\+Pos\+MelaX@{get\+Pos\+MelaX}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Pos\+Mela\+X()}{getPosMelaX()}}
+{\footnotesize\ttfamily synchronized int get\+Pos\+MelaX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la dimensione X della mela. 
+
+
+
+Definition at line 89 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a64c70d61c15e0cb706c686ddfa016f4e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a64c70d61c15e0cb706c686ddfa016f4e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a705cd114e2c4c31eb74a4107e9a3e1ae}\label{class_snake_1_1game_1_1gioco_a705cd114e2c4c31eb74a4107e9a3e1ae}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Pos\+MelaY@{get\+Pos\+MelaY}}
+\index{get\+Pos\+MelaY@{get\+Pos\+MelaY}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Pos\+Mela\+Y()}{getPosMelaY()}}
+{\footnotesize\ttfamily synchronized int get\+Pos\+MelaY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la dimensione Y della mela. 
+
+
+
+Definition at line 95 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a705cd114e2c4c31eb74a4107e9a3e1ae_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a705cd114e2c4c31eb74a4107e9a3e1ae_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a8285102d15107685676f4ba0b6029d87}\label{class_snake_1_1game_1_1gioco_a8285102d15107685676f4ba0b6029d87}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!get\+Serpente\+Colorato@{get\+Serpente\+Colorato}}
+\index{get\+Serpente\+Colorato@{get\+Serpente\+Colorato}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{get\+Serpente\+Colorato()}{getSerpenteColorato()}}
+{\footnotesize\ttfamily synchronized boolean get\+Serpente\+Colorato (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo dice se il serpente e\textquotesingle{} colorato oppure no. 
+
+
+
+Definition at line 146 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a8285102d15107685676f4ba0b6029d87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a8285102d15107685676f4ba0b6029d87_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a627e7ff59c6e578230c0e1d99791cb57}\label{class_snake_1_1game_1_1gioco_a627e7ff59c6e578230c0e1d99791cb57}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!is\+Finding\+Mela@{is\+Finding\+Mela}}
+\index{is\+Finding\+Mela@{is\+Finding\+Mela}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{is\+Finding\+Mela()}{isFindingMela()}}
+{\footnotesize\ttfamily synchronized boolean is\+Finding\+Mela (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo dice se il serpente sta cercando la mela. 
+
+
+
+Definition at line 203 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a627e7ff59c6e578230c0e1d99791cb57_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a4bfdf00a78db51587515ac33ff8b6640}\label{class_snake_1_1game_1_1gioco_a4bfdf00a78db51587515ac33ff8b6640}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!is\+Morto@{is\+Morto}}
+\index{is\+Morto@{is\+Morto}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{is\+Morto()}{isMorto()}}
+{\footnotesize\ttfamily synchronized boolean is\+Morto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo dice se il serpente e\textquotesingle{} morto oppure no. 
+
+
+
+Definition at line 83 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{class_snake_1_1game_1_1gioco_a4bfdf00a78db51587515ac33ff8b6640_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a4bfdf00a78db51587515ac33ff8b6640_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_ab565cb1ea4ead20f825d28b7e78ec5c8}\label{class_snake_1_1game_1_1gioco_ab565cb1ea4ead20f825d28b7e78ec5c8}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!mela\+Presa@{mela\+Presa}}
+\index{mela\+Presa@{mela\+Presa}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{mela\+Presa()}{melaPresa()}}
+{\footnotesize\ttfamily synchronized void mela\+Presa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo dice al serpente che la mela e\textquotesingle{} stata presa. 
+
+
+
+Definition at line 218 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ab565cb1ea4ead20f825d28b7e78ec5c8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_snake_1_1game_1_1gioco_ab565cb1ea4ead20f825d28b7e78ec5c8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_adaf82eb9ab0c17af1f56016eff67aa1d}\label{class_snake_1_1game_1_1gioco_adaf82eb9ab0c17af1f56016eff67aa1d}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!pos\+Xblocco@{pos\+Xblocco}}
+\index{pos\+Xblocco@{pos\+Xblocco}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{pos\+Xblocco()}{posXblocco()}}
+{\footnotesize\ttfamily synchronized int pos\+Xblocco (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la posizione X del blocco in base al parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & identificativo del blocco di cui si vuole ottenere informazioni \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 131 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_adaf82eb9ab0c17af1f56016eff67aa1d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_adaf82eb9ab0c17af1f56016eff67aa1d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a6ced36b3bedd58f6363c964edb3b9b8d}\label{class_snake_1_1game_1_1gioco_a6ced36b3bedd58f6363c964edb3b9b8d}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!pos\+Yblocco@{pos\+Yblocco}}
+\index{pos\+Yblocco@{pos\+Yblocco}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{pos\+Yblocco()}{posYblocco()}}
+{\footnotesize\ttfamily synchronized int pos\+Yblocco (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Il metodo restituisce la posizione Y del blocco in base al parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & identificativo del blocco di cui si vuole ottenere informazioni \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 139 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a6ced36b3bedd58f6363c964edb3b9b8d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a6ced36b3bedd58f6363c964edb3b9b8d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_acfb7d9e73cb8326f2ebf9e9cbfde836a}\label{class_snake_1_1game_1_1gioco_acfb7d9e73cb8326f2ebf9e9cbfde836a}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!respawn@{respawn}}
+\index{respawn@{respawn}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{respawn()}{respawn()}}
+{\footnotesize\ttfamily synchronized void respawn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo fa respawnare il serpente. 
+
+
+
+Definition at line 115 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_acfb7d9e73cb8326f2ebf9e9cbfde836a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_acfb7d9e73cb8326f2ebf9e9cbfde836a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_ac6bacbb78b013d51f31d65501e08522e}\label{class_snake_1_1game_1_1gioco_ac6bacbb78b013d51f31d65501e08522e}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!set\+Direzione\+Vipera@{set\+Direzione\+Vipera}}
+\index{set\+Direzione\+Vipera@{set\+Direzione\+Vipera}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{set\+Direzione\+Vipera()}{setDirezioneVipera()}}
+{\footnotesize\ttfamily synchronized void set\+Direzione\+Vipera (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Il metodo imposta la direzione del serpente in base al parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & la direzione del serpente \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 169 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ac6bacbb78b013d51f31d65501e08522e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ac6bacbb78b013d51f31d65501e08522e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a4b25cde2a913ca9774e4db70bd5a584d}\label{class_snake_1_1game_1_1gioco_a4b25cde2a913ca9774e4db70bd5a584d}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!set\+Finding\+Mela@{set\+Finding\+Mela}}
+\index{set\+Finding\+Mela@{set\+Finding\+Mela}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{set\+Finding\+Mela()}{setFindingMela()}}
+{\footnotesize\ttfamily synchronized void set\+Finding\+Mela (\begin{DoxyParamCaption}\item[{boolean}]{v }\end{DoxyParamCaption})}
+
+
+
+Il metodo a seconda del parametro passato, dice al serpente se deve oppure no cercare la mela. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & true sta cercando la mela, false non deve cercare la mela \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 211 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a4b25cde2a913ca9774e4db70bd5a584d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a118b98e3108dd550bb66d06db01eac41}\label{class_snake_1_1game_1_1gioco_a118b98e3108dd550bb66d06db01eac41}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!set\+Morto@{set\+Morto}}
+\index{set\+Morto@{set\+Morto}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{set\+Morto()}{setMorto()}}
+{\footnotesize\ttfamily synchronized void set\+Morto (\begin{DoxyParamCaption}\item[{boolean}]{val }\end{DoxyParamCaption})}
+
+
+
+Il metodo imposta lo stato di vita del serpente in base al parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & true significa vivo, false significa morto \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 161 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a118b98e3108dd550bb66d06db01eac41_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a118b98e3108dd550bb66d06db01eac41_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a6fcd26707b59561887560c3c4696062b}\label{class_snake_1_1game_1_1gioco_a6fcd26707b59561887560c3c4696062b}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!set\+Pos\+Mela@{set\+Pos\+Mela}}
+\index{set\+Pos\+Mela@{set\+Pos\+Mela}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{set\+Pos\+Mela()}{setPosMela()}}
+{\footnotesize\ttfamily synchronized void set\+Pos\+Mela (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Il metodo imposta la posizione della mela a seconda dei parametri passati. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & posizione X della mela \\
+\hline
+{\em y} & posizione Y della mela \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 197 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a6fcd26707b59561887560c3c4696062b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_a6fcd26707b59561887560c3c4696062b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a3b1654da86fa1fa7edeeb31ef7b6c7c8}\label{class_snake_1_1game_1_1gioco_a3b1654da86fa1fa7edeeb31ef7b6c7c8}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!setup@{setup}}
+\index{setup@{setup}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily synchronized void setup (\begin{DoxyParamCaption}\item[{int}]{dimensioneX,  }\item[{int}]{dimensioneY,  }\item[{P\+Applet}]{tavola,  }\item[{boolean}]{colorato }\end{DoxyParamCaption})}
+
+
+
+Metodo che permette di impostare alcuni parametri per il gioco. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dimensioneX} & valore dimensione schermo X \\
+\hline
+{\em dimensioneY} & valore dimensione schermo Y \\
+\hline
+{\em tavola} & oggetto per disegnare \\
+\hline
+{\em colorato} & attributo riferito al colore del serpente \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 53 of file gioco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{class_snake_1_1game_1_1gioco_a3b1654da86fa1fa7edeeb31ef7b6c7c8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_ad62cb3f928d2518fde54d64970bb850d}\label{class_snake_1_1game_1_1gioco_ad62cb3f928d2518fde54d64970bb850d}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!sposta@{sposta}}
+\index{sposta@{sposta}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{sposta()}{sposta()}}
+{\footnotesize\ttfamily synchronized void sposta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Il metodo sposta il serpente in base alla direzione passata come parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & la direzione del serpente \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 177 of file gioco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1gioco_ad62cb3f928d2518fde54d64970bb850d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_snake_1_1game_1_1gioco_ad62cb3f928d2518fde54d64970bb850d_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a719dbe54fbba578b11711a4b21e5b07c}\label{class_snake_1_1game_1_1gioco_a719dbe54fbba578b11711a4b21e5b07c}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!game\+Manager@{game\+Manager}}
+\index{game\+Manager@{game\+Manager}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{game\+Manager}{gameManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager}{game\+Manager}} \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager}{game\+Manager}}\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che permette di gestire il gioco 
+
+Definition at line 23 of file gioco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a2d4e303de68f727259c79a2d5f09f85d}\label{class_snake_1_1game_1_1gioco_a2d4e303de68f727259c79a2d5f09f85d}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!manager\+Gui@{manager\+Gui}}
+\index{manager\+Gui@{manager\+Gui}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{manager\+Gui}{managerGui}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1gui_1_1_manager_g_u_i}{Manager\+G\+UI}} manager\+Gui\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che permette di gestire la grafica 
+
+Definition at line 25 of file gioco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_a1bd69ae0618ecbc11419d8d59446cf91}\label{class_snake_1_1game_1_1gioco_a1bd69ae0618ecbc11419d8d59446cf91}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!our\+Instance@{our\+Instance}}
+\index{our\+Instance@{our\+Instance}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{our\+Instance}{ourInstance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1gioco}{gioco}} our\+Instance = new \mbox{\hyperlink{class_snake_1_1game_1_1gioco}{gioco}}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Instance privata per singleton. 
+
+
+
+Definition at line 30 of file gioco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1gioco_ad1fc0de73f9b73491818970993ce6ea7}\label{class_snake_1_1game_1_1gioco_ad1fc0de73f9b73491818970993ce6ea7}} 
+\index{Snake\+::game\+::gioco@{Snake\+::game\+::gioco}!sync\+Th@{sync\+Th}}
+\index{sync\+Th@{sync\+Th}!Snake\+::game\+::gioco@{Snake\+::game\+::gioco}}
+\subsubsection{\texorpdfstring{sync\+Th}{syncTh}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th}{sync\+Th}} \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th}{sync\+Th}} = new \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1sync_th}{sync\+Th}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che permette la sincronizzazione dei threads 
+
+Definition at line 21 of file gioco.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/game/\mbox{\hyperlink{gioco_8java}{gioco.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="setDirezioneVipera" name="setDirezioneVipera">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera a seconda della direzione passata come parametro. " alt="" coords="184,5,375,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera in base al parametro passato. " alt="" coords="423,5,661,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1gioco.html#ac6bacbb78b013d51f31d65501e08522e" title="Il metodo imposta la direzione del serpente in base al parametro passato. " alt="" coords="709,5,916,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="964,13,1184,39"/>
+</map>

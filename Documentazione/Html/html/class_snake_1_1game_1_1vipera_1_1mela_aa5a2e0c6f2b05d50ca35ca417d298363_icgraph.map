@@ -1,0 +1,6 @@
+<map id="setPosX" name="setPosX">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a38aa4a80eb7f9db1e033f67dc1c220b0" title="Imposta la posizione della mela a seconda dei parametri passati. " alt="" coords="124,5,363,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#a6fcd26707b59561887560c3c4696062b" title="Il metodo imposta la posizione della mela a seconda dei parametri passati. " alt="" coords="411,13,613,39"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a3d74cc6ca0a52476e34eefbf570fa492" title="Metodo genera la posizione della mela evitando che venga spawnata in corrispondenza di un blocco che ..." alt="" coords="661,5,904,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="952,13,1173,39"/>
+</map>

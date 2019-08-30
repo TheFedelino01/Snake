@@ -1,0 +1,12 @@
+<map id="setDirezioneVipera" name="setDirezioneVipera">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a6007259ace9d33bd56b9a6193e86df39" title="Il metodo imposta la direzione della testa della vipera a seconda del parametro passato. " alt="" coords="184,124,383,165"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a0479241855807563d1a7ed14bb5210cd" title="Il metodo ritorna il blocco che corrisponde alla testa della vipera. " alt="" coords="721,5,937,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a2d20c8ebc9efc39ed12392e6486d50d9" title="Il metodo permette di aggiornare l&#39;attributo tutteMosse a seconda della direzione passata come parame..." alt="" coords="448,59,644,100"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a1437df7b6446c67e0385922e99343857" title="Il metodo controlla se la testa della vipera colpisce un blocco della sua coda. " alt="" coords="431,124,661,165"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="445,190,647,217"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1gioco.html#a118b98e3108dd550bb66d06db01eac41" title="Il metodo imposta lo stato di vita del serpente in base al parametro passato. " alt="" coords="453,245,639,271"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#ae13f88e922e1339355456062ad9fa359" title="Ritorna la posizione X del blocco. " alt="" coords="727,77,930,103"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#aab81944f0a14bba932c0931899951937" title="Ritorna la posizione Y del blocco. " alt="" coords="726,127,931,154"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a09b5923541116b960ee0c349c60b92fe" title="Il metodo ritorna l&#39;attributo distaccaFiglio. " alt="" coords="731,179,927,220"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a05b55f5dcc088b5655c5ff77c01f37ea" title="Metodo che imposta l&#39;attributo morto a seconda del parametro passato. " alt="" coords="709,244,948,285"/>
+</map>

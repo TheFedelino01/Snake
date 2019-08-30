@@ -1,0 +1,8 @@
+<map id="getNumMelePrese" name="getNumMelePrese">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#ab5f0b7048deda3c739c67b65166283cc" title="Il metodo restituisce il numero di mele prese. " alt="" coords="183,39,389,80"/>
+<area shape="rect" id="node3" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a0e0d67c4f526a64346a8b90e7c9d673d" title="Il metodo disegna ogni blocco che compone la vipera. " alt="" coords="437,5,643,47"/>
+<area shape="rect" id="node7" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#ab1a7af3f7073e8975696c4806e9194ef" title="Il metodo disegna il punteggio della partita su schermo. " alt="" coords="447,71,633,112"/>
+<area shape="rect" id="node4" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="691,46,877,73"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="925,46,1087,73"/>
+<area shape="rect" id="node6" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1135,46,1216,73"/>
+</map>

@@ -1,0 +1,558 @@
+\hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi}{}\section{blocchi Class Reference}
+\label{class_snake_1_1game_1_1vipera_1_1blocchi}\index{blocchi@{blocchi}}
+
+
+Collaboration diagram for blocchi\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{class_snake_1_1game_1_1vipera_1_1blocchi__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_af15f919c8bd034fb2f61735594958357}{blocchi}} (int startX, int startY)
+\begin{DoxyCompactList}\small\item\em Costruttore con parametri della classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a6007259ace9d33bd56b9a6193e86df39}{set\+Direzione\+Vipera}} (\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} dir)
+\begin{DoxyCompactList}\small\item\em Il metodo imposta la direzione della testa della vipera a seconda del parametro passato. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_aca08d818f8eb2849ca337ea2c64f344d}{add\+Blocco}} (Color colore\+Blocco)
+\begin{DoxyCompactList}\small\item\em Il metodo aggiunge un blocco in coda alla vipera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a1e26556cba7802de510ce21bc9096149}{set\+Pos\+TestaX}} (int act\+Posx)
+\begin{DoxyCompactList}\small\item\em Il metodo imposta la posizione X della testa della vipera a seconda del parametro passato. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a7136da8bd75e6d0622eecf38aea1b60e}{set\+Pos\+TestaY}} (int act\+PosY)
+\begin{DoxyCompactList}\small\item\em Il metodo imposta la posizione Y della testa della vipera a seconda del parametro passato. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a2fbeb7ff9ae1fc1f5c5b1a885900034c}{posiziona\+I\+Blocchi}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo dice ad ogni blocco (ad eccezione della testa) di seguire il blocco davanti. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_ac25c5b310cb26c05d5ea69485d1e155f}{get\+Xblocco}} (int i)
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna la posizione X del blocco indicato come parametro. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a4fad016a4b1de9e17b7092abd420d962}{get\+Yblocco}} (int i)
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna la posizione Y del blocco indicato come parametro. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a6c5d6f8c561308ff9ec579b370a969e0}{get\+Colore\+Blocco}} (int i)
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna il colore del blocco indicato come parametro. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_ac24833a417b3bd7c60e29ed5b7edc29f}{e\+Presente\+Un\+Blocco}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna true se nella posizione X e Y passata come parametro e\textquotesingle{} presente un blocco della vipera. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a1afbc9b85396f53e6180eab2e5a36d4d}{get\+Colore\+Ultimo\+Blocco}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna il colore dell\textquotesingle{}ultimo blocco che compone la vipera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a1437df7b6446c67e0385922e99343857}{controlla\+Se\+Testa\+Colpisce\+Coda}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo controlla se la testa della vipera colpisce un blocco della sua coda. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}} \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a0479241855807563d1a7ed14bb5210cd}{prendi\+Testa}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna il blocco che corrisponde alla testa della vipera. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}} \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a31739bbc3222c3434ef9b45756523574}{prendi\+Ultimo\+Blocco}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna l\textquotesingle{}ultimo blocco che compone la vipera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_afda852123016bddf1840fdb19241ffa3}{dimmi\+Xdel\+Nuovo\+Blocco}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna la posizione X dell\textquotesingle{}blocco che compone la vipera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_a78a0129c937328d9bd0dafc68d007aef}{dimmi\+Ydel\+Nuovo\+Blocco}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna la posizione Y dell\textquotesingle{}blocco che compone la vipera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Vector$<$ \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}} $>$ \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi_ad6cdae3853215d2776147ba0c54ad406}{blocchi}} = new Vector$<$\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}}$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+La classe rappresenta tutti i blocchi che compongono la vipera 
+\end{DoxyVersion}
+
+
+Definition at line 16 of file blocchi.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_af15f919c8bd034fb2f61735594958357}\label{class_snake_1_1game_1_1vipera_1_1blocchi_af15f919c8bd034fb2f61735594958357}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!blocchi@{blocchi}}
+\index{blocchi@{blocchi}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{blocchi()}{blocchi()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi}{blocchi}} (\begin{DoxyParamCaption}\item[{int}]{startX,  }\item[{int}]{startY }\end{DoxyParamCaption})}
+
+
+
+Costruttore con parametri della classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em startX} & posizione X iniziale della testa \\
+\hline
+{\em startY} & posizione Y iniziale della testa \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 26 of file blocchi.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_aca08d818f8eb2849ca337ea2c64f344d}\label{class_snake_1_1game_1_1vipera_1_1blocchi_aca08d818f8eb2849ca337ea2c64f344d}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!add\+Blocco@{add\+Blocco}}
+\index{add\+Blocco@{add\+Blocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{add\+Blocco()}{addBlocco()}}
+{\footnotesize\ttfamily void add\+Blocco (\begin{DoxyParamCaption}\item[{Color}]{colore\+Blocco }\end{DoxyParamCaption})}
+
+
+
+Il metodo aggiunge un blocco in coda alla vipera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em colore\+Blocco} & colore del blocco da aggiungere \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 88 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_aca08d818f8eb2849ca337ea2c64f344d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_aca08d818f8eb2849ca337ea2c64f344d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a1437df7b6446c67e0385922e99343857}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a1437df7b6446c67e0385922e99343857}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!controlla\+Se\+Testa\+Colpisce\+Coda@{controlla\+Se\+Testa\+Colpisce\+Coda}}
+\index{controlla\+Se\+Testa\+Colpisce\+Coda@{controlla\+Se\+Testa\+Colpisce\+Coda}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{controlla\+Se\+Testa\+Colpisce\+Coda()}{controllaSeTestaColpisceCoda()}}
+{\footnotesize\ttfamily boolean controlla\+Se\+Testa\+Colpisce\+Coda (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo controlla se la testa della vipera colpisce un blocco della sua coda. 
+
+
+
+Definition at line 47 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a1437df7b6446c67e0385922e99343857_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a1437df7b6446c67e0385922e99343857_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_afda852123016bddf1840fdb19241ffa3}\label{class_snake_1_1game_1_1vipera_1_1blocchi_afda852123016bddf1840fdb19241ffa3}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!dimmi\+Xdel\+Nuovo\+Blocco@{dimmi\+Xdel\+Nuovo\+Blocco}}
+\index{dimmi\+Xdel\+Nuovo\+Blocco@{dimmi\+Xdel\+Nuovo\+Blocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{dimmi\+Xdel\+Nuovo\+Blocco()}{dimmiXdelNuovoBlocco()}}
+{\footnotesize\ttfamily int dimmi\+Xdel\+Nuovo\+Blocco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo ritorna la posizione X dell\textquotesingle{}blocco che compone la vipera. 
+
+
+
+Definition at line 120 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_afda852123016bddf1840fdb19241ffa3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_afda852123016bddf1840fdb19241ffa3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a78a0129c937328d9bd0dafc68d007aef}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a78a0129c937328d9bd0dafc68d007aef}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!dimmi\+Ydel\+Nuovo\+Blocco@{dimmi\+Ydel\+Nuovo\+Blocco}}
+\index{dimmi\+Ydel\+Nuovo\+Blocco@{dimmi\+Ydel\+Nuovo\+Blocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{dimmi\+Ydel\+Nuovo\+Blocco()}{dimmiYdelNuovoBlocco()}}
+{\footnotesize\ttfamily int dimmi\+Ydel\+Nuovo\+Blocco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo ritorna la posizione Y dell\textquotesingle{}blocco che compone la vipera. 
+
+
+
+Definition at line 127 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a78a0129c937328d9bd0dafc68d007aef_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a78a0129c937328d9bd0dafc68d007aef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_ac24833a417b3bd7c60e29ed5b7edc29f}\label{class_snake_1_1game_1_1vipera_1_1blocchi_ac24833a417b3bd7c60e29ed5b7edc29f}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!e\+Presente\+Un\+Blocco@{e\+Presente\+Un\+Blocco}}
+\index{e\+Presente\+Un\+Blocco@{e\+Presente\+Un\+Blocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{e\+Presente\+Un\+Blocco()}{ePresenteUnBlocco()}}
+{\footnotesize\ttfamily boolean e\+Presente\+Un\+Blocco (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna true se nella posizione X e Y passata come parametro e\textquotesingle{} presente un blocco della vipera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & posizione x del blocco \\
+\hline
+{\em y} & posizione y del blocco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 201 of file blocchi.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_ac24833a417b3bd7c60e29ed5b7edc29f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a6c5d6f8c561308ff9ec579b370a969e0}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a6c5d6f8c561308ff9ec579b370a969e0}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!get\+Colore\+Blocco@{get\+Colore\+Blocco}}
+\index{get\+Colore\+Blocco@{get\+Colore\+Blocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{get\+Colore\+Blocco()}{getColoreBlocco()}}
+{\footnotesize\ttfamily Color get\+Colore\+Blocco (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna il colore del blocco indicato come parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & identificativo del blocco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 191 of file blocchi.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a6c5d6f8c561308ff9ec579b370a969e0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a1afbc9b85396f53e6180eab2e5a36d4d}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a1afbc9b85396f53e6180eab2e5a36d4d}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!get\+Colore\+Ultimo\+Blocco@{get\+Colore\+Ultimo\+Blocco}}
+\index{get\+Colore\+Ultimo\+Blocco@{get\+Colore\+Ultimo\+Blocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{get\+Colore\+Ultimo\+Blocco()}{getColoreUltimoBlocco()}}
+{\footnotesize\ttfamily Color get\+Colore\+Ultimo\+Blocco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna il colore dell\textquotesingle{}ultimo blocco che compone la vipera. 
+
+
+
+Definition at line 219 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a1afbc9b85396f53e6180eab2e5a36d4d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a1afbc9b85396f53e6180eab2e5a36d4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_ac25c5b310cb26c05d5ea69485d1e155f}\label{class_snake_1_1game_1_1vipera_1_1blocchi_ac25c5b310cb26c05d5ea69485d1e155f}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!get\+Xblocco@{get\+Xblocco}}
+\index{get\+Xblocco@{get\+Xblocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{get\+Xblocco()}{getXblocco()}}
+{\footnotesize\ttfamily int get\+Xblocco (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna la posizione X del blocco indicato come parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & identificativo del blocco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 173 of file blocchi.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_ac25c5b310cb26c05d5ea69485d1e155f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a4fad016a4b1de9e17b7092abd420d962}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a4fad016a4b1de9e17b7092abd420d962}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!get\+Yblocco@{get\+Yblocco}}
+\index{get\+Yblocco@{get\+Yblocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{get\+Yblocco()}{getYblocco()}}
+{\footnotesize\ttfamily int get\+Yblocco (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna la posizione Y del blocco indicato come parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & identificativo del blocco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 182 of file blocchi.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a4fad016a4b1de9e17b7092abd420d962_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a2fbeb7ff9ae1fc1f5c5b1a885900034c}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a2fbeb7ff9ae1fc1f5c5b1a885900034c}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!posiziona\+I\+Blocchi@{posiziona\+I\+Blocchi}}
+\index{posiziona\+I\+Blocchi@{posiziona\+I\+Blocchi}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{posiziona\+I\+Blocchi()}{posizionaIBlocchi()}}
+{\footnotesize\ttfamily void posiziona\+I\+Blocchi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo dice ad ogni blocco (ad eccezione della testa) di seguire il blocco davanti. 
+
+In questo modo si crea l\textquotesingle{}effetto snake cioe\textquotesingle{} che i blocchi della coda seguono il percorso fatto dalla testa 
+
+Definition at line 155 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a2fbeb7ff9ae1fc1f5c5b1a885900034c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a2fbeb7ff9ae1fc1f5c5b1a885900034c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a0479241855807563d1a7ed14bb5210cd}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a0479241855807563d1a7ed14bb5210cd}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!prendi\+Testa@{prendi\+Testa}}
+\index{prendi\+Testa@{prendi\+Testa}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{prendi\+Testa()}{prendiTesta()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}} prendi\+Testa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo ritorna il blocco che corrisponde alla testa della vipera. 
+
+
+
+Definition at line 72 of file blocchi.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a0479241855807563d1a7ed14bb5210cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a31739bbc3222c3434ef9b45756523574}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a31739bbc3222c3434ef9b45756523574}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!prendi\+Ultimo\+Blocco@{prendi\+Ultimo\+Blocco}}
+\index{prendi\+Ultimo\+Blocco@{prendi\+Ultimo\+Blocco}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{prendi\+Ultimo\+Blocco()}{prendiUltimoBlocco()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}} prendi\+Ultimo\+Blocco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Il metodo ritorna l\textquotesingle{}ultimo blocco che compone la vipera. 
+
+
+
+Definition at line 79 of file blocchi.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a31739bbc3222c3434ef9b45756523574_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a6007259ace9d33bd56b9a6193e86df39}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a6007259ace9d33bd56b9a6193e86df39}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!set\+Direzione\+Vipera@{set\+Direzione\+Vipera}}
+\index{set\+Direzione\+Vipera@{set\+Direzione\+Vipera}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{set\+Direzione\+Vipera()}{setDirezioneVipera()}}
+{\footnotesize\ttfamily void set\+Direzione\+Vipera (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}}]{dir }\end{DoxyParamCaption})}
+
+
+
+Il metodo imposta la direzione della testa della vipera a seconda del parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & direzione testa \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 36 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a6007259ace9d33bd56b9a6193e86df39_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a6007259ace9d33bd56b9a6193e86df39_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a1e26556cba7802de510ce21bc9096149}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a1e26556cba7802de510ce21bc9096149}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!set\+Pos\+TestaX@{set\+Pos\+TestaX}}
+\index{set\+Pos\+TestaX@{set\+Pos\+TestaX}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{set\+Pos\+Testa\+X()}{setPosTestaX()}}
+{\footnotesize\ttfamily void set\+Pos\+TestaX (\begin{DoxyParamCaption}\item[{int}]{act\+Posx }\end{DoxyParamCaption})}
+
+
+
+Il metodo imposta la posizione X della testa della vipera a seconda del parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em act\+Posx} & posizione X \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 137 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a1e26556cba7802de510ce21bc9096149_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a1e26556cba7802de510ce21bc9096149_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_a7136da8bd75e6d0622eecf38aea1b60e}\label{class_snake_1_1game_1_1vipera_1_1blocchi_a7136da8bd75e6d0622eecf38aea1b60e}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!set\+Pos\+TestaY@{set\+Pos\+TestaY}}
+\index{set\+Pos\+TestaY@{set\+Pos\+TestaY}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{set\+Pos\+Testa\+Y()}{setPosTestaY()}}
+{\footnotesize\ttfamily void set\+Pos\+TestaY (\begin{DoxyParamCaption}\item[{int}]{act\+PosY }\end{DoxyParamCaption})}
+
+
+
+Il metodo imposta la posizione Y della testa della vipera a seconda del parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em act\+PosY} & posizione Y \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 146 of file blocchi.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a7136da8bd75e6d0622eecf38aea1b60e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocchi_a7136da8bd75e6d0622eecf38aea1b60e_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocchi_ad6cdae3853215d2776147ba0c54ad406}\label{class_snake_1_1game_1_1vipera_1_1blocchi_ad6cdae3853215d2776147ba0c54ad406}} 
+\index{Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}!blocchi@{blocchi}}
+\index{blocchi@{blocchi}!Snake\+::game\+::vipera\+::blocchi@{Snake\+::game\+::vipera\+::blocchi}}
+\subsubsection{\texorpdfstring{blocchi}{blocchi}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}}$>$ \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocchi}{blocchi}} = new Vector$<$\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta tutti i blocchi 
+
+Definition at line 18 of file blocchi.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/game/vipera/\mbox{\hyperlink{blocchi_8java}{blocchi.\+java}}\end{DoxyCompactItemize}

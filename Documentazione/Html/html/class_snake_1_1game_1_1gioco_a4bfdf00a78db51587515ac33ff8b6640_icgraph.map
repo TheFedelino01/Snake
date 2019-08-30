@@ -1,0 +1,6 @@
+<map id="isMorto" name="isMorto">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="119,5,339,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="135,56,322,83"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="387,56,436,83"/>
+<area shape="rect" id="node5" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="484,56,565,83"/>
+</map>

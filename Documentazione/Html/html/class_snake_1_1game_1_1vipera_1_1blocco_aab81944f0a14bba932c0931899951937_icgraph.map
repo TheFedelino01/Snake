@@ -1,0 +1,14 @@
+<map id="getY" name="getY">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a1437df7b6446c67e0385922e99343857" title="Il metodo controlla se la testa della vipera colpisce un blocco della sua coda. " alt="" coords="103,5,333,47"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a78a0129c937328d9bd0dafc68d007aef" title="Il metodo ritorna la posizione Y dell&#39;blocco che compone la vipera. " alt="" coords="110,71,326,112"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a6007259ace9d33bd56b9a6193e86df39" title="Il metodo imposta la direzione della testa della vipera a seconda del parametro passato. " alt="" coords="383,5,582,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera a seconda della direzione passata come parametro. " alt="" coords="634,5,825,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera in base al parametro passato. " alt="" coords="879,5,1118,47"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1gioco.html#ac6bacbb78b013d51f31d65501e08522e" title="Il metodo imposta la direzione del serpente in base al parametro passato. " alt="" coords="1171,5,1377,47"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="1425,13,1645,39"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#aca08d818f8eb2849ca337ea2c64f344d" title="Il metodo aggiunge un blocco in coda alla vipera. " alt="" coords="381,71,584,112"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#aca08d818f8eb2849ca337ea2c64f344d" title="Aggiunge un blocco in coda alla vipera. " alt="" coords="632,71,827,112"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a3f6240b54a13e397255c9b3f7354cf45" title="Quando richiamato dice che la mela e&#39; stata catturata quindi viene aggiunto un blocco alla vipera..." alt="" coords="875,71,1123,112"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1gioco.html#ab565cb1ea4ead20f825d28b7e78ec5c8" title="Il metodo dice al serpente che la mela e&#39; stata presa. " alt="" coords="1176,78,1372,105"/>
+<area shape="rect" id="node13" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="1431,71,1639,112"/>
+</map>

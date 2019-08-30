@@ -1,0 +1,19 @@
+<map id="spostaTop" name="spostaTop">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a51a16845a66091ec0697d9ccf8ba4e8d" title="Sposta la vipera sull&#39;asse Y in base alla quantita passata come parametro. " alt="" coords="136,155,184,182"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="812,147,1013,174"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1gioco.html#abd35efad25c3e2eb4a53c1a7e2b11d71" title="Il metodo permette di restituire la dimensione Y dello schermo. " alt="" coords="235,17,465,43"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a7136da8bd75e6d0622eecf38aea1b60e" title="Il metodo imposta la posizione Y della testa della vipera a seconda del parametro passato..." alt="" coords="251,148,449,189"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a2fbeb7ff9ae1fc1f5c5b1a885900034c" title="Il metodo dice ad ogni blocco (ad eccezione della testa) di seguire il blocco davanti. " alt="" coords="232,239,468,280"/>
+<area shape="rect" id="node17" href="$class_snake_1_1game_1_1gioco.html#a118b98e3108dd550bb66d06db01eac41" title="Il metodo imposta lo stato di vita del serpente in base al parametro passato. " alt="" coords="257,334,443,361"/>
+<area shape="rect" id="node5" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Il metodo restituisce la dimensione Y dello schermo. " alt="" coords="546,5,725,47"/>
+<area shape="rect" id="node6" href="$class_snake_1_1gui_1_1size.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Restituisce valore dell&#39;attributo dimensioneY. " alt="" coords="809,13,1016,39"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a0479241855807563d1a7ed14bb5210cd" title="Il metodo ritorna il blocco che corrisponde alla testa della vipera. " alt="" coords="527,173,743,215"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a60e970e880a18799c14e771afe3e904b" title="Imposta la posizione Y del blocco a seconda del parametro. " alt="" coords="533,122,738,149"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#acabc02ee9509cd1e196033348dd76a6f" title="Il metodo permette di far muovere il blocco a seconda della direzione passata come parametro..." alt="" coords="531,305,740,331"/>
+<area shape="rect" id="node16" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a95fdd903a87a54ceaba0674eee0a4dda" title="Il metodo ritorna l&#39;ultima mossa effettuata dal blocco attraverso una pop. " alt="" coords="537,239,733,280"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1gioco.html#af0072e81eee8ca6f1aadbda23fa837c7" title="Il metodo restituisce la dimensione del serpente cioe&#39; da quanti blocchi e&#39; composto. " alt="" coords="803,275,1023,302"/>
+<area shape="rect" id="node15" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a2d20c8ebc9efc39ed12392e6486d50d9" title="Il metodo permette di aggiornare l&#39;attributo tutteMosse a seconda della direzione passata come parame..." alt="" coords="815,327,1011,368"/>
+<area shape="rect" id="node13" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Ritorna la dimensione della vipera. " alt="" coords="1071,268,1309,309"/>
+<area shape="rect" id="node14" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Restituisce la dimensione della vipera. " alt="" coords="1357,275,1465,302"/>
+<area shape="rect" id="node18" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a05b55f5dcc088b5655c5ff77c01f37ea" title="Metodo che imposta l&#39;attributo morto a seconda del parametro passato. " alt="" coords="516,356,755,397"/>
+</map>

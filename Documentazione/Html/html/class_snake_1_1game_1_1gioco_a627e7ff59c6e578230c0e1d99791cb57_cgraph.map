@@ -1,0 +1,4 @@
+<map id="isFindingMela" name="isFindingMela">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ad36cea66da3e5e8f3a9fdd8decd6f70b" title="Dice se la vipera sta cercando la mela. " alt="" coords="156,5,387,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ad36cea66da3e5e8f3a9fdd8decd6f70b" title="Restituisce il valore dell&#39;attributo findingMela. " alt="" coords="435,5,617,47"/>
+</map>

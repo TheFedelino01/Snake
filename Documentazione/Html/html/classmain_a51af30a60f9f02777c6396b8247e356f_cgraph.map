@@ -1,0 +1,5 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="104,5,305,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#a3b1654da86fa1fa7edeeb31ef7b6c7c8" title="Metodo che permette di impostare alcuni parametri per il gioco. " alt="" coords="121,56,288,83"/>
+<area shape="rect" id="node4" href="$classmain.html#a28055606ff9f6030517770a96e4864e8" title="Metodo che permette di avviare tutti i threads necessari per il funzionamento dell&#39;applicazione. " alt="" coords="171,107,239,133"/>
+</map>

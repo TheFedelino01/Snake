@@ -1,0 +1,5 @@
+<map id="getX" name="getX">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ae853a40673c27fff3315c5213c749814" title="Ritorna la posizione X della vipera. " alt="" coords="100,13,365,39"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#a0176af97fc1e2e7714a82049ab9a7069" title="Il metodo restituisce la posizione X della testa del serpente. " alt="" coords="413,13,592,39"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="640,5,848,47"/>
+</map>

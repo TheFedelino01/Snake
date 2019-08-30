@@ -1,0 +1,7 @@
+<map id="respawn" name="respawn">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#acfb7d9e73cb8326f2ebf9e9cbfde836a" title="Il metodo fa respawnare il serpente. " alt="" coords="124,13,307,39"/>
+<area shape="rect" id="node3" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a8e244c775b546a6e7d89884af1495892" title="Il metodo mostra il messaggio di restart. " alt="" coords="355,5,571,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="619,13,805,39"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="853,13,1015,39"/>
+<area shape="rect" id="node6" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1063,13,1144,39"/>
+</map>

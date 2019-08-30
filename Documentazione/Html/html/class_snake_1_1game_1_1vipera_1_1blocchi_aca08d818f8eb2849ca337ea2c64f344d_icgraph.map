@@ -1,0 +1,6 @@
+<map id="addBlocco" name="addBlocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#aca08d818f8eb2849ca337ea2c64f344d" title="Aggiunge un blocco in coda alla vipera. " alt="" coords="136,5,331,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a3f6240b54a13e397255c9b3f7354cf45" title="Quando richiamato dice che la mela e&#39; stata catturata quindi viene aggiunto un blocco alla vipera..." alt="" coords="379,5,627,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1gioco.html#ab565cb1ea4ead20f825d28b7e78ec5c8" title="Il metodo dice al serpente che la mela e&#39; stata presa. " alt="" coords="675,13,871,39"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1threads_1_1th_controlla_mela.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="919,5,1127,47"/>
+</map>

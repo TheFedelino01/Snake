@@ -1,0 +1,8 @@
+<map id="getXblocco" name="getXblocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a88318c562485640585510cbd35e76b07" title="Ritorna la posizione X del blocco identificato da parametro. " alt="" coords="139,5,380,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#adaf82eb9ab0c17af1f56016eff67aa1d" title="Il metodo restituisce la posizione X del blocco in base al parametro. " alt="" coords="428,13,628,39"/>
+<area shape="rect" id="node4" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a0e0d67c4f526a64346a8b90e7c9d673d" title="Il metodo disegna ogni blocco che compone la vipera. " alt="" coords="676,5,881,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="929,13,1116,39"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="1164,13,1325,39"/>
+<area shape="rect" id="node7" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1373,13,1455,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="posYblocco" name="posYblocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a4fad016a4b1de9e17b7092abd420d962" title="Restituisce la posizione Y del blocco in base all&#39;identificativo passato come parametro. " alt="" coords="144,5,335,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a4fad016a4b1de9e17b7092abd420d962" title="Il metodo ritorna la posizione Y del blocco indicato come parametro. " alt="" coords="383,5,581,47"/>
+</map>

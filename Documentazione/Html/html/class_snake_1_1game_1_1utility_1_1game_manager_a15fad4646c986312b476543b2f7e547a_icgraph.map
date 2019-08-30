@@ -1,0 +1,7 @@
+<map id="getColoreMela" name="getColoreMela">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#a054f84dfe4bbfc78f789a4dc4203794b" title="Il metodo restituisce il colore della mela attualmente generata. " alt="" coords="159,5,376,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a438db0a39d5c05d1dc557b2927726ef7" title="Il metodo genera la posizione della mela all&#39;interno eello schermo, di seguito disegna l&#39;ellisse colo..." alt="" coords="424,5,657,32"/>
+<area shape="rect" id="node4" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="705,5,892,32"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="940,5,1101,32"/>
+<area shape="rect" id="node6" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1149,5,1231,32"/>
+</map>

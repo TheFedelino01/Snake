@@ -1,0 +1,13 @@
+<map id="setDirezioneVipera" name="setDirezioneVipera">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a6007259ace9d33bd56b9a6193e86df39" title="Imposta la direzione della vipera a seconda della direzione passata come parametro. " alt="" coords="184,123,375,164"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a6007259ace9d33bd56b9a6193e86df39" title="Il metodo imposta la direzione della testa della vipera a seconda del parametro passato. " alt="" coords="423,123,621,164"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a0479241855807563d1a7ed14bb5210cd" title="Il metodo ritorna il blocco che corrisponde alla testa della vipera. " alt="" coords="948,5,1164,47"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a2d20c8ebc9efc39ed12392e6486d50d9" title="Il metodo permette di aggiornare l&#39;attributo tutteMosse a seconda della direzione passata come parame..." alt="" coords="687,57,883,99"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a1437df7b6446c67e0385922e99343857" title="Il metodo controlla se la testa della vipera colpisce un blocco della sua coda. " alt="" coords="669,123,900,164"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="684,189,885,215"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1gioco.html#a118b98e3108dd550bb66d06db01eac41" title="Il metodo imposta lo stato di vita del serpente in base al parametro passato. " alt="" coords="692,241,877,267"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#ae13f88e922e1339355456062ad9fa359" title="Ritorna la posizione X del blocco. " alt="" coords="955,77,1157,103"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#aab81944f0a14bba932c0931899951937" title="Ritorna la posizione Y del blocco. " alt="" coords="953,127,1159,154"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a09b5923541116b960ee0c349c60b92fe" title="Il metodo ritorna l&#39;attributo distaccaFiglio. " alt="" coords="958,179,1154,220"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a05b55f5dcc088b5655c5ff77c01f37ea" title="Metodo che imposta l&#39;attributo morto a seconda del parametro passato. " alt="" coords="1019,245,1093,271"/>
+</map>

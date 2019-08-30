@@ -1,0 +1,8 @@
+<map id="drawGrids" name="drawGrids">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="143,5,344,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#af0072e81eee8ca6f1aadbda23fa837c7" title="Il metodo restituisce la dimensione del serpente cioe&#39; da quanti blocchi e&#39; composto. " alt="" coords="133,56,353,83"/>
+<area shape="rect" id="node6" href="$class_snake_1_1gui_1_1size.html#a9e8362afc9e8ce68cca6528eb57869a2" title="Restituisce valore dell&#39;attributo dimensioneX. " alt="" coords="141,107,346,133"/>
+<area shape="rect" id="node7" href="$class_snake_1_1gui_1_1size.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Restituisce valore dell&#39;attributo dimensioneY. " alt="" coords="140,157,347,184"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Ritorna la dimensione della vipera. " alt="" coords="401,49,640,90"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Restituisce la dimensione della vipera. " alt="" coords="688,49,879,90"/>
+</map>

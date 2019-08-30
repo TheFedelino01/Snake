@@ -1,0 +1,6 @@
+<map id="controllaSeTestaColpisceCoda" name="controllaSeTestaColpisceCoda">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a0479241855807563d1a7ed14bb5210cd" title="Il metodo ritorna il blocco che corrisponde alla testa della vipera. " alt="" coords="310,5,399,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#ae13f88e922e1339355456062ad9fa359" title="Ritorna la posizione X del blocco. " alt="" coords="253,56,456,83"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#aab81944f0a14bba932c0931899951937" title="Ritorna la posizione Y del blocco. " alt="" coords="252,107,457,133"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a09b5923541116b960ee0c349c60b92fe" title="Il metodo ritorna l&#39;attributo distaccaFiglio. " alt="" coords="257,158,453,199"/>
+</map>

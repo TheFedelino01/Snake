@@ -1,0 +1,4 @@
+<map id="setFindingMela" name="setFindingMela">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a169584b55e994918baf671fe1c741e39" title="Permette di dire al serpente se deve trovare oppure no la mela. " alt="" coords="164,5,403,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a169584b55e994918baf671fe1c741e39" title="Permette di impostare il valore dell&#39;attributo findingMela in base al parametro passato. " alt="" coords="451,5,641,47"/>
+</map>

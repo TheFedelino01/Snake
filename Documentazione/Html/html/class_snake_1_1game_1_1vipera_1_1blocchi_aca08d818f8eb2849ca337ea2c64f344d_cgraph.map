@@ -1,0 +1,8 @@
+<map id="addBlocco" name="addBlocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#afda852123016bddf1840fdb19241ffa3" title="Il metodo ritorna la posizione X dell&#39;blocco che compone la vipera. " alt="" coords="159,5,315,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a31739bbc3222c3434ef9b45756523574" title="Il metodo ritorna l&#39;ultimo blocco che compone la vipera. " alt="" coords="422,56,557,83"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1blocchi.html#a78a0129c937328d9bd0dafc68d007aef" title="Il metodo ritorna la posizione Y dell&#39;blocco che compone la vipera. " alt="" coords="158,107,317,133"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a7380314c5c58350a175d844e7121d329" title="Il metodo quando richiamato permette di far sapere al blocco attuale che e&#39; stato generato un blocco ..." alt="" coords="136,158,339,199"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#ae13f88e922e1339355456062ad9fa359" title="Ritorna la posizione X del blocco. " alt="" coords="388,5,591,32"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#aab81944f0a14bba932c0931899951937" title="Ritorna la posizione Y del blocco. " alt="" coords="387,107,592,133"/>
+</map>

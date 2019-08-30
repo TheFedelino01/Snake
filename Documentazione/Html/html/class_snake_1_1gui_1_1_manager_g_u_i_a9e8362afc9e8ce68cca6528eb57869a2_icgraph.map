@@ -1,0 +1,12 @@
+<map id="getDimensioneX" name="getDimensioneX">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#ad74e7d47d7a1a055b993ccebbc684c08" title="Il metodo permette di restituire la dimensione X dello schermo. " alt="" coords="168,64,395,91"/>
+<area shape="rect" id="node3" href="$classmain.html#a6071c2f6a6eab58f29a7a5baf3696e6b" title="Il metodo imposta la dimensione della finestra di gioco. " alt="" coords="514,5,614,32"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a3d74cc6ca0a52476e34eefbf570fa492" title="Metodo genera la posizione della mela evitando che venga spawnata in corrispondenza di un blocco che ..." alt="" coords="443,57,685,98"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ab776bb3430d4d6d0a27bb94ae74ee07c" title="Sposta la vipera sull&#39;asse X in base alla quantita passata come parametro. " alt="" coords="465,123,663,149"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="737,64,958,91"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a2bb91b033817cdbd85ff3c137b3d32db" title="Sposta di un blocco a DX la vipera. " alt="" coords="733,119,961,145"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a1f636041d5b342db6f92850f6d19da55" title="Sposta di un blocco a SX la vipera. " alt="" coords="733,169,961,196"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a9837912437f9fefee6140800ce8d6d76" title="Sposta la vipera a seconda della direzione passata come parametro. " alt="" coords="1009,144,1268,171"/>
+<area shape="rect" id="node9" href="$class_snake_1_1game_1_1gioco.html#ad62cb3f928d2518fde54d64970bb850d" title="Il metodo sposta il serpente in base alla direzione passata come parametro. " alt="" coords="1316,144,1489,171"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="1537,144,1757,171"/>
+</map>

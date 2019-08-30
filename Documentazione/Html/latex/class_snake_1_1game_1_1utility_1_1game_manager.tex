@@ -1,0 +1,811 @@
+\hypertarget{class_snake_1_1game_1_1utility_1_1game_manager}{}\section{game\+Manager Class Reference}
+\label{class_snake_1_1game_1_1utility_1_1game_manager}\index{game\+Manager@{game\+Manager}}
+
+
+Collaboration diagram for game\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_snake_1_1game_1_1utility_1_1game_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a5751151adac49c0b87fa547f5e366dd9}{game\+Manager}} (boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a23cfb877f1f20af97a29e6f61424aa80}{serpente\+Colorato}})
+\begin{DoxyCompactList}\small\item\em Costruttore con parametri della classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a05b55f5dcc088b5655c5ff77c01f37ea}{set\+Morto}} (boolean v)
+\begin{DoxyCompactList}\small\item\em Metodo che imposta l\textquotesingle{}attributo morto a seconda del parametro passato. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ae853a40673c27fff3315c5213c749814}{get\+ActX}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione X della vipera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ae336e912feaec4a5e82fca472bde7f8f}{get\+ActY}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione X della vipera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_acda812adf1e0abdaf30cf3a2e2efaa07}{get\+Dimensione}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la dimensione della vipera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a9837912437f9fefee6140800ce8d6d76}{sposta}} (\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} direzione)
+\begin{DoxyCompactList}\small\item\em Sposta la vipera a seconda della direzione passata come parametro. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_aa90b60b508f662fce93e3e8250b2c304}{is\+Morto}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna l\textquotesingle{}attributo morto della classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ac578ca44493fe34e6cb1b2093cf79341}{respawn}} ()
+\begin{DoxyCompactList}\small\item\em Permette di restartare il gioco. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ad36cea66da3e5e8f3a9fdd8decd6f70b}{is\+Finding\+Mela}} ()
+\begin{DoxyCompactList}\small\item\em Dice se la vipera sta cercando la mela. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a38aa4a80eb7f9db1e033f67dc1c220b0}{set\+Pos\+Mela}} (int pos\+MelaX, int pos\+MelaY)
+\begin{DoxyCompactList}\small\item\em Imposta la posizione della mela a seconda dei parametri passati. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a3f6240b54a13e397255c9b3f7354cf45}{mela\+Presa}} ()
+\begin{DoxyCompactList}\small\item\em Quando richiamato dice che la mela e\textquotesingle{} stata catturata quindi viene aggiunto un blocco alla vipera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a5af927824d6cd9c9c30b0607cbdab546}{get\+Num\+Mele\+Prese}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il numero di mele raccolte dalla vipera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a6007259ace9d33bd56b9a6193e86df39}{set\+Direzione\+Vipera}} (\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} dir)
+\begin{DoxyCompactList}\small\item\em Imposta la direzione della vipera in base al parametro passato. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_aae6590f1c2572c796a9ea154e3b16b27}{get\+Pos\+MelaX}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione X della mela. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ac23b89dc8711992dc3124c04888a1365}{get\+Pos\+MelaY}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione Y della mela. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a169584b55e994918baf671fe1c741e39}{set\+Finding\+Mela}} (boolean b)
+\begin{DoxyCompactList}\small\item\em Permette di dire al serpente se deve trovare oppure no la mela. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a88318c562485640585510cbd35e76b07}{pos\+Xblocco}} (int i)
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione X del blocco identificato da parametro. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ac26b1474a291f2f7546e2e1cda1410b8}{pos\+Yblocco}} (int i)
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione Y del blocco identificato da parametro. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a15fad4646c986312b476543b2f7e547a}{get\+Colore\+Mela}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna il colore della mela. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ac24833a417b3bd7c60e29ed5b7edc29f}{e\+Presente\+Un\+Blocco}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Dice se e\textquotesingle{} presente un blocco nella posizione X e Y dello schermo. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a1afbc9b85396f53e6180eab2e5a36d4d}{get\+Colore\+Ultimo\+Blocco}} ()
+\begin{DoxyCompactList}\small\item\em Restituisce il colore dell\textquotesingle{}ultimo blocco in coda alla vipera. \end{DoxyCompactList}\item 
+Boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_adf69d52c2b16c0b681a384f734f9dd0f}{get\+Serpente\+Colorato}} ()
+\begin{DoxyCompactList}\small\item\em Dice se il serpente e\textquotesingle{} colorato oppure no. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1vipera}{vipera}} \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_ad03d565374455808665272d6365c9bca}{vipera\+Manager}}
+\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a415d6bb79054489c86349a855c1015be}{morto}}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela}{mela}} \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a8ed97a1e91168bdb3e5d2dea4e59a977}{actual\+Mela}}
+\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a6ccf94c481d483cdef8cca4743754db4}{mele\+Raccolte}} =0
+\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager_a23cfb877f1f20af97a29e6f61424aa80}{serpente\+Colorato}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+La classe viene utilizzata per gestire tutto il serpente e le relative mele 
+\end{DoxyVersion}
+
+
+Definition at line 15 of file game\+Manager.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a5751151adac49c0b87fa547f5e366dd9}\label{class_snake_1_1game_1_1utility_1_1game_manager_a5751151adac49c0b87fa547f5e366dd9}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!game\+Manager@{game\+Manager}}
+\index{game\+Manager@{game\+Manager}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{game\+Manager()}{gameManager()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1utility_1_1game_manager}{game\+Manager}} (\begin{DoxyParamCaption}\item[{boolean}]{serpente\+Colorato }\end{DoxyParamCaption})}
+
+
+
+Costruttore con parametri della classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em serpente\+Colorato} & se il serpente deve colorarsi in base all\textquotesingle{}ultima mela presa \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 34 of file game\+Manager.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ac24833a417b3bd7c60e29ed5b7edc29f}\label{class_snake_1_1game_1_1utility_1_1game_manager_ac24833a417b3bd7c60e29ed5b7edc29f}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!e\+Presente\+Un\+Blocco@{e\+Presente\+Un\+Blocco}}
+\index{e\+Presente\+Un\+Blocco@{e\+Presente\+Un\+Blocco}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{e\+Presente\+Un\+Blocco()}{ePresenteUnBlocco()}}
+{\footnotesize\ttfamily boolean e\+Presente\+Un\+Blocco (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Dice se e\textquotesingle{} presente un blocco nella posizione X e Y dello schermo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & posizione X dello schermo \\
+\hline
+{\em y} & posizione Y dello schermo \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 212 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac24833a417b3bd7c60e29ed5b7edc29f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac24833a417b3bd7c60e29ed5b7edc29f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ae853a40673c27fff3315c5213c749814}\label{class_snake_1_1game_1_1utility_1_1game_manager_ae853a40673c27fff3315c5213c749814}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+ActX@{get\+ActX}}
+\index{get\+ActX@{get\+ActX}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Act\+X()}{getActX()}}
+{\footnotesize\ttfamily int get\+ActX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione X della vipera. 
+
+
+
+Definition at line 52 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{class_snake_1_1game_1_1utility_1_1game_manager_ae853a40673c27fff3315c5213c749814_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ae853a40673c27fff3315c5213c749814_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ae336e912feaec4a5e82fca472bde7f8f}\label{class_snake_1_1game_1_1utility_1_1game_manager_ae336e912feaec4a5e82fca472bde7f8f}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+ActY@{get\+ActY}}
+\index{get\+ActY@{get\+ActY}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Act\+Y()}{getActY()}}
+{\footnotesize\ttfamily int get\+ActY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione X della vipera. 
+
+
+
+Definition at line 58 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_snake_1_1game_1_1utility_1_1game_manager_ae336e912feaec4a5e82fca472bde7f8f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ae336e912feaec4a5e82fca472bde7f8f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a15fad4646c986312b476543b2f7e547a}\label{class_snake_1_1game_1_1utility_1_1game_manager_a15fad4646c986312b476543b2f7e547a}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+Colore\+Mela@{get\+Colore\+Mela}}
+\index{get\+Colore\+Mela@{get\+Colore\+Mela}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Colore\+Mela()}{getColoreMela()}}
+{\footnotesize\ttfamily Color get\+Colore\+Mela (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il colore della mela. 
+
+
+
+Definition at line 202 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_snake_1_1game_1_1utility_1_1game_manager_a15fad4646c986312b476543b2f7e547a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a15fad4646c986312b476543b2f7e547a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a1afbc9b85396f53e6180eab2e5a36d4d}\label{class_snake_1_1game_1_1utility_1_1game_manager_a1afbc9b85396f53e6180eab2e5a36d4d}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+Colore\+Ultimo\+Blocco@{get\+Colore\+Ultimo\+Blocco}}
+\index{get\+Colore\+Ultimo\+Blocco@{get\+Colore\+Ultimo\+Blocco}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Colore\+Ultimo\+Blocco()}{getColoreUltimoBlocco()}}
+{\footnotesize\ttfamily Color get\+Colore\+Ultimo\+Blocco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Restituisce il colore dell\textquotesingle{}ultimo blocco in coda alla vipera. 
+
+
+
+Definition at line 219 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a1afbc9b85396f53e6180eab2e5a36d4d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a1afbc9b85396f53e6180eab2e5a36d4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_acda812adf1e0abdaf30cf3a2e2efaa07}\label{class_snake_1_1game_1_1utility_1_1game_manager_acda812adf1e0abdaf30cf3a2e2efaa07}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+Dimensione@{get\+Dimensione}}
+\index{get\+Dimensione@{get\+Dimensione}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Dimensione()}{getDimensione()}}
+{\footnotesize\ttfamily int get\+Dimensione (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la dimensione della vipera. 
+
+
+
+Definition at line 64 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_snake_1_1game_1_1utility_1_1game_manager_acda812adf1e0abdaf30cf3a2e2efaa07_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_acda812adf1e0abdaf30cf3a2e2efaa07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a5af927824d6cd9c9c30b0607cbdab546}\label{class_snake_1_1game_1_1utility_1_1game_manager_a5af927824d6cd9c9c30b0607cbdab546}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+Num\+Mele\+Prese@{get\+Num\+Mele\+Prese}}
+\index{get\+Num\+Mele\+Prese@{get\+Num\+Mele\+Prese}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Num\+Mele\+Prese()}{getNumMelePrese()}}
+{\footnotesize\ttfamily int get\+Num\+Mele\+Prese (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna il numero di mele raccolte dalla vipera. 
+
+
+
+Definition at line 147 of file game\+Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a5af927824d6cd9c9c30b0607cbdab546_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_aae6590f1c2572c796a9ea154e3b16b27}\label{class_snake_1_1game_1_1utility_1_1game_manager_aae6590f1c2572c796a9ea154e3b16b27}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+Pos\+MelaX@{get\+Pos\+MelaX}}
+\index{get\+Pos\+MelaX@{get\+Pos\+MelaX}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Pos\+Mela\+X()}{getPosMelaX()}}
+{\footnotesize\ttfamily int get\+Pos\+MelaX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione X della mela. 
+
+
+
+Definition at line 163 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_aae6590f1c2572c796a9ea154e3b16b27_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_aae6590f1c2572c796a9ea154e3b16b27_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ac23b89dc8711992dc3124c04888a1365}\label{class_snake_1_1game_1_1utility_1_1game_manager_ac23b89dc8711992dc3124c04888a1365}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+Pos\+MelaY@{get\+Pos\+MelaY}}
+\index{get\+Pos\+MelaY@{get\+Pos\+MelaY}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Pos\+Mela\+Y()}{getPosMelaY()}}
+{\footnotesize\ttfamily int get\+Pos\+MelaY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione Y della mela. 
+
+
+
+Definition at line 169 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac23b89dc8711992dc3124c04888a1365_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac23b89dc8711992dc3124c04888a1365_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_adf69d52c2b16c0b681a384f734f9dd0f}\label{class_snake_1_1game_1_1utility_1_1game_manager_adf69d52c2b16c0b681a384f734f9dd0f}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!get\+Serpente\+Colorato@{get\+Serpente\+Colorato}}
+\index{get\+Serpente\+Colorato@{get\+Serpente\+Colorato}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{get\+Serpente\+Colorato()}{getSerpenteColorato()}}
+{\footnotesize\ttfamily Boolean get\+Serpente\+Colorato (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dice se il serpente e\textquotesingle{} colorato oppure no. 
+
+
+
+Definition at line 225 of file game\+Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_adf69d52c2b16c0b681a384f734f9dd0f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ad36cea66da3e5e8f3a9fdd8decd6f70b}\label{class_snake_1_1game_1_1utility_1_1game_manager_ad36cea66da3e5e8f3a9fdd8decd6f70b}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!is\+Finding\+Mela@{is\+Finding\+Mela}}
+\index{is\+Finding\+Mela@{is\+Finding\+Mela}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{is\+Finding\+Mela()}{isFindingMela()}}
+{\footnotesize\ttfamily boolean is\+Finding\+Mela (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dice se la vipera sta cercando la mela. 
+
+
+
+Definition at line 116 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_snake_1_1game_1_1utility_1_1game_manager_ad36cea66da3e5e8f3a9fdd8decd6f70b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ad36cea66da3e5e8f3a9fdd8decd6f70b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_aa90b60b508f662fce93e3e8250b2c304}\label{class_snake_1_1game_1_1utility_1_1game_manager_aa90b60b508f662fce93e3e8250b2c304}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!is\+Morto@{is\+Morto}}
+\index{is\+Morto@{is\+Morto}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{is\+Morto()}{isMorto()}}
+{\footnotesize\ttfamily boolean is\+Morto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna l\textquotesingle{}attributo morto della classe. 
+
+
+
+Definition at line 99 of file game\+Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_aa90b60b508f662fce93e3e8250b2c304_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a3f6240b54a13e397255c9b3f7354cf45}\label{class_snake_1_1game_1_1utility_1_1game_manager_a3f6240b54a13e397255c9b3f7354cf45}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!mela\+Presa@{mela\+Presa}}
+\index{mela\+Presa@{mela\+Presa}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{mela\+Presa()}{melaPresa()}}
+{\footnotesize\ttfamily void mela\+Presa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Quando richiamato dice che la mela e\textquotesingle{} stata catturata quindi viene aggiunto un blocco alla vipera. 
+
+
+
+Definition at line 134 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a3f6240b54a13e397255c9b3f7354cf45_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a3f6240b54a13e397255c9b3f7354cf45_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a88318c562485640585510cbd35e76b07}\label{class_snake_1_1game_1_1utility_1_1game_manager_a88318c562485640585510cbd35e76b07}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!pos\+Xblocco@{pos\+Xblocco}}
+\index{pos\+Xblocco@{pos\+Xblocco}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{pos\+Xblocco()}{posXblocco()}}
+{\footnotesize\ttfamily int pos\+Xblocco (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione X del blocco identificato da parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & identificativo del blocco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 187 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a88318c562485640585510cbd35e76b07_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a88318c562485640585510cbd35e76b07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ac26b1474a291f2f7546e2e1cda1410b8}\label{class_snake_1_1game_1_1utility_1_1game_manager_ac26b1474a291f2f7546e2e1cda1410b8}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!pos\+Yblocco@{pos\+Yblocco}}
+\index{pos\+Yblocco@{pos\+Yblocco}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{pos\+Yblocco()}{posYblocco()}}
+{\footnotesize\ttfamily int pos\+Yblocco (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione Y del blocco identificato da parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & identificativo del blocco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 195 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac26b1474a291f2f7546e2e1cda1410b8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac26b1474a291f2f7546e2e1cda1410b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ac578ca44493fe34e6cb1b2093cf79341}\label{class_snake_1_1game_1_1utility_1_1game_manager_ac578ca44493fe34e6cb1b2093cf79341}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!respawn@{respawn}}
+\index{respawn@{respawn}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{respawn()}{respawn()}}
+{\footnotesize\ttfamily void respawn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Permette di restartare il gioco. 
+
+
+
+Definition at line 106 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac578ca44493fe34e6cb1b2093cf79341_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_ac578ca44493fe34e6cb1b2093cf79341_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a6007259ace9d33bd56b9a6193e86df39}\label{class_snake_1_1game_1_1utility_1_1game_manager_a6007259ace9d33bd56b9a6193e86df39}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!set\+Direzione\+Vipera@{set\+Direzione\+Vipera}}
+\index{set\+Direzione\+Vipera@{set\+Direzione\+Vipera}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{set\+Direzione\+Vipera()}{setDirezioneVipera()}}
+{\footnotesize\ttfamily void set\+Direzione\+Vipera (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}}]{dir }\end{DoxyParamCaption})}
+
+
+
+Imposta la direzione della vipera in base al parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & direzione vipera \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 156 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a6007259ace9d33bd56b9a6193e86df39_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a6007259ace9d33bd56b9a6193e86df39_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a169584b55e994918baf671fe1c741e39}\label{class_snake_1_1game_1_1utility_1_1game_manager_a169584b55e994918baf671fe1c741e39}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!set\+Finding\+Mela@{set\+Finding\+Mela}}
+\index{set\+Finding\+Mela@{set\+Finding\+Mela}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{set\+Finding\+Mela()}{setFindingMela()}}
+{\footnotesize\ttfamily void set\+Finding\+Mela (\begin{DoxyParamCaption}\item[{boolean}]{b }\end{DoxyParamCaption})}
+
+
+
+Permette di dire al serpente se deve trovare oppure no la mela. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & booleana \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 178 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_snake_1_1game_1_1utility_1_1game_manager_a169584b55e994918baf671fe1c741e39_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a169584b55e994918baf671fe1c741e39_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a05b55f5dcc088b5655c5ff77c01f37ea}\label{class_snake_1_1game_1_1utility_1_1game_manager_a05b55f5dcc088b5655c5ff77c01f37ea}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!set\+Morto@{set\+Morto}}
+\index{set\+Morto@{set\+Morto}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{set\+Morto()}{setMorto()}}
+{\footnotesize\ttfamily void set\+Morto (\begin{DoxyParamCaption}\item[{boolean}]{v }\end{DoxyParamCaption})}
+
+
+
+Metodo che imposta l\textquotesingle{}attributo morto a seconda del parametro passato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & stato \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 46 of file game\+Manager.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a05b55f5dcc088b5655c5ff77c01f37ea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a38aa4a80eb7f9db1e033f67dc1c220b0}\label{class_snake_1_1game_1_1utility_1_1game_manager_a38aa4a80eb7f9db1e033f67dc1c220b0}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!set\+Pos\+Mela@{set\+Pos\+Mela}}
+\index{set\+Pos\+Mela@{set\+Pos\+Mela}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{set\+Pos\+Mela()}{setPosMela()}}
+{\footnotesize\ttfamily void set\+Pos\+Mela (\begin{DoxyParamCaption}\item[{int}]{pos\+MelaX,  }\item[{int}]{pos\+MelaY }\end{DoxyParamCaption})}
+
+
+
+Imposta la posizione della mela a seconda dei parametri passati. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+MelaX} & posizione X \\
+\hline
+{\em pos\+MelaY} & posizione Y \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 126 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_snake_1_1game_1_1utility_1_1game_manager_a38aa4a80eb7f9db1e033f67dc1c220b0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a38aa4a80eb7f9db1e033f67dc1c220b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a9837912437f9fefee6140800ce8d6d76}\label{class_snake_1_1game_1_1utility_1_1game_manager_a9837912437f9fefee6140800ce8d6d76}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!sposta@{sposta}}
+\index{sposta@{sposta}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{sposta()}{sposta()}}
+{\footnotesize\ttfamily void sposta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}}]{direzione }\end{DoxyParamCaption})}
+
+
+
+Sposta la vipera a seconda della direzione passata come parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direzione} & direzione della vipera \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 73 of file game\+Manager.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a9837912437f9fefee6140800ce8d6d76_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1utility_1_1game_manager_a9837912437f9fefee6140800ce8d6d76_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a8ed97a1e91168bdb3e5d2dea4e59a977}\label{class_snake_1_1game_1_1utility_1_1game_manager_a8ed97a1e91168bdb3e5d2dea4e59a977}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!actual\+Mela@{actual\+Mela}}
+\index{actual\+Mela@{actual\+Mela}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{actual\+Mela}{actualMela}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1mela}{mela}} actual\+Mela\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta la mela in gioco 
+
+Definition at line 21 of file game\+Manager.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a6ccf94c481d483cdef8cca4743754db4}\label{class_snake_1_1game_1_1utility_1_1game_manager_a6ccf94c481d483cdef8cca4743754db4}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!mele\+Raccolte@{mele\+Raccolte}}
+\index{mele\+Raccolte@{mele\+Raccolte}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{mele\+Raccolte}{meleRaccolte}}
+{\footnotesize\ttfamily int mele\+Raccolte =0\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta il numero di mele raccolte dalla vipera 
+
+Definition at line 24 of file game\+Manager.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a415d6bb79054489c86349a855c1015be}\label{class_snake_1_1game_1_1utility_1_1game_manager_a415d6bb79054489c86349a855c1015be}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!morto@{morto}}
+\index{morto@{morto}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{morto}{morto}}
+{\footnotesize\ttfamily boolean morto\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta lo sttao di vita della vipera 
+
+Definition at line 19 of file game\+Manager.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_a23cfb877f1f20af97a29e6f61424aa80}\label{class_snake_1_1game_1_1utility_1_1game_manager_a23cfb877f1f20af97a29e6f61424aa80}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!serpente\+Colorato@{serpente\+Colorato}}
+\index{serpente\+Colorato@{serpente\+Colorato}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{serpente\+Colorato}{serpenteColorato}}
+{\footnotesize\ttfamily boolean serpente\+Colorato\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta il colore del serpente 
+
+Definition at line 27 of file game\+Manager.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1utility_1_1game_manager_ad03d565374455808665272d6365c9bca}\label{class_snake_1_1game_1_1utility_1_1game_manager_ad03d565374455808665272d6365c9bca}} 
+\index{Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}!vipera\+Manager@{vipera\+Manager}}
+\index{vipera\+Manager@{vipera\+Manager}!Snake\+::game\+::utility\+::game\+Manager@{Snake\+::game\+::utility\+::game\+Manager}}
+\subsubsection{\texorpdfstring{vipera\+Manager}{viperaManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1vipera}{vipera}} vipera\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta la vipera 
+
+Definition at line 17 of file game\+Manager.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/game/utility/\mbox{\hyperlink{game_manager_8java}{game\+Manager.\+java}}\end{DoxyCompactItemize}

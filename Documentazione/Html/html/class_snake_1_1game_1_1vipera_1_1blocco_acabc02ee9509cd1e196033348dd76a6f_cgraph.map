@@ -1,0 +1,7 @@
+<map id="segui" name="segui">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="116,5,317,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#af0072e81eee8ca6f1aadbda23fa837c7" title="Il metodo restituisce la dimensione del serpente cioe&#39; da quanti blocchi e&#39; composto. " alt="" coords="107,56,327,83"/>
+<area shape="rect" id="node6" href="$class_snake_1_1game_1_1vipera_1_1blocco.html#a2d20c8ebc9efc39ed12392e6486d50d9" title="Il metodo permette di aggiornare l&#39;attributo tutteMosse a seconda della direzione passata come parame..." alt="" coords="153,107,280,133"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Ritorna la dimensione della vipera. " alt="" coords="375,49,613,90"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#acda812adf1e0abdaf30cf3a2e2efaa07" title="Restituisce la dimensione della vipera. " alt="" coords="661,49,852,90"/>
+</map>

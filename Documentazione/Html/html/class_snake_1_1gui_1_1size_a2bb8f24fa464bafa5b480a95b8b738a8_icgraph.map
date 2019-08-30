@@ -1,0 +1,18 @@
+<map id="getDimensioneY" name="getDimensioneY">
+<area shape="rect" id="node2" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a61024a21b8516cb0751fcecaf18c001d" title="Il metodo disegna, a seconda della dimensione del serpente, le griglie per le righe e per le colonne..." alt="" coords="171,5,357,47"/>
+<area shape="rect" id="node6" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#ab1a7af3f7073e8975696c4806e9194ef" title="Il metodo disegna il punteggio della partita su schermo. " alt="" coords="171,71,357,112"/>
+<area shape="rect" id="node7" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Il metodo restituisce la dimensione Y dello schermo. " alt="" coords="175,136,353,177"/>
+<area shape="rect" id="node3" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="427,23,613,50"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="723,23,885,50"/>
+<area shape="rect" id="node5" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1055,23,1136,50"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1gioco.html#abd35efad25c3e2eb4a53c1a7e2b11d71" title="Il metodo permette di restituire la dimensione Y dello schermo. " alt="" coords="405,143,635,170"/>
+<area shape="rect" id="node9" href="$classmain.html#a6071c2f6a6eab58f29a7a5baf3696e6b" title="Il metodo imposta la dimensione della finestra di gioco. " alt="" coords="754,85,854,111"/>
+<area shape="rect" id="node10" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a3d74cc6ca0a52476e34eefbf570fa492" title="Metodo genera la posizione della mela evitando che venga spawnata in corrispondenza di un blocco che ..." alt="" coords="683,136,925,177"/>
+<area shape="rect" id="node12" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a51a16845a66091ec0697d9ccf8ba4e8d" title="Sposta la vipera sull&#39;asse Y in base alla quantita passata come parametro. " alt="" coords="705,202,903,229"/>
+<area shape="rect" id="node11" href="$class_snake_1_1game_1_1threads_1_1th_genera.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="985,143,1206,170"/>
+<area shape="rect" id="node13" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a43993392ddd2cba04e0df6312742f235" title="Sposta di un blocco SOPRA la vipera. " alt="" coords="979,198,1212,225"/>
+<area shape="rect" id="node17" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a00853f3bb0a1c94d5a67c763d29acd84" title="Sposta di un blocco SOTTO la vipera. " alt="" coords="973,249,1217,275"/>
+<area shape="rect" id="node14" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a9837912437f9fefee6140800ce8d6d76" title="Sposta la vipera a seconda della direzione passata come parametro. " alt="" coords="1265,223,1524,250"/>
+<area shape="rect" id="node15" href="$class_snake_1_1game_1_1gioco.html#ad62cb3f928d2518fde54d64970bb850d" title="Il metodo sposta il serpente in base alla direzione passata come parametro. " alt="" coords="1572,223,1745,250"/>
+<area shape="rect" id="node16" href="$class_snake_1_1game_1_1threads_1_1th_reader.html#a13a43e6d814de94978c515cb084873b1" title="Metodo run del thread. " alt="" coords="1793,223,2013,250"/>
+</map>

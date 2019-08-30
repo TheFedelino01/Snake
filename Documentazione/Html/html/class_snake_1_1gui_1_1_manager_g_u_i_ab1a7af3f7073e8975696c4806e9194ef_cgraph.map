@@ -1,0 +1,6 @@
+<map id="drawPunteggio" name="drawPunteggio">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1gioco.html#aeab124c2ec716095907dd38891f8163d" title="Instance pubblica per singleton. " alt="" coords="163,5,364,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1gioco.html#ab5f0b7048deda3c739c67b65166283cc" title="Il metodo restituisce il numero di mele prese. " alt="" coords="160,57,367,98"/>
+<area shape="rect" id="node5" href="$class_snake_1_1gui_1_1size.html#a2bb8f24fa464bafa5b480a95b8b738a8" title="Restituisce valore dell&#39;attributo dimensioneY. " alt="" coords="160,123,367,149"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#a5af927824d6cd9c9c30b0607cbdab546" title="Ritorna il numero di mele raccolte dalla vipera. " alt="" coords="415,57,653,98"/>
+</map>

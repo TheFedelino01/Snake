@@ -1,0 +1,4 @@
+<map id="getPosMelaY" name="getPosMelaY">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac23b89dc8711992dc3124c04888a1365" title="Ritorna la posizione Y della mela. " alt="" coords="153,5,392,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1mela.html#a3388b2d66cc794258707674f20766a7f" title="Ritorna la posizione della mela in base all&#39;asse Y. " alt="" coords="440,13,659,39"/>
+</map>

@@ -1,0 +1,419 @@
+\hypertarget{class_snake_1_1game_1_1vipera_1_1blocco}{}\section{blocco Class Reference}
+\label{class_snake_1_1game_1_1vipera_1_1blocco}\index{blocco@{blocco}}
+
+
+Collaboration diagram for blocco\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{class_snake_1_1game_1_1vipera_1_1blocco__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a0143d1efd3c540135c872d58b6b2870d}{blocco}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore senza parametri della classe. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a82f454d7ab34406585d65424866b6265}{blocco}} (int startX, int startY, Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_ada0bf0be39e4ad9d58f6e7c48f14c64a}{colore}})
+\begin{DoxyCompactList}\small\item\em Costruttore con parametri della classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a2d20c8ebc9efc39ed12392e6486d50d9}{set\+Sguardo\+Rivolto}} (\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} dir)
+\begin{DoxyCompactList}\small\item\em Il metodo permette di aggiornare l\textquotesingle{}attributo tutte\+Mosse a seconda della direzione passata come parametro. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_ae13f88e922e1339355456062ad9fa359}{getX}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione X del blocco. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_aab81944f0a14bba932c0931899951937}{getY}} ()
+\begin{DoxyCompactList}\small\item\em Ritorna la posizione Y del blocco. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_ab5a3acb0391238ee37a5da898bffd5f1}{setX}} (int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_aaa64105e6cedf2b98a63e3ab8c8f4cdb}{act\+PosX}})
+\begin{DoxyCompactList}\small\item\em Imposta la posizione X del blocco a seconda del parametro. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a60e970e880a18799c14e771afe3e904b}{setY}} (int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a301b22c6bff25f4530e3f991788338fe}{act\+PosY}})
+\begin{DoxyCompactList}\small\item\em Imposta la posizione Y del blocco a seconda del parametro. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_acabc02ee9509cd1e196033348dd76a6f}{segui}} (\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} dove\+Vado)
+\begin{DoxyCompactList}\small\item\em Il metodo permette di far muovere il blocco a seconda della direzione passata come parametro. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a7380314c5c58350a175d844e7121d329}{dico\+Che\+Ho\+Un\+Figlio}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo quando richiamato permette di far sapere al blocco attuale che e\textquotesingle{} stato generato un blocco in sua corrispondenza. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a95fdd903a87a54ceaba0674eee0a4dda}{get\+Last\+Mossa}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna l\textquotesingle{}ultima mossa effettuata dal blocco attraverso una pop. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_ae3f520a7be49ba6d662a1504fbe4acf3}{get\+Colore}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna il colore del blocco. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a09b5923541116b960ee0c349c60b92fe}{get\+Ho\+Distaccato}} ()
+\begin{DoxyCompactList}\small\item\em Il metodo ritorna l\textquotesingle{}attributo distacca\+Figlio. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_aaa64105e6cedf2b98a63e3ab8c8f4cdb}{act\+PosX}}
+\item 
+int \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a301b22c6bff25f4530e3f991788338fe}{act\+PosY}}
+\item 
+Vector$<$ \mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} $>$ \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a0670f48287135d82c64441e965d35c18}{tutte\+Mosse}} = new Vector$<$\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}$>$()
+\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_a909ed9e20b51021224373cb7e95365e7}{ho\+Un\+Figlio}}
+\item 
+boolean \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_aab706c0c0218d17f9386c9dce8989195}{distacca\+Figlio}}
+\item 
+Color \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco_ada0bf0be39e4ad9d58f6e7c48f14c64a}{colore}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Saccani Federico, \href{mailto:federico.saccani01@gmail.com}{\tt federico.\+saccani01@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 ~\newline
+La classe corrisponde ad un blocco che compone la struttura della vipera 
+\end{DoxyVersion}
+
+
+Definition at line 15 of file blocco.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a0143d1efd3c540135c872d58b6b2870d}\label{class_snake_1_1game_1_1vipera_1_1blocco_a0143d1efd3c540135c872d58b6b2870d}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!blocco@{blocco}}
+\index{blocco@{blocco}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{blocco()}{blocco()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Costruttore senza parametri della classe. 
+
+Quando chiamato, imposta gli attributi della classi a valori di default 
+
+Definition at line 38 of file blocco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a82f454d7ab34406585d65424866b6265}\label{class_snake_1_1game_1_1vipera_1_1blocco_a82f454d7ab34406585d65424866b6265}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!blocco@{blocco}}
+\index{blocco@{blocco}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{blocco()}{blocco()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_snake_1_1game_1_1vipera_1_1blocco}{blocco}} (\begin{DoxyParamCaption}\item[{int}]{startX,  }\item[{int}]{startY,  }\item[{Color}]{colore }\end{DoxyParamCaption})}
+
+
+
+Costruttore con parametri della classe. 
+
+Imposta gli attributi della classe a seconda dei parametri passati
+
+
+\begin{DoxyParams}{Parameters}
+{\em startX} & posizione dell\textquotesingle{}asse X iniziale \\
+\hline
+{\em startY} & posizione dell\textquotesingle{}asse Y iniziale \\
+\hline
+{\em colore} & colore del blocco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 55 of file blocco.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a7380314c5c58350a175d844e7121d329}\label{class_snake_1_1game_1_1vipera_1_1blocco_a7380314c5c58350a175d844e7121d329}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!dico\+Che\+Ho\+Un\+Figlio@{dico\+Che\+Ho\+Un\+Figlio}}
+\index{dico\+Che\+Ho\+Un\+Figlio@{dico\+Che\+Ho\+Un\+Figlio}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{dico\+Che\+Ho\+Un\+Figlio()}{dicoCheHoUnFiglio()}}
+{\footnotesize\ttfamily void dico\+Che\+Ho\+Un\+Figlio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo quando richiamato permette di far sapere al blocco attuale che e\textquotesingle{} stato generato un blocco in sua corrispondenza. 
+
+
+
+Definition at line 156 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_a7380314c5c58350a175d844e7121d329_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_ae3f520a7be49ba6d662a1504fbe4acf3}\label{class_snake_1_1game_1_1vipera_1_1blocco_ae3f520a7be49ba6d662a1504fbe4acf3}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!get\+Colore@{get\+Colore}}
+\index{get\+Colore@{get\+Colore}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{get\+Colore()}{getColore()}}
+{\footnotesize\ttfamily Color get\+Colore (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna il colore del blocco. 
+
+
+
+Definition at line 178 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_ae3f520a7be49ba6d662a1504fbe4acf3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a09b5923541116b960ee0c349c60b92fe}\label{class_snake_1_1game_1_1vipera_1_1blocco_a09b5923541116b960ee0c349c60b92fe}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!get\+Ho\+Distaccato@{get\+Ho\+Distaccato}}
+\index{get\+Ho\+Distaccato@{get\+Ho\+Distaccato}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{get\+Ho\+Distaccato()}{getHoDistaccato()}}
+{\footnotesize\ttfamily boolean get\+Ho\+Distaccato (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna l\textquotesingle{}attributo distacca\+Figlio. 
+
+
+
+Definition at line 185 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_a09b5923541116b960ee0c349c60b92fe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a95fdd903a87a54ceaba0674eee0a4dda}\label{class_snake_1_1game_1_1vipera_1_1blocco_a95fdd903a87a54ceaba0674eee0a4dda}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!get\+Last\+Mossa@{get\+Last\+Mossa}}
+\index{get\+Last\+Mossa@{get\+Last\+Mossa}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{get\+Last\+Mossa()}{getLastMossa()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}} get\+Last\+Mossa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Il metodo ritorna l\textquotesingle{}ultima mossa effettuata dal blocco attraverso una pop. 
+
+
+
+Definition at line 169 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_a95fdd903a87a54ceaba0674eee0a4dda_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_ae13f88e922e1339355456062ad9fa359}\label{class_snake_1_1game_1_1vipera_1_1blocco_ae13f88e922e1339355456062ad9fa359}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!getX@{getX}}
+\index{getX@{getX}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily int getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione X del blocco. 
+
+
+
+Definition at line 95 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_ae13f88e922e1339355456062ad9fa359_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_aab81944f0a14bba932c0931899951937}\label{class_snake_1_1game_1_1vipera_1_1blocco_aab81944f0a14bba932c0931899951937}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!getY@{getY}}
+\index{getY@{getY}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily int getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ritorna la posizione Y del blocco. 
+
+
+
+Definition at line 101 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_aab81944f0a14bba932c0931899951937_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_acabc02ee9509cd1e196033348dd76a6f}\label{class_snake_1_1game_1_1vipera_1_1blocco_acabc02ee9509cd1e196033348dd76a6f}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!segui@{segui}}
+\index{segui@{segui}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{segui()}{segui()}}
+{\footnotesize\ttfamily void segui (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}}]{dove\+Vado }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di far muovere il blocco a seconda della direzione passata come parametro. 
+
+In base alla dimensione dei blocchi che compongono la vipera viene mosso questo blocco. 
+
+Definition at line 128 of file blocco.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_acabc02ee9509cd1e196033348dd76a6f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_acabc02ee9509cd1e196033348dd76a6f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a2d20c8ebc9efc39ed12392e6486d50d9}\label{class_snake_1_1game_1_1vipera_1_1blocco_a2d20c8ebc9efc39ed12392e6486d50d9}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!set\+Sguardo\+Rivolto@{set\+Sguardo\+Rivolto}}
+\index{set\+Sguardo\+Rivolto@{set\+Sguardo\+Rivolto}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{set\+Sguardo\+Rivolto()}{setSguardoRivolto()}}
+{\footnotesize\ttfamily void set\+Sguardo\+Rivolto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}}]{dir }\end{DoxyParamCaption})}
+
+
+
+Il metodo permette di aggiornare l\textquotesingle{}attributo tutte\+Mosse a seconda della direzione passata come parametro. 
+
+Il metodo aggiorna l\textquotesingle{}attributo tutte\+Mosse in modo tale da consentire ai blocchi adiacenti di far seguire la strada che questo blocco ha effettuato (effetto snake). Si preoccupa inoltre della gestione di un altro blocco generato in sua corrispondenza per evitare che venga segnalato come morte (serpente che si mangia la coda) 
+
+Definition at line 72 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_a2d20c8ebc9efc39ed12392e6486d50d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_ab5a3acb0391238ee37a5da898bffd5f1}\label{class_snake_1_1game_1_1vipera_1_1blocco_ab5a3acb0391238ee37a5da898bffd5f1}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!setX@{setX}}
+\index{setX@{setX}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{set\+X()}{setX()}}
+{\footnotesize\ttfamily void setX (\begin{DoxyParamCaption}\item[{int}]{act\+PosX }\end{DoxyParamCaption})}
+
+
+
+Imposta la posizione X del blocco a seconda del parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em act\+PosX} & posizioneX \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 110 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_ab5a3acb0391238ee37a5da898bffd5f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a60e970e880a18799c14e771afe3e904b}\label{class_snake_1_1game_1_1vipera_1_1blocco_a60e970e880a18799c14e771afe3e904b}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!setY@{setY}}
+\index{setY@{setY}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{set\+Y()}{setY()}}
+{\footnotesize\ttfamily void setY (\begin{DoxyParamCaption}\item[{int}]{act\+PosY }\end{DoxyParamCaption})}
+
+
+
+Imposta la posizione Y del blocco a seconda del parametro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em act\+PosY} & posizioneY \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 118 of file blocco.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake_1_1game_1_1vipera_1_1blocco_a60e970e880a18799c14e771afe3e904b_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_aaa64105e6cedf2b98a63e3ab8c8f4cdb}\label{class_snake_1_1game_1_1vipera_1_1blocco_aaa64105e6cedf2b98a63e3ab8c8f4cdb}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!act\+PosX@{act\+PosX}}
+\index{act\+PosX@{act\+PosX}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{act\+PosX}{actPosX}}
+{\footnotesize\ttfamily int act\+PosX\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta la posizione X del blocco 
+
+Definition at line 17 of file blocco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a301b22c6bff25f4530e3f991788338fe}\label{class_snake_1_1game_1_1vipera_1_1blocco_a301b22c6bff25f4530e3f991788338fe}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!act\+PosY@{act\+PosY}}
+\index{act\+PosY@{act\+PosY}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{act\+PosY}{actPosY}}
+{\footnotesize\ttfamily int act\+PosY\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta la posizione Y del blocco 
+
+Definition at line 19 of file blocco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_ada0bf0be39e4ad9d58f6e7c48f14c64a}\label{class_snake_1_1game_1_1vipera_1_1blocco_ada0bf0be39e4ad9d58f6e7c48f14c64a}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!colore@{colore}}
+\index{colore@{colore}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{colore}{colore}}
+{\footnotesize\ttfamily Color colore\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che rappresenta il colore del blocco 
+
+Definition at line 31 of file blocco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_aab706c0c0218d17f9386c9dce8989195}\label{class_snake_1_1game_1_1vipera_1_1blocco_aab706c0c0218d17f9386c9dce8989195}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!distacca\+Figlio@{distacca\+Figlio}}
+\index{distacca\+Figlio@{distacca\+Figlio}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{distacca\+Figlio}{distaccaFiglio}}
+{\footnotesize\ttfamily boolean distacca\+Figlio\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che afferma se si e\textquotesingle{} distaccato il blocco in corrispondenza di almeno un unita\textquotesingle{} 
+
+Definition at line 28 of file blocco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a909ed9e20b51021224373cb7e95365e7}\label{class_snake_1_1game_1_1vipera_1_1blocco_a909ed9e20b51021224373cb7e95365e7}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!ho\+Un\+Figlio@{ho\+Un\+Figlio}}
+\index{ho\+Un\+Figlio@{ho\+Un\+Figlio}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{ho\+Un\+Figlio}{hoUnFiglio}}
+{\footnotesize\ttfamily boolean ho\+Un\+Figlio\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che se true significa che un altro blocco e\textquotesingle{} stato generato in corrispondenza di questo blocco 
+
+Definition at line 25 of file blocco.\+java.
+
+\mbox{\Hypertarget{class_snake_1_1game_1_1vipera_1_1blocco_a0670f48287135d82c64441e965d35c18}\label{class_snake_1_1game_1_1vipera_1_1blocco_a0670f48287135d82c64441e965d35c18}} 
+\index{Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}!tutte\+Mosse@{tutte\+Mosse}}
+\index{tutte\+Mosse@{tutte\+Mosse}!Snake\+::game\+::vipera\+::blocco@{Snake\+::game\+::vipera\+::blocco}}
+\subsubsection{\texorpdfstring{tutte\+Mosse}{tutteMosse}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}$>$ tutte\+Mosse = new Vector$<$\mbox{\hyperlink{enum_snake_1_1game_1_1utility_1_1_directions}{Directions}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+Attributo che corrisponde alle mosse effettuate dal blocco 
+
+Definition at line 22 of file blocco.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/\+Snake/game/vipera/\mbox{\hyperlink{blocco_8java}{blocco.\+java}}\end{DoxyCompactItemize}

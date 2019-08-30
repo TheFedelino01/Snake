@@ -1,0 +1,10 @@
+<map id="reset" name="reset">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#abc78413b68a8d6a8a17953932195b06f" title="Costruttore senza parametri della classe. " alt="" coords="112,5,167,32"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#ac578ca44493fe34e6cb1b2093cf79341" title="Respawna la vipera reimpostando gli attributi. " alt="" coords="104,56,175,83"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac578ca44493fe34e6cb1b2093cf79341" title="Permette di restartare il gioco. " alt="" coords="223,56,491,83"/>
+<area shape="rect" id="node5" href="$class_snake_1_1game_1_1gioco.html#acfb7d9e73cb8326f2ebf9e9cbfde836a" title="Il metodo fa respawnare il serpente. " alt="" coords="539,56,721,83"/>
+<area shape="rect" id="node6" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a8e244c775b546a6e7d89884af1495892" title="Il metodo mostra il messaggio di restart. " alt="" coords="769,49,985,90"/>
+<area shape="rect" id="node7" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="1033,56,1220,83"/>
+<area shape="rect" id="node8" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="1268,56,1429,83"/>
+<area shape="rect" id="node9" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1477,56,1559,83"/>
+</map>

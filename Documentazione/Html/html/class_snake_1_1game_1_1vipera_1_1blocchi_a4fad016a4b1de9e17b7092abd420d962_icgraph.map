@@ -1,0 +1,9 @@
+<map id="getYblocco" name="getYblocco">
+<area shape="rect" id="node2" href="$class_snake_1_1game_1_1vipera_1_1vipera.html#a4fad016a4b1de9e17b7092abd420d962" title="Restituisce la posizione Y del blocco in base all&#39;identificativo passato come parametro. " alt="" coords="140,5,331,47"/>
+<area shape="rect" id="node3" href="$class_snake_1_1game_1_1utility_1_1game_manager.html#ac26b1474a291f2f7546e2e1cda1410b8" title="Ritorna la posizione Y del blocco identificato da parametro. " alt="" coords="379,5,620,47"/>
+<area shape="rect" id="node4" href="$class_snake_1_1game_1_1gioco.html#a6ced36b3bedd58f6363c964edb3b9b8d" title="Il metodo restituisce la posizione Y del blocco in base al parametro. " alt="" coords="668,13,871,39"/>
+<area shape="rect" id="node5" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a0e0d67c4f526a64346a8b90e7c9d673d" title="Il metodo disegna ogni blocco che compone la vipera. " alt="" coords="919,5,1124,47"/>
+<area shape="rect" id="node6" href="$class_snake_1_1gui_1_1_manager_g_u_i.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli oggetti grafici del gioco. " alt="" coords="1172,13,1359,39"/>
+<area shape="rect" id="node7" href="$class_snake_1_1game_1_1gioco.html#a4262ff48c6fe3e20a0e3c9295158e375" title="Il metodo disegna tutta la schermata GUI su schermo. " alt="" coords="1407,13,1568,39"/>
+<area shape="rect" id="node8" href="$classmain.html#a56c5cf8a568cff737ff95520cbe6b405" title="Il metodo permette di disegnare tutti gli elementi del gioco. " alt="" coords="1616,13,1697,39"/>
+</map>
